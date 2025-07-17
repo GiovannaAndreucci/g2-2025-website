@@ -26,8 +26,8 @@ course to make it engaging and compelling.
 
 ![](https://placehold.co/800x200/png)
 
-questa è una didascalia
-{: .didascalie}
+<div class="didascalie"> questa è una didascalia </div>
+
 
 # Introduction to the Project
 
