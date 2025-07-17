@@ -22,6 +22,8 @@ to the point, capturing the essence of the project in a few sentences. Use what 
 course to make it engaging and compelling.
 {: .lead }
 
+Dal marzo 2017, la National Library of Medicine (NLM) ha introdotto la possibilità di dichiarare volontariamente eventuali conflitti di interesse direttamente nella pagina degli abstract di PubMed, rispondendo a una crescente esigenza di chiarezza espressa da comunità scientifiche, associazioni e rappresentanti politici. Questa scelta nasce dalla consapevolezza che molti utenti consultano unicamente gli abstract per decidere se approfondire la lettura di un articolo o per guidare decisioni cliniche fondamentali.
+Tuttavia, l'effettiva adozione e l'utilizzo di questa funzione da parte degli autori e delle riviste scientifiche non è ancora noto, né è stata pienamente valutata l'impatto della presenza o assenza di tali dichiarazioni sulla percezione della credibilità degli studi stessi. Questo progetto mira pertanto a indagare sistematicamente il grado di adesione dei ricercatori europei alla dichiarazione volontaria dei conflitti di interesse su PubMed, analizzando fattori che possano influenzare tale comportamento.
 ---
 
 ![](https://placehold.co/800x200/png)
