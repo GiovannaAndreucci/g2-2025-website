@@ -23,21 +23,24 @@
   role: tutor
   home: true
 
-- name: First Name Last Name
+- name: Giovanna Andreucci
   github: https://kdd.isti.cnr.it/people/student-1
   role: student
-- name: First Name Last Name
+- name: Jacopo Arioli
   github: https://kdd.isti.cnr.it/people/student-2
   role: student
-- name: First Name Last Name
+- name: Davide Baronchelli
   github: https://kdd.isti.cnr.it/people/student-3
   role: student
-- name: First Name Last Name
+- name: Massimiliano Bianchini
   github: https://kdd.isti.cnr.it/people/student-4
   role: student
-- name: First Name Last Name
+- name: Emanuele Conte
   github: https://kdd.isti.cnr.it/people/student-5
   role: student
-- name: First Name Last Name
+- name: Mattia Fonderico
   github: https://kdd.isti.cnr.it/people/student-6
+  role: student
+- name: Viola Gullace
+  github: https://kdd.isti.cnr.it/people/student-7
   role: student
