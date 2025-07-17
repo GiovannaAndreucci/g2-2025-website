@@ -24,7 +24,10 @@ course to make it engaging and compelling.
 
 ---
 
-![Grafico Coi negli anni](https://placehold.co/800x200/png)
+![](https://placehold.co/800x200/png)
+
+questa è una didascalia
+{: .didascalie}
 
 # Introduction to the Project
 
