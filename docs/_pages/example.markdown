@@ -4,8 +4,8 @@ title: "Home"
 show_sidetoc: true
 header_type: hero
 header_img: assets/images/folium_map.webp
-header_title: "Example Page"
-subtitle: "An Example Page for the SoBigData Big Data Project Template"
+header_title: "MEDS"
+subtitle: "Medical (European) Disclosure Survey"
 ---
 
 <div class="full-width-wrapper">
@@ -24,7 +24,7 @@ course to make it engaging and compelling.
 
 ---
 
-![](https://placehold.co/800x200/png)
+![Grafico Coi negli anni](https://placehold.co/800x200/png)
 
 # Introduction to the Project
 
