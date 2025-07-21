@@ -39,7 +39,7 @@ Ci teniamo a sottolineare che lo scopo del nostro progetto non è arrivare a ‘
 
 # You don’t know where your interest lies, COI…
 
-# And now… COInnect the dots!
+# And now… COInnect the nodes!
 
 
 
