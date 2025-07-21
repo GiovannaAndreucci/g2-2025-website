@@ -6,6 +6,7 @@ header_type: hero
 header_img: assets/images/folium_map.webp
 header_title: "You don't need to be coy, COI!"
 subtitle: "Medical (European) Disclosure Survey"
+vega: true
 ---
 
 <div class="full-width-wrapper">
@@ -38,6 +39,7 @@ Ci teniamo a sottolineare che lo scopo del nostro progetto non è arrivare a ‘
 # What did you major in, COI?
 
 <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/24243729"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/24243729/thumbnail" width="100%" alt="bar-chart-race visualization" /></noscript></div>
+ 
 
 <div style="height: 400px">
   <vegachart schema-url="/g2-2025-website/assets/charts/percentage_barchart.json" style="width: 100%; height: 100%"></vegachart>
