@@ -45,9 +45,9 @@ Ci teniamo a sottolineare che lo scopo del nostro progetto non è arrivare a ‘
   <vegachart schema-url="/g2-2025-website/assets/charts/percentage_barchart.json" style="width: 100%; height: 100%"></vegachart>
 </div>
 
-<div style="height: 400px">
-  <vegachart schema-url="/g2-2025-website/assets/charts/Increment_chart.json" style="width: 100%; height: 100%"></vegachart>
-</div>
+
+<iframe src="/workspaces/g2-2025-website/docs/assets/charts/Increment_chart.html" width="100%" height="500"></iframe>
+
 
 # You don’t know where your interest lies, COI…
 
