@@ -25,15 +25,32 @@ Siamo poi passati ad analizzare il rapporto tra le suddette aziende, il numero d
 <div class="didascalie"> questa è una didascalia </div>
 
 
-# Introduction to the Project
+# What's up, COI?
 
-You can use headings, paragraphs, and lists to structure the content effectively. This can be done using Markdown
-syntax, which allows for easy formatting of text. For example, you can use **bold** or *italic* text to emphasize key
-points, and you can create lists to organize information clearly.
+PubMed è oggi il più grande archivio bibliografico online ad accesso libero al mondo. Il suo germe nacque (in forma cartacea) nel 1949 presso la National Library of Medicine (NLM) Bethesda, Maryland (USA) e la sua prima versione online risale a gennaio 1996. Al 27 novembre 2010, erano oltre 17 milioni gli articoli reperibili tramite abstract, mentre gli articoli disponibili in formato integrale erano oltre 3,1 milioni. Presso il motore di ricerca online è possibile ricercare per autore, rivista, o testo libero, le pubblicazioni scientifiche dal 1949 ad oggi e su diversi dataset scientifici internazionali.
+Come illustrato da Enrico Granieri, professore ordinario di Neurologia presso l’Università di Ferrara, dalla fine degli anni Ottanta si è fatta largo una crescente attenzione verso la dichiarazione dei conflitti d’interesse in sede di pubblicazione dei lavori scientifici, supervisionata in primis dalla stessa casa editrice, e poi dall’apporto fondamentale dei comitati etici nella gestione di questioni legate alla pratica medica e alla ricerca. E Pubmed? Come si è orientato il più grande archivio ad accesso libero rispetto a questa tematica?
+Nel 2016 un gruppo di senatori del Congresso USA, su richiesta di diversi scienziati e organizzazioni statunitensi, ha chiesto alla NLM di elencare i conflitti di interesse (COI) degli autori in una dichiarazione standardizzata (in una specifica sezione della pagina web) come parte degli abstract indicizzati su PubMed. L'inclusione di un COI statement pubblico nella pagina web di PubMed, dove è presente anche l’abstract dell’articolo, è sicuramente un passo importante (e auspicabile) nella direzione che indicava il prof. Granieri. Considerando che i lettori potrebbero non avere accesso all'articolo completo (dove dovrebbe essere presente una dichiarazione di conflitto d’interesse), un COI pubblico risulta uno strumento fondamentale (unitamente all’abstract di un articolo) per valutare preliminarmente uno studio e/o per orientare le decisioni cliniche. Tali modifiche sono state implementate l'8 marzo 2017.
+L’obiettivo di questo progetto è quello di ‘catalogare’ le pubblicazioni scientifiche, edite da ricercatori europei, presso l’archivio PubMed dal 2017 al 2024 prestando particolare attenzione al nuovo campo COI, introdotto da PubMed in tempi relativamente recenti. Ci proponiamo di analizzare quali sono le aree mediche maggiormente rappresentate, e se esistono delle correlazioni tra alcune di esse. Inoltre, siamo interessati a indagare i rapporti fra aziende private e ricerca biomedica e le modalità in cui questi rapporti si sviluppano. Si tratterà quindi di valutare la possibilità di ricostruire questi rapporti (per loro natura scomodi e facile oggetto di strumentalizzazioni politiche) a partire da un dato essenzialmente pubblico, a cui teoricamente tutti possono avere accesso. Il vantaggio nell’impiego dei Big Data (e delle tecniche capaci di elaborarli) risiede nella possibilità di automatizzare il reperimento di questo dato pubblico e di contribuire in maniera fondamentale all’analisi dei dati stessi.
+Ci teniamo a sottolineare che lo scopo del nostro progetto non è arrivare a ‘denunciare’ un conflitto di interessi che, lo ripetiamo, è già reso pubblico a monte. Il nostro scopo è quello di presentare un'altra prospettiva sulla produzione scientifica, capace di stimolare lo sviluppo di nuove traiettorie di ricerca per gli esperti del settore e aiutare gli utenti a orientarsi nel mare magnum delle pubblicazioni.
 
-This is an example of how to format the text in a way that is visually appealing and easy to read.
-In this paragraph we use a `.lead` class to highlight the main points of the project.
-{: .lead}
+# Oh COI, where art thou?
+
+# What did you major in, COI?
+
+# You don’t know where your interest lies, COI…
+
+# And now… COInnect the dots!
+
+
+
+
+
+
+
+
+
+
+
 
 <p class="green"> 
     You can complete the entire page using only markdown syntax, but you can also use HTML tags to add more complex elements. In this example, we use a paragraph with a class of "green" to highlight the text in green color.
