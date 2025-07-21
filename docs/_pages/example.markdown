@@ -48,11 +48,9 @@ Ci teniamo a sottolineare che lo scopo del nostro progetto non è arrivare a ‘
 # CIAO
 
 
-
 <div style="height: 400px">
-  <vegachart schema-url="/g2-2025-website/docs/assets/charts/Increment_chart(1).json" style="width: 100%; height: 100%"></vegachart>
+  <vegachart schema-url="{{site.baseurl}}/assets/charts/Increment_chart(1).json" style="width: 100%; height: 100%"></vegachart>
 </div>
-
 
 
 
