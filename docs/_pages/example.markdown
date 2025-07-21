@@ -48,8 +48,8 @@ Ci teniamo a sottolineare che lo scopo del nostro progetto non è arrivare a ‘
 # CIAO
 
 
-<div style="height: 100px">
-  <vegachart schema-url="{{site.baseurl}}/assets/charts/increment_chart.json" style="width: 100%; height: 100%"></vegachart>
+<div style="height: 200px">
+  <vegachart schema-url="{{site.baseurl}}/assets/charts/increment_chart.json" style="width: 50%; height: 50%"></vegachart>
 </div>
 
 
