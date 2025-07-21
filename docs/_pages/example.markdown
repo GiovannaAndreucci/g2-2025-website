@@ -46,7 +46,15 @@ Ci teniamo a sottolineare che lo scopo del nostro progetto non è arrivare a ‘
 </div>
 
 
-<iframe src="/workspaces/g2-2025-website/docs/assets/charts/Increment_chart.html" width="100%" height="500"></iframe>
+bwuiusyfi dsufisdfnislkgd oi noitg
+
+
+
+<div style="height: 400px">
+  <vegachart schema-url="/g2-2025-website/docs/assets/charts/Increment_chart (1).json" style="width: 100%; height: 100%"></vegachart>
+</div>
+
+
 
 
 # You don’t know where your interest lies, COI…
