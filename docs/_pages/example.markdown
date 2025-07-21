@@ -12,15 +12,11 @@ subtitle: "Medical (European) Disclosure Survey"
     <img src="{{ site.baseurl }}/assets/images/header.svg" alt="sbd-pattern" class="full-width-image">
 </div>
 
-This is an introductory text for the SoBigData Big Data Project Template. Here you can provide a brief overview of the
-project, its goals, and what participants can expect from this final laboratory. The text should be engaging and
-informative, setting the stage for the content that follows.
-This text can be used to highlight the significance of the project, the methodologies employed, and the expected
-outcomes. But it could also be used to introduce the story of the project, the motivations behind it, or to anticipate
-the best discoveries made during the research. There isn't a single way to write this text, but it should be concise and
-to the point, capturing the essence of the project in a few sentences. Use what you learned in the Data Storytelling
-course to make it engaging and compelling.
-{: .lead }
+La ricerca scientifica è cambiata enormemente negli ultimi anni. Il numero di pubblicazioni si è infatti rivelato in esponenziale aumento, determinando così una nuova e complessa stratificazione della produzione scientifica. In quest’ottica riteniamo che l’avvento delle più recenti tecniche di Artificial Intelligence e Big Data Analysis possano essere in grado di aiutare i ricercatori, nonché gli enti pubblici e privati, a gettare nuova luce sul loro settore di studio, ad orientare la loro ricerca e a trovare nuove connessioni e nuovi significati.
+Il presente lavoro si propone di investigare il settore dell’healthcare, uno degli ambiti più ‘spinosi’ e compositi (per via del gran numero di investimenti e per la granularità delle diverse specializzazioni) e nello specifico si propone di ricostruire il rapporto fra aziende e ricerca tramite l’analisi delle dichiarazioni di conflitto d’interesse pubblicamente consultabili (COI statements).
+
+I dati a nostra disposizione sono stati ottenuti principalmente dall’archivio ad accesso libero PubMed. Attraverso le tecniche di web scraping è stato possibile recuperare: PMID, titolo, abstract, autori, affiliazioni degli autori, nome della rivista, citazioni ricevute e COI statement dichiarato (o non dichiarato) dagli autori. La ricerca è stata condotta estraendo l’intera produzione dei ricercatori europei dal 2017 al 2024, arrivando a considerare oltre tre milioni di articoli. Grazie all’impiego di MedGemma 4B (un LLM specializzato nell’analisi di testi medici) è stato possibile ricavare l’area medica principale di ogni lavoro e, ove disponibile, tramite la Name-Entity-Recognition operata da DistilBERT, si è proceduto ad ‘aggregare’ le informazioni contenute nel COI statement individuando le aziende coinvolte.
+Siamo poi passati ad analizzare il rapporto tra le suddette aziende, il numero di articoli ‘interessati’ associati a ciascuna azienda e le aree mediche negli anni di riferimento. Infine, investigando il numero ed il tipo di citazioni, abbiamo costruito un grafo con cui studiare la composizione di speciali comunità all’interno dei nostri dati.
 
 ---
 
