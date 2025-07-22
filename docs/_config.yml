@@ -77,16 +77,13 @@ navbar:
 ###########################
 
 googlefonts:
-#  - url: "https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
   - url: "https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&display=swap"
   - url: "https://fonts.googleapis.com/css2?family=Charm:ital,wght@0,400;0,700;1,400&display=swap"
 
-## Google Fonts example to import Space Mono
-#googlefonts:
- # - url: "https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap"
 
 chulapa-skin:
-  skin:  "chulapa"
+  autothemer: true
+  primary: "#e8c28aff"
   vars:
     font-family-base:  "EB Garamond, serif"
     heading-font-family: "Charm, cursive"
@@ -95,7 +92,6 @@ chulapa-skin:
 #chulapa-skin:
 #  autothemer  :  true
 # vars:
-#  primary: "#07286E"
 # body-bg: = "e8c28aff"
 
 
