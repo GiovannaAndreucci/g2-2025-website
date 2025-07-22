@@ -106,3 +106,8 @@ iframe {
   background-color: blue;
   color:pink;
 }
+
+.mw-body-content {
+    text-align: justify !important;
+    hyphens: auto; /* Optional: Enable hyphenation for better spacing */
+}
