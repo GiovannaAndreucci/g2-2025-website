@@ -82,8 +82,8 @@ googlefonts:
 
 
 chulapa-skin:
-  autothemer: true
-  primary: "#e8c28aff"
+  skin: "chulapa"
+  #primary: "#e8c28aff"
   vars:
     font-family-base:  "EB Garamond, serif"
     heading-font-family: "Charm, cursive"
