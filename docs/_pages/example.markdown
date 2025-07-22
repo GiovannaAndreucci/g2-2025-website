@@ -5,7 +5,7 @@ show_sidetoc: true
 header_type: hero
 header_img:  assets/images/vesalio2.jpeg
 header_title: "You don't need to be coy, COI!"
-subtitle: "Medical (European) Disclosure Survey"
+subtitle: ""
 vega: true
 plotly: true
 ---
