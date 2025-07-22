@@ -3,7 +3,7 @@ layout: default
 title: "Home"
 show_sidetoc: true
 header_type: hero
-header_img:  assets/images/med_im.webp
+header_img:  assets/images/vesalio.jpeg
 header_title: "You don't need to be coy, COI!"
 subtitle: "Medical (European) Disclosure Survey"
 vega: true
