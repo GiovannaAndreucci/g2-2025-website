@@ -42,7 +42,7 @@ Chiaramente, lo scopo del nostro progetto non è denunciare un conflitto di inte
 
 Attraverso l’API di Entrez (il motore di ricerca adottato dalle più importanti banche dati di letteratura biomedica) è stato possibile interrogare il database di PubMed per recuperare tutti gli articoli rilevanti per la nostra indagine. Il primo ostacolo ha riguardato l’effettiva possibilità di isolare gli articoli con provenienza UE, con l’aggiunta di Regno Unito e Svizzera: in quale prospettiva è possibile infatti considerare un articolo europeo a partire dalle sole affiliazioni degli autori? D’altra parte, specie se si considera la letteratura biomedica (che conta un gran numero di studi multicentrici), si potrebbe pensare che i gruppi di ricerca presentino una moderata (se non addirittura elevata) eterogeneità geografica. In una situazione di questo tipo, sarebbe stato quantomai azzardato tentare di costituire un labelling geografico. In realtà, a partire da una semplice query capace di considerare tutti gli articoli con almeno un autore con affiliazione europea, i dati risultano piuttosto eloquenti.
 
-<div style="height: 400px">
+<div style="height: 200px">
   <vegachart schema-url="/g2-2025-website/assets/charts/geo_distribution_chart.json" style="width: 100%; height: 100%"></vegachart>
 </div>
 
@@ -54,7 +54,7 @@ inserire grafico COI barre
 Al generale incremento della produzione scientifica è associato un deciso aumento di articoli con COI statement dichiarato e una speculare diminuzione del volume di articoli con il campo COI non compilato. 
 È inoltre possibile apprezzare un trend simile negli articoli per nazione, considerando solo i dieci paesi più produttivi.
 
-<div style="height: 400px">
+<div style="height: 200px">
   <vegachart schema-url="/g2-2025-website/assets/charts/trend_disclosure_eu_chart.json" style="width: 100%; height: 100%"></vegachart>
 </div>
 
@@ -64,7 +64,7 @@ inserire mappa
 
 La Romania da questo punto di vista detiene il record di articoli con COI dichiarato rispetto all’intera produzione scientifica pubblicata su PubMed, con oltre il 65% di articoli con un conflitto di interesse disponibile pubblicamente.
 
-<div style="height: 400px">
+<div style="height: 200px">
   <vegachart schema-url="/g2-2025-website/assets/charts/top_countries_chart.json" style="width: 100%; height: 100%"></vegachart>
 </div>
 
