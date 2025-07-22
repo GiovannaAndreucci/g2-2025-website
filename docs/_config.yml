@@ -91,10 +91,11 @@ chulapa-skin:
     # font-family-base:  "Space Mono"
 
 
-#chulapa-skin:
+chulapa-skin:
 #  autothemer  :  true
-#  vars:
-#    primary: "#07286E"
+  vars:
+   primary: "#07286E"
+   body-bg: = "e8c28aff"
 
 
 
