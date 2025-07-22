@@ -91,11 +91,11 @@ chulapa-skin:
     font-family-base:  "EB Garamond, serif"
 
 
-chulapa-skin:
+#chulapa-skin:
 #  autothemer  :  true
-  vars:
-   primary: "#07286E"
-   body-bg: = "e8c28aff"
+# vars:
+ #  primary: "#07286E"
+ #  body-bg: = "e8c28aff"
 
 
 
