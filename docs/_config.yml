@@ -59,11 +59,11 @@ navbar:
     - title: Report tecnico
       child:
         - title: Scraping e geolocalizzazione
-          url: /local-development.html
+          url: /scraping.html
         - title: Estrazione aree mediche
-          url: /markdown.html
+          url: /aree_med.html
         - title: Estrazione aziende
-          url: /charts.html
+          url: /aziende.html
         - title: Grafo e community
           url: /folium.html
         #- title: Sliders
