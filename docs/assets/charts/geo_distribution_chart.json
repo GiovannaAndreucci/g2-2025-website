@@ -1,0 +1,74 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "config": {
+    "view": {
+      "continuousHeight": 300,
+      "continuousWidth": 300
+    }
+  },
+  "data": {
+    "name": "data-ad641325eb357157a88e8275a6c1f2fd"
+  },
+  "datasets": {
+    "data-ad641325eb357157a88e8275a6c1f2fd": [
+      {
+        "Count": 1931346,
+        "Final Class": "eu",
+        "Percentage": 65.52
+      },
+      {
+        "Count": 602674,
+        "Final Class": "ambiguous_all_eu",
+        "Percentage": 20.44
+      },
+      {
+        "Count": 341608,
+        "Final Class": "ambiguous_mixed",
+        "Percentage": 11.59
+      },
+      {
+        "Count": 50262,
+        "Final Class": "non-eu",
+        "Percentage": 1.7
+      },
+      {
+        "Count": 1977,
+        "Final Class": "ambiguous_all_non_eu",
+        "Percentage": 0.07
+      }
+    ]
+  },
+  "encoding": {
+    "tooltip": [
+      {
+        "field": "Final Class",
+        "type": "nominal"
+      },
+      {
+        "field": "Count",
+        "type": "quantitative"
+      },
+      {
+        "field": "Percentage",
+        "type": "quantitative"
+      }
+    ],
+    "x": {
+      "field": "Final Class",
+      "sort": "-y",
+      "title": "Classe geografica",
+      "type": "nominal"
+    },
+    "y": {
+      "field": "Percentage",
+      "title": "Percentuale (%)",
+      "type": "quantitative"
+    }
+  },
+  "height": 400,
+  "mark": {
+    "type": "bar"
+  },
+  "title": "Distribuzione percentuale delle classi geografiche (esclusi 'unknown')",
+  "width": 500
+}

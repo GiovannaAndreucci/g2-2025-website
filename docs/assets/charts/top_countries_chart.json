@@ -1,0 +1,125 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "config": {
+    "view": {
+      "continuousHeight": 300,
+      "continuousWidth": 300
+    }
+  },
+  "data": {
+    "name": "data-cf57a65b23b2537f57a247aa8a4be15a"
+  },
+  "datasets": {
+    "data-cf57a65b23b2537f57a247aa8a4be15a": [
+      {
+        "count": 529904,
+        "country": "united kingdom"
+      },
+      {
+        "count": 492103,
+        "country": "germany"
+      },
+      {
+        "count": 475212,
+        "country": "italy"
+      },
+      {
+        "count": 336918,
+        "country": "france"
+      },
+      {
+        "count": 310379,
+        "country": "spain"
+      },
+      {
+        "count": 232294,
+        "country": "netherlands"
+      },
+      {
+        "count": 162632,
+        "country": "switzerland"
+      },
+      {
+        "count": 145779,
+        "country": "poland"
+      },
+      {
+        "count": 136447,
+        "country": "sweden"
+      },
+      {
+        "count": 118155,
+        "country": "belgium"
+      },
+      {
+        "count": 105454,
+        "country": "denmark"
+      },
+      {
+        "count": 86882,
+        "country": "portugal"
+      },
+      {
+        "count": 86746,
+        "country": "austria"
+      },
+      {
+        "count": 69100,
+        "country": "greece"
+      },
+      {
+        "count": 62047,
+        "country": "ireland"
+      },
+      {
+        "count": 57555,
+        "country": "finland"
+      },
+      {
+        "count": 46429,
+        "country": "czech republic"
+      },
+      {
+        "count": 34956,
+        "country": "romania"
+      },
+      {
+        "count": 34243,
+        "country": "hungary"
+      },
+      {
+        "count": 19424,
+        "country": "croatia"
+      }
+    ]
+  },
+  "encoding": {
+    "tooltip": [
+      {
+        "field": "country",
+        "type": "nominal"
+      },
+      {
+        "field": "count",
+        "type": "quantitative"
+      }
+    ],
+    "x": {
+      "field": "count",
+      "title": "Numero di articoli",
+      "type": "quantitative"
+    },
+    "y": {
+      "field": "country",
+      "sort": "-x",
+      "title": "Paese",
+      "type": "nominal"
+    }
+  },
+  "height": 400,
+  "mark": {
+    "type": "bar"
+  },
+  "title": "Top 20 Paesi europei per Numero di Articoli",
+  "width": 600
+}
