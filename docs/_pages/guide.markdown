@@ -509,7 +509,7 @@ You can further customize the selected skin by modifying the color variables in 
 chulapa-skin:
   vars:
     primary-color: "#ff0000"
-    body-bg: "#fbf1ed"
+    body-bg: "#e8c28aff"
 ```
 
 variables are bootstrap variables that can be used to customize the appearance of the site.
