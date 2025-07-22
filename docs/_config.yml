@@ -89,7 +89,6 @@ chulapa-skin:
   skin:  "chulapa"
   vars:
     # font-family-base:  "Space Mono"
-    body-bg: "e8c28aff"
 
 
 #chulapa-skin:
