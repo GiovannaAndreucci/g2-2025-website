@@ -508,7 +508,6 @@ You can further customize the selected skin by modifying the color variables in 
 ```yaml
 chulapa-skin:
   vars:
-    primary-color: "#ff0000"
     body-bg: "#e8c28aff"
 ```
 
