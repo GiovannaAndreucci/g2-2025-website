@@ -71,6 +71,10 @@ Ci teniamo a sottolineare che lo scopo del nostro progetto non è arrivare a ‘
 {% include plotly-graph.html id="grafico1" file="grafico1.html" height="600px" %}
 
 
+e il secondo grafico sankey con i colori giusti
+
+{% include plotly-graph.html id="sankey_azar" file="sankey_azar.html" height="600px" %}
+
 
 
 
