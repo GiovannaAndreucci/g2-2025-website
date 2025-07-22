@@ -50,12 +50,12 @@ navbar:
     img: "./assets/images/Logo_masthead.png" # don't change this
     url: /
   nav:
-    - title: Guide
-      url: /guide.html
+    #- title: Guide
+    #  url: /guide.html
     - title: Example page
       url: /example.html
-    - title: Another ex page
-      url: /new_page.html
+    #- title: Another ex page
+    #  url: /new_page.html
     - title: in-depth
       child:
         - title: Local development
@@ -86,7 +86,7 @@ googlefonts:
   - url: "https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
 
 chulapa-skin:
-  skin:  "sbd" # "sbd" "pixel " "graymor" "gitdev-dark" "gitdev" "universal" "academia" "gitdev" "towards" "pear" "twitter-lights-out" "twitter-dim" "wandoo" "lymcha" "twitter" "chulapa" "sunset" "minty" "lux" "journal" "deeply"
+  skin:  "lymcha" #"sbd" # "sbd" "pixel " "graymor" "gitdev-dark" "gitdev" "universal" "academia" "gitdev" "towards" "pear" "twitter-lights-out" "twitter-dim" "wandoo" "lymcha" "twitter" "chulapa" "sunset" "minty" "lux" "journal" "deeply"
   vars:
     # font-family-base:  "Space Mono"
 
