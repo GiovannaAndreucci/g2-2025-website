@@ -512,6 +512,8 @@ chulapa-skin:
     body-bg: "#e8c28aff"
 ```
 
+
+
 variables are bootstrap variables that can be used to customize the appearance of the site.
 You can change the primary color, body background color, and other variables to match your project's branding. A complete list of bootstrap customizable variables can be found at [this link](https://github.com/dieghernan/chulapa/blob/main/_sass/bootstrap/_variables.scss){:target="_blank"}, while a complete list of the variables used in this theme can be found at [this link](https://dieghernan.github.io/chulapa/docs/variable-dictionary){:target="_blank"}.
 
