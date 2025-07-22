@@ -56,18 +56,18 @@ navbar:
       url: /example.html
     #- title: Another ex page
     #  url: /new_page.html
-    - title: in-depth
+    - title: Report tecnico
       child:
-        - title: Local development
+        - title: Scraping e geolocalizzazione
           url: /local-development.html
-        - title: Markdown
+        - title: Estrazione aree mediche
           url: /markdown.html
-        - title: Charts
+        - title: Estrazione aziende
           url: /charts.html
-        - title: Folium
+        - title: Grafo e community
           url: /folium.html
-        - title: Sliders
-          url: /slider.html
+        #- title: Sliders
+        #  url: /slider.html
 
     - title: SBD Master # this must be always the last item in the navbar, don't change it
       url: https://masterbigdata.it/
