@@ -3,7 +3,7 @@ layout: default
 title: "Home"
 show_sidetoc: true
 header_type: hero
-header_img: assets/images/folium_map.webp
+header_img:  assets/images/Dr_Jekyll.jpg
 header_title: "You don't need to be coy, COI!"
 subtitle: "Medical (European) Disclosure Survey"
 vega: true
