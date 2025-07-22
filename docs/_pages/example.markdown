@@ -7,6 +7,7 @@ header_img: assets/images/folium_map.webp
 header_title: "You don't need to be coy, COI!"
 subtitle: "Medical (European) Disclosure Survey"
 vega: true
+plotly: true
 ---
 
 <div class="full-width-wrapper">
@@ -65,9 +66,9 @@ Ci teniamo a sottolineare che lo scopo del nostro progetto non è arrivare a ‘
 
 # And now… COInnect the nodes!
 
+# Sankey diagram
 
-
-
+{% include plotly-graph.html id="grafico1" file="grafico1.html" height="600px" %}
 
 
 

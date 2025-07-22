@@ -6,6 +6,15 @@
 <script src="https://cdn.jsdelivr.net/gh/koaning/justcharts/justcharts.js"></script>
 {% endif %}
 
+{% if page.plotly %}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/1.33.1/plotly.min.js"
+    integrity="sha512-V0j9LhrK9IMNdFYZqh+IqU4cjo7wdxyHNyH+L0td4HryBuZ7Oq6QxP2/CWr6TituX31+gv5PnolvERuTbz8UNA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  </script>
+  <script src="{{ '/assets/js/plotly-loader.js' | relative_url }}"></script>
+{% endif %}
+
+
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="{{site.baseurl}}/assets/favicon/favicon-32x32.png">
