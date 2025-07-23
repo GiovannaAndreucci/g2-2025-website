@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"background": "#fbf3d3", "view": {"stroke": "transparent", "width": 350, "height": 250}, "axis": {"domainColor": "#5a3921", "gridColor": "#5a3921", "gridOpacity": 0.2, "tickColor": "#5a3921", "labelColor": "black", "titleColor": "black", "titleFont": "EB Garamond"}, "legend": {"labelColor": "black", "titleColor": "black", "labelFont": "EB Garamond", "titleFont": "EB Garamond"}, "title": {"color": "black", "font": "EB Garamond"}, "mark": {"color": "#6b4a32", "opacity": 0.8}, "bar": {"color": "#6b4a32", "opacity": 0.8}, "line": {"color": "#6b4a32", "opacity": 0.8}, "area": {"color": "#6b4a32", "opacity": 0.8}, "point": {"color": "#6b4a32", "opacity": 0.8}}, "data": {"name": "data-db07da46f7e69066923a498a61e7c685"}, "mark": {"type": "line", "point": true}, "encoding": {"tooltip": [{"field": "year", "format": "%Y", "title": "Anno", "type": "temporal"}, {"field": "count", "format": ",", "title": "Numero di Articoli", "type": "quantitative"}], "x": {"field": "year", "title": "Anno", "type": "temporal"}, "y": {"field": "count", "title": "Numero di Articoli", "type": "quantitative"}}, "title": "Numero di articoli che citano almeno un'azienda per anno", "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-db07da46f7e69066923a498a61e7c685": [{"year": "2017-01-01T00:00:00", "declared": "Almeno un'azienda citata nel COI", "count": 10213, "percent": 14.33}, {"year": "2018-01-01T00:00:00", "declared": "Almeno un'azienda citata nel COI", "count": 17590, "percent": 20.2}, {"year": "2019-01-01T00:00:00", "declared": "Almeno un'azienda citata nel COI", "count": 13602, "percent": 11.69}, {"year": "2020-01-01T00:00:00", "declared": "Almeno un'azienda citata nel COI", "count": 17169, "percent": 8.77}, {"year": "2021-01-01T00:00:00", "declared": "Almeno un'azienda citata nel COI", "count": 23006, "percent": 9.29}, {"year": "2022-01-01T00:00:00", "declared": "Almeno un'azienda citata nel COI", "count": 24084, "percent": 9.18}, {"year": "2023-01-01T00:00:00", "declared": "Almeno un'azienda citata nel COI", "count": 27958, "percent": 10.56}, {"year": "2024-01-01T00:00:00", "declared": "Almeno un'azienda citata nel COI", "count": 34022, "percent": 12.42}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

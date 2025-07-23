@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"background": "#fbf3d3", "view": {"stroke": "transparent", "width": 350, "height": 250}, "axis": {"domainColor": "#5a3921", "gridColor": "#5a3921", "gridOpacity": 0.2, "tickColor": "#5a3921", "labelColor": "black", "titleColor": "black", "titleFont": "EB Garamond"}, "legend": {"labelColor": "black", "titleColor": "black", "labelFont": "EB Garamond", "titleFont": "EB Garamond"}, "title": {"color": "black", "font": "EB Garamond"}, "mark": {"color": "#6b4a32", "opacity": 0.8}, "bar": {"color": "#6b4a32", "opacity": 0.8}, "line": {"color": "#6b4a32", "opacity": 0.8}, "area": {"color": "#6b4a32", "opacity": 0.8}, "point": {"color": "#6b4a32", "opacity": 0.8}}, "data": {"name": "data-380c6a74b174c5dc0c9f9e60442ce067"}, "mark": {"type": "arc", "innerRadius": 65}, "encoding": {"color": {"field": "Presence of any of the top 5 companies", "scale": {"domain": ["Nessuna delle top 5", "Almeno una delle top 5"], "range": ["#5a3921", "#c1a087"]}, "sort": ["Nessuna delle 5", "Almeno una delle top 5"], "title": ["Almeno una delle top 5", "aziende citate nel COI"], "type": "nominal"}, "theta": {"field": "value", "type": "quantitative"}, "tooltip": [{"field": "value", "format": ",", "title": "Numero di articoli:", "type": "quantitative"}, {"field": "%", "format": ".2f", "type": "quantitative"}]}, "title": ["Percentiale di articoli che citano almeno una delle Top 5", "aziende citate nel COI", ""], "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-380c6a74b174c5dc0c9f9e60442ce067": [{"Presence of any of the top 5 companies": "Nessuna delle top 5", "value": 79198, "%": 47.2417742358808}, {"Presence of any of the top 5 companies": "Almeno una delle top 5", "value": 88446, "%": 52.7582257641192}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

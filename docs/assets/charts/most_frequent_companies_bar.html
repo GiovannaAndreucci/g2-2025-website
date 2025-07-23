@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"background": "#fbf3d3", "view": {"stroke": "transparent", "width": 350, "height": 250}, "axis": {"domainColor": "#5a3921", "gridColor": "#5a3921", "gridOpacity": 0.2, "tickColor": "#5a3921", "labelColor": "black", "titleColor": "black", "titleFont": "EB Garamond"}, "legend": {"labelColor": "black", "titleColor": "black", "labelFont": "EB Garamond", "titleFont": "EB Garamond"}, "title": {"color": "black", "font": "EB Garamond"}, "mark": {"color": "#6b4a32", "opacity": 0.8}, "bar": {"color": "#6b4a32", "opacity": 0.8}, "line": {"color": "#6b4a32", "opacity": 0.8}, "area": {"color": "#6b4a32", "opacity": 0.8}, "point": {"color": "#6b4a32", "opacity": 0.8}}, "layer": [{"mark": {"type": "bar", "opacity": 0.8, "size": 18}, "encoding": {"tooltip": [{"field": "Companies", "title": "Aziende", "type": "nominal"}, {"field": "Freq", "format": ",", "title": "Numero di Articoli", "type": "quantitative"}, {"field": "perc_of_articles", "title": "% di articoli con aziende citate", "type": "nominal"}], "x": {"axis": {"orient": "top", "title": " "}, "field": "Freq", "type": "quantitative"}, "y": {"axis": {"title": "Aziende"}, "field": "Companies", "sort": "-x", "type": "nominal"}}}, {"mark": {"type": "text", "align": "left", "dx": 2}, "encoding": {"tooltip": [{"field": "Companies", "title": "Aziende", "type": "nominal"}, {"field": "Freq", "format": ",", "title": "Numero di Articoli", "type": "quantitative"}, {"field": "perc_of_articles", "title": "% di articoli con aziende citate", "type": "nominal"}], "x": {"axis": {"orient": "top", "title": " "}, "field": "Freq", "type": "quantitative"}, "y": {"axis": {"title": "Aziende"}, "field": "Companies", "sort": "-x", "type": "nominal"}}, "title": "Aziende pi\u00f9 frequenti nei COI degli articoli (> 10.000)"}], "data": {"name": "data-23bdd82165b129c81e2dc2a4f5fbe781"}, "height": 500, "width": 800, "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-23bdd82165b129c81e2dc2a4f5fbe781": [{"Freq": 25509, "Companies": "GlaxoSmithKline", "perc_of_articles": 0.15}, {"Freq": 25056, "Companies": "Janssen", "perc_of_articles": 0.15}, {"Freq": 15145, "Companies": "Johnson & Johnson", "perc_of_articles": 0.09}, {"Freq": 29804, "Companies": "Bristol-Myers Squibb", "perc_of_articles": 0.18}, {"Freq": 22698, "Companies": "AbbVie", "perc_of_articles": 0.14}, {"Freq": 42555, "Companies": "Merck", "perc_of_articles": 0.25}, {"Freq": 14053, "Companies": "Gilead Sciences", "perc_of_articles": 0.08}, {"Freq": 46263, "Companies": "Novartis", "perc_of_articles": 0.28}, {"Freq": 12948, "Companies": "Medtronic", "perc_of_articles": 0.08}, {"Freq": 40660, "Companies": "Pfizer", "perc_of_articles": 0.24}, {"Freq": 25245, "Companies": "Eli Lilly", "perc_of_articles": 0.15}, {"Freq": 21635, "Companies": "Springer Nature", "perc_of_articles": 0.13}, {"Freq": 31104, "Companies": "Sanofi", "perc_of_articles": 0.19}, {"Freq": 39610, "Companies": "Roche", "perc_of_articles": 0.24}, {"Freq": 25920, "Companies": "Bayer", "perc_of_articles": 0.15}, {"Freq": 40990, "Companies": "AstraZeneca", "perc_of_articles": 0.24}, {"Freq": 22112, "Companies": "Amgen", "perc_of_articles": 0.13}, {"Freq": 10645, "Companies": "Celgene", "perc_of_articles": 0.06}, {"Freq": 13115, "Companies": "Abbott", "perc_of_articles": 0.08}, {"Freq": 19674, "Companies": "Takeda Pharmaceutical", "perc_of_articles": 0.12}, {"Freq": 26622, "Companies": "Boehringer Ingelheim", "perc_of_articles": 0.16}, {"Freq": 12485, "Companies": "Novo Nordisk", "perc_of_articles": 0.07}, {"Freq": 11042, "Companies": "Biogen", "perc_of_articles": 0.07}, {"Freq": 10391, "Companies": "Daiichi Sanky\u014d", "perc_of_articles": 0.06}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
