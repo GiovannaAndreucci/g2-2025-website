@@ -204,7 +204,7 @@ Nel grafico sottostante vediamo le top aziende per frequenza. Si noti che le pri
 
 Una volta individuate le top aziende presenti nei COI statements processati, abbiamo condotto una prima analisi confrontando la loro frequenza con il fatturato degli ultimi 12 mesi.
 
-<div style="width: 600px; height: 600px; margin: 10px auto; overflow: hidden;">
+<div style="width: 600px; height: 350px; margin: 10px auto; overflow: hidden;">
   <vegachart 
     schema-url="/g2-2025-website/assets/charts/scatter_tags_vs_revenues.json"
     style="width: 100%; height: 100%; display: block;">
@@ -229,7 +229,7 @@ Un esempio su tutti la comunità Sars-Cov, rappresentata dal vettore ['Infectiou
 
 Per testare l’interesse delle aziende in aree mediche più specifiche, abbiamo deciso di considerare la percentuale di occorrenza di una o più aziende all’interno dei COI statement associati a ciascuna comunità.
 
-<div style="width: 1200px; height: 400px; margin: 10px auto; overflow: hidden;">
+<div style="width: 1200px; height: 350px; margin: 10px auto; overflow: hidden;">
   <vegachart 
     schema-url="/g2-2025-website/assets/charts/perc_articoli_finan_comm.json"
     style="width: 100%; height: 100%; display: block;">
