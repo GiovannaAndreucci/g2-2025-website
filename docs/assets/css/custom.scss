@@ -159,3 +159,13 @@ iframe {
 .mw-body, .chulapa-container {
     background-color: #e8c28aff !important;
 }
+
+
+  .small-chart-container vega-embed {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .small-chart-container canvas {
+    width: 100% !important;
+    height: 100% !important;
+  }
