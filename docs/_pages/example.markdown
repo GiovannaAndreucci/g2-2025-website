@@ -19,8 +19,15 @@ Abbiamo analizzato oltre un milione e mezzo di articoli scientifici, per scoprir
 
 <strong>Alla crescita del numero di articoli corrisponde una crescita nell’interesse delle aziende?</strong>
 
-<div style="height: 400px">
-  <vegachart schema-url="/g2-2025-website/assets/charts/perc_empty_tagged.json" style="width: 50%; height: 100%"></vegachart>
+<div style="height: 400px; width: 100%;">
+  <iframe 
+    src="/g2-2025-website/assets/charts/perc_empty_tagged.html"
+    width="100%"
+    height="100%"
+    frameborder="0"
+    style="border: none;"
+    title="Geographic Distribution Chart">
+  </iframe>
 </div>
 
 
