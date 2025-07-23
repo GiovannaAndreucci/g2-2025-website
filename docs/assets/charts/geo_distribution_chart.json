@@ -1,0 +1,158 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "config": {
+    "area": {
+      "color": "#6b4a32",
+      "opacity": 0.8
+    },
+    "axis": {
+      "domainColor": "#5a3921",
+      "gridColor": "#5a3921",
+      "gridOpacity": 0.2,
+      "labelColor": "black",
+      "labelFontWeight": "bold",
+      "tickColor": "#5a3921",
+      "titleColor": "black",
+      "titleFont": "EB Garamond"
+    },
+    "background": "#e8ddb2",
+    "bar": {
+      "color": "#6b4a32",
+      "opacity": 0.8
+    },
+    "legend": {
+      "labelColor": "black",
+      "labelFont": "EB Garamond",
+      "titleColor": "black",
+      "titleFont": "EB Garamond"
+    },
+    "line": {
+      "color": "#6b4a32",
+      "opacity": 0.8
+    },
+    "mark": {
+      "color": "#6b4a32",
+      "opacity": 0.8
+    },
+    "point": {
+      "color": "#6b4a32",
+      "opacity": 0.8
+    },
+    "title": {
+      "color": "black",
+      "font": "EB Garamond",
+      "fontWeight": "bold"
+    },
+    "view": {
+      "height": 250,
+      "stroke": null,
+      "width": 350
+    }
+  },
+  "data": {
+    "name": "data-d282eb09820deb7e60a9a4d4b1f8eafa"
+  },
+  "datasets": {
+    "data-d282eb09820deb7e60a9a4d4b1f8eafa": [
+      {
+        "Classe geografica": "Europa (nazione singola)",
+        "Count": 1931346,
+        "Final Class": "eu",
+        "Percentage": 65.52
+      },
+      {
+        "Classe geografica": "Europa (nazioni multiple)",
+        "Count": 602674,
+        "Final Class": "ambiguous_all_eu",
+        "Percentage": 20.44
+      },
+      {
+        "Classe geografica": "Europa + Non-EU",
+        "Count": 341608,
+        "Final Class": "ambiguous_mixed",
+        "Percentage": 11.59
+      },
+      {
+        "Classe geografica": "Non-EU",
+        "Count": 50262,
+        "Final Class": "non-eu",
+        "Percentage": 1.7
+      },
+      {
+        "Classe geografica": "Non-EU (multiple)",
+        "Count": 1977,
+        "Final Class": "ambiguous_all_non_eu",
+        "Percentage": 0.07
+      }
+    ]
+  },
+  "height": 400,
+  "layer": [
+    {
+      "encoding": {
+        "tooltip": [
+          {
+            "field": "Classe geografica",
+            "title": "Classe",
+            "type": "nominal"
+          },
+          {
+            "field": "Count",
+            "title": "N. affiliazioni",
+            "type": "quantitative"
+          },
+          {
+            "field": "Percentage",
+            "title": "%",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "axis": {
+            "labelAngle": -30,
+            "labelFontWeight": "bold"
+          },
+          "field": "Classe geografica",
+          "sort": "-y",
+          "title": "",
+          "type": "nominal"
+        },
+        "y": {
+          "field": "Percentage",
+          "title": "",
+          "type": "quantitative"
+        }
+      },
+      "mark": {
+        "type": "bar"
+      },
+      "title": "Distribuzione percentuale delle classi geografiche"
+    },
+    {
+      "encoding": {
+        "text": {
+          "field": "Percentage",
+          "format": ".1f",
+          "type": "quantitative"
+        },
+        "x": {
+          "field": "Classe geografica",
+          "sort": "-y",
+          "type": "nominal"
+        },
+        "y": {
+          "field": "Percentage",
+          "type": "quantitative"
+        }
+      },
+      "mark": {
+        "align": "center",
+        "baseline": "bottom",
+        "dy": -2,
+        "fontWeight": "bold",
+        "type": "text"
+      }
+    }
+  ],
+  "width": 600
+}
