@@ -1,35 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 1920 207.3">
-  <!-- Subtle Paper Texture Filter -->
-  <filter id="paperNoise" x="0" y="0" width="100%" height="100%">
-    <feTurbulence type="fractalNoise" baseFrequency="0.01" numOctaves="1" seed="1"/>
-    <feColorMatrix values="1 0 0 0 0
-                      0 1 0 0 0
-                      0 0 1 0 0
-                      0 0 0 2 -0.5"/>
-  </filter>
-
   <defs>
     <style>
       .st0, .st1 {
         opacity: .8;
       }
-      /* Apply subtle texture to squares */
-      .st1, .st2, .st4, .st5, .st6, .st7, .st8 {
-        filter: url(#paperNoise);
-      }
-      /* Brown color palette */
-      .st2 { fill: #5a3921; opacity: 0.9; }  /* Darkest brown */
-      .st1 { fill: #6b4a32; }                /* Medium-dark */
-      .st4 { fill: #7d5c43; opacity: 0.7; }   /* Medium */
-      .st5 { fill: #8e6d54; opacity: 0.9; }   /* Light medium */
-      .st6 { fill: #9f7e65; opacity: 0.3; }   /* Light */
-      .st7 { fill: #b08f76; opacity: 0.5; }   /* Lighter */
-      .st8 { fill: #c1a087; opacity: 0.6; }   /* Lightest */
+      /* Brown color palette (no texture) */
+      .st2 { fill: #5a3921; opacity: 0.9; }  <!-- Dark espresso -->
+      .st1 { fill: #6b4a32; }                <!-- Rich brown -->
+      .st4 { fill: #7d5c43; opacity: 0.7; }   <!-- Warm brown -->
+      .st5 { fill: #8e6d54; opacity: 0.9; }   <!-- Hazelnut -->
+      .st6 { fill: #9f7e65; opacity: 0.3; }   <!-- Light taupe -->
+      .st7 { fill: #b08f76; opacity: 0.5; }   <!-- Sandstone -->
+      .st8 { fill: #c1a087; opacity: 0.6; }   <!-- Pale clay -->
       .st3 {
-        fill: #4a2810;  /* Small dark squares */
+        fill: #4a2810;  <!-- Darkest brown (small squares) -->
         opacity: .4;
-        filter: none;   /* No texture */
       }
       .st3, .st4, .st5, .st1, .st6, .st7, .st8 {
         isolation: isolate;
