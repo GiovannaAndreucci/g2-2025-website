@@ -4,7 +4,7 @@ title:  "Grafo e Community"
 subtitle: ""
 header_type: hero #base, post, hero,image, splash
 header_img: assets/images/body_graph.jpg
-header_title: "Folium maps"
+header_title: "Grafo e Community"
 vega: false
 ---
 
