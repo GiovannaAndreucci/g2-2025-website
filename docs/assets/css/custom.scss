@@ -5,6 +5,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Charms:ital,wght@0,400;0,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
 
 h1, h2, h3, h4, h5, h6,
 .firstHeading,
@@ -62,6 +63,10 @@ transform: rotate(180deg);
 .hero-chulapa-image {
     background-position: top;
   z-index: 100;
+}
+
+.hero-chulapa-image .p-name {
+  font-family: 'Young Serig', serif;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
