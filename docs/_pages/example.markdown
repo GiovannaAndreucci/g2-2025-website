@@ -105,6 +105,25 @@ Il secondo obiettivo è stato quello di eliminare ciò che, per sua natura, sape
 
 Giunti a questo punto, gli articoli erano divisi in due categorie: da un lato, quelli senza alcun tag associato, ossia senza alcun conflitto di interessi risultante dalla nostra analisi; dall’altro, quelli con associati tag di aziende e/o enti pubblici, con cui uno o più autori hanno dichiarato di avere rapporti che possono costituire in qualche modo un conflitto d’interesse.
 
+Come mostrato dal grafico qui sotto, gli articoli del secondo tipo, con conflitti esplicitati, sono cresciuti costantemente nel periodo osservato, passando da circa 10.000 nel 2017 a quasi 35.000 nel 2024. Questo aumento potrebbe riflettere il progressivo adeguamento a questa nuova funzione di PubMed.
+
+retta numero articoli
+
+
+Questa tendenza sembra essere proporzionale all’aumento generale delle pubblicazioni con COI statement presente, a loro volta aumentate molto rapidamente durante il periodo di nostro interesse, mostrando di nuovo una progressiva adeguazione a questa integrazione del sito. Si mantiene, però, pressoché costante negli anni l’incidenza dei due tipi di articoli sul totale.
+
+
+grafici
+
+
+Concentrandosi sulle 121 aziende individuate attraverso distibert-NER, vediamo che le prime cinque in particolare si distaccano dalle altre per il gran numero di articoli in cui sono presenti, mentre per le successive la frequenza cala rapidamente, arrivando ad avere la maggior parte delle aziende a una frequenza sotto 5.000.
+
+grafico
+
+Concentrandosi sulle 121 aziende individuate attraverso distibert-NER, vediamo che le prime cinque in particolare si distaccano dalle altre per il gran numero di articoli in cui sono presenti, mentre per le successive la frequenza cala rapidamente, arrivando ad avere la maggior parte delle aziende a una frequenza sotto 5.000.
+
+grafici
+
 
 
 
