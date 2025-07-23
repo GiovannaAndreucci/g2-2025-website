@@ -137,13 +137,25 @@ L’esplosione di pubblicazioni riguardo ‘Immunology’ e 'Infectious disease�
 
 <h1 class="text-center">You don't know where your interest lies, COI...</h1>
 
-Una volta isolati gli articoli in cui la sezione del COI statement fosse presente, è stato chiaramente essenziale per poter procedere con le analisi, processare il testo di tali statements. Per questo compito ci siamo affidati in prima battuta alla NER (Named Entity Recognition), una tecnica di elaborazione del linguaggio naturale (NLP) che identifica elementi specifici (entità) all'interno di un testo e li classifica in categorie predefinite come persone, luoghi, organizzazioni, date, ecc.
+Ma come collegare aziende e articolo a partire dal COI statement? Applicando un modello di elaborazione del testo, abbiamo identificato 121 tra aziende e enti con una presenza rilevante nelle pubblicazioni considerate.
 
-Il fatto che la forma degli statements non è standardizzata, ma espressa in linguaggio naturale, ha costituito un ostacolo per il processo: le aziende compaiono spesso con nomi e grafie diverse, il modello, su una tale quantità di dati, commette un numero considerevole di errori, i modelli NER non nascono specificatamente per riconoscere nomi di aziende healthcare.
+immg
 
-Il modello che abbiamo scelto è distilbert-NER, versione specializzata per il NER di distilBERT, a sua volta una variante compressa del modello BERT. Applicandolo ai testi dei COI statement e selezionando tra le entità rilevate quelle categorizzate come “organizzazioni”, abbiamo ottenuto una lista di potenziali enti e aziende con cui gli autori di ciascun articolo avevano un rapporto di qualche tipo.
+Abbiamo potuto distinguere due classi di articoli: da un lato, quelli nella cui dichiarazione di COI non era citata alcuna azienda; dall’altro, quelli in cui sono state citate una o più aziende.
 
-immagine coi
+Come mostrato dal grafico qui sotto, gli articoli del secondo tipo, che citano qualche azienda nel COI, sono cresciuti costantemente nel periodo osservato, passando da circa 10.000 nel 2017 a quasi 35.000 nel 2024. Questo aumento potrebbe riflettere il progressivo adeguamento a questa nuova funzione di PubMed.
+
+<div style="height: 400px; width: 100%;">
+  <iframe 
+    src="/g2-2025-website/assets/charts/nb_tagged_articles_year.html"
+    width="100%"
+    height="100%"
+    frameborder="0"
+    style="border: none;"
+    title="Aziende cit line">
+  </iframe>
+</div>
+
 
 Abbiamo sottoposto questa lista preliminare ad un post-processing semi-automatico, con due obiettivi principali. Il primo, quello di uniformare i nomi delle aziende, soggetti a comuni errori e variazioni di grafia, riportandoli ad una sola forma standard. Per farlo, abbiamo creato dei pattern ad hoc per le aziende farmaceutiche, a partire dalle top 40 di un dataset contenente i nomi delle più grandi, e aggiungendo successivamente quelle che emergevano da una verifica manuale, fino ad arrivare ad un totale di 121 pattern. 
 
