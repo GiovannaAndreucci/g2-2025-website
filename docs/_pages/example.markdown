@@ -174,28 +174,29 @@ Nel grafico sottostante si vede come poche aziende siano presenti nella maggior 
   </iframe>
 </div>
 
-Giunti a questo punto, gli articoli erano divisi in due categorie: da un lato, quelli senza alcun tag associato, ossia senza alcun conflitto di interessi risultante dalla nostra analisi; dall’altro, quelli con associati tag di aziende e/o enti pubblici, con cui uno o più autori hanno dichiarato di avere rapporti che possono costituire in qualche modo un conflitto d’interesse.
+Nel grafico sottostante vediamo le top aziende per frequenza. Si noti che le prime 5 aziende compaiono ciascuna in quasi il 25% degli articoli del dataset (la prima addirittura nel 28%).  Nel grafico sottostante vediamo infatti come più del 50% degli articoli contengono almeno una di queste top 5.
 
-Come mostrato dal grafico qui sotto, gli articoli del secondo tipo, con conflitti esplicitati, sono cresciuti costantemente nel periodo osservato, passando da circa 10.000 nel 2017 a quasi 35.000 nel 2024. Questo aumento potrebbe riflettere il progressivo adeguamento a questa nuova funzione di PubMed.
+<div style="height: 400px; width: 100%;">
+  <iframe 
+    src="/g2-2025-website/assets/charts/most_frequent_companies_bar.html"
+    width="100%"
+    height="100%"
+    frameborder="0"
+    style="border: none;"
+    title="Aziende cit line">
+  </iframe>
+</div>
 
-retta numero articoli
-
-
-Questa tendenza sembra essere proporzionale all’aumento generale delle pubblicazioni con COI statement presente, a loro volta aumentate molto rapidamente durante il periodo di nostro interesse, mostrando di nuovo una progressiva adeguazione a questa integrazione del sito. Si mantiene, però, pressoché costante negli anni l’incidenza dei due tipi di articoli sul totale.
-
-
-grafici
-
-
-Concentrandosi sulle 121 aziende individuate attraverso distibert-NER, vediamo che le prime cinque in particolare si distaccano dalle altre per il gran numero di articoli in cui sono presenti, mentre per le successive la frequenza cala rapidamente, arrivando ad avere la maggior parte delle aziende a una frequenza sotto 5.000.
-
-grafico
-
-Concentrandosi sulle 121 aziende individuate attraverso distibert-NER, vediamo che le prime cinque in particolare si distaccano dalle altre per il gran numero di articoli in cui sono presenti, mentre per le successive la frequenza cala rapidamente, arrivando ad avere la maggior parte delle aziende a una frequenza sotto 5.000.
-
-grafici
-
-
+<div style="height: 400px; width: 100%;">
+  <iframe 
+    src="/g2-2025-website/assets/charts/donut_top5_coverage.html"
+    width="100%"
+    height="100%"
+    frameborder="0"
+    style="border: none;"
+    title="Aziende cit line">
+  </iframe>
+</div>
 
 
 <h1 class="text-center">That COI really tied the room together...</h1>
