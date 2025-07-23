@@ -6,8 +6,6 @@ header_type: hero #base, post, hero,image, splash
 header_img: assets/images/hippocut2.png
 ---
 
-# Estrazione aziende dai COI statements
-
 In primis abbiamo provato ad utilizzare SpaCy. Tuttavia, i risultati apparivano molto poco precisi con un gran numero di match errati (nomi di autori o altri sostantivi irrilevanti) che sarebbero dovuti essere eliminati successivamente; per questo motivo abbiamo scartato questo metodo.
 Test distilbert-NER
 In assenza di modelli non LLM specializzati nel NER per riconoscere aziende, abbiamo deciso di testare il modello distilBERT-NER (https://huggingface.co/dslim/distilbert-NER), una versione fine-tuned per NER di distilBERT. distilBERT è una versione compressa di BERT, con risultati paragonabili, ma meno parametri, il che lo rende più leggero, rapido e efficiente.
@@ -16,6 +14,8 @@ Questo modello identifica 4 tipi di entità: location (LOC), organizations (ORG)
 I risultati sono stati migliori, soprattutto perché distilBERT sembrava in grado di riconoscere tutte le aziende all’interno dei COI statement, aggiungendo al limite tag aggiuntivi irrilevanti. Decidiamo quindi, dopo il test preliminare, di applicare distilbert-NER a tutto il nostro dataset di COI statements.
 
 I risultati di tale estrazione sono dei file in formato json, in cui il PMID (numero identificativo dell’articolo) è la key, cui si associa un set contenente le entità di tipo ORG estratte dal COI statement dell’articolo corrispondente.
+
+---
 
 # Post-processing delle entità estratte
 
