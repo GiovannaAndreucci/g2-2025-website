@@ -90,9 +90,13 @@ transform: rotate(180deg);
     background: #f8e7a9 url('https://www.transparenttextures.com/patterns/cream-paper.png') fixed !important;
 }
 
-.chulapa-footer *:not(.fa):not(.fab):not(.fas) {
+.footer-chulapa,
+.footer-chulapa p,
+.footer-chulapa strong,
+.footer-chulapa a:not(.fa):not(.fab):not(.fas),
+.footer-chulapa ol,
+.footer-chulapa li {
     font-family: 'EB Garamond', serif !important;
-    background: #f8e7a9 url('https://www.transparenttextures.com/patterns/cream-paper.png') fixed !important;
 }
 
 
