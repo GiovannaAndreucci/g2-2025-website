@@ -84,9 +84,9 @@ googlefonts:
 chulapa-skin:
   skin: "chulapa"
   #primary: "#e8c28aff"
-  vars:
-    font-family-base:  "EB Garamond, serif"
-    heading-font-family: "Charm, cursive"
+  #vars:
+    #font-family-base:  "EB Garamond, serif"
+   #heading-font-family: "Charm, cursive"
 
 
 
