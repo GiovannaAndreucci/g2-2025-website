@@ -65,7 +65,7 @@ Chiaramente, lo scopo del nostro progetto non è denunciare un conflitto di inte
 <p>In una fase iniziale abbiamo interrogato il database di PubMed per recuperare tutti gli articoli rilevanti per la nostra indagine. Il primo ostacolo ha riguardato l’effettiva possibilità di isolare gli articoli con provenienza UE, con l’aggiunta di Regno Unito e Svizzera. D’altra parte, specie se si considera la letteratura biomedica (che conta un gran numero di studi multicentrici), si potrebbe pensare che i gruppi di ricerca presentino una moderata (se non addirittura elevata) eterogeneità geografica. In realtà, come mostrato dal grafico, la situazione parrebbe diversa.</p>
 
 <!-- Chart container with proper spacing -->
-<div style="width: 600px; height: 600px; margin: 20px auto; overflow: hidden;">
+<div style="width: 600px; height: 450px; margin: 20px auto; overflow: hidden;">
   <vegachart 
     schema-url="/g2-2025-website/assets/charts/geo_distribution_chart.json"
     style="width: 100%; height: 100%; display: block;">
@@ -75,7 +75,7 @@ Chiaramente, lo scopo del nostro progetto non è denunciare un conflitto di inte
 <p style="clear: both; margin-top: 20px;">Notiamo come il 65% circa degli articoli presentino un'elevata omogeneità a livello di affiliazioni (queste ultime sono tutte riferibili a un unico stato europeo). Un altro 20% consta di affiliazioni ambigue su scala nazionale (ma comunque da considerarsi tutte europee). Più del 10% riflettono un'ambiguità che esula dai confini europei, mentre meno del 5% presenta almeno un autore europeo, risultando però fortemente sbilanciato verso affiliazioni non europee. Abbiamo quindi deciso di valutare l'effettiva compilazione del campo COI; su questo frangente i risultati sembrano essere in linea con quanto ci si aspetterebbe.</p>
 
 
-<div style="width: 1000px; height: 600px; margin: 10px auto; overflow: hidden;">
+<div style="width: 1000px; height: 450px; margin: 10px auto; overflow: hidden;">
   <vegachart 
     schema-url="/g2-2025-website/assets/charts/COI_year.json"
     style="width: 100%; height: 100%; display: block;">
@@ -86,7 +86,7 @@ Al generale incremento della produzione scientifica è associato un deciso aumen
 
 È inoltre possibile apprezzare un trend simile negli articoli per nazione, considerando solo i dieci paesi più produttivi.
 
-<div style="width: 1000px; height: 600px; margin: 10px auto; overflow: hidden;">
+<div style="width: 1000px; height: 450px; margin: 10px auto; overflow: hidden;">
   <vegachart 
     schema-url="/g2-2025-website/assets/charts/trend_disclosure_eu_chart.json"
     style="width: 100%; height: 100%; display: block;">
@@ -100,7 +100,7 @@ inserire mappa
 La Romania da questo punto di vista detiene il record di articoli con COI dichiarato rispetto all’intera produzione scientifica pubblicata su PubMed, con oltre il 65% di articoli con un conflitto di interesse disponibile pubblicamente.
 
 
-<div style="width: 900px; height: 600px; margin: 10px auto; overflow: hidden;">
+<div style="width: 900px; height: 450px; margin: 10px auto; overflow: hidden;">
   <vegachart 
     schema-url="/g2-2025-website/assets/charts/top10_disclosure_eu_chart.json"
     style="width: 100%; height: 100%; display: block;">
@@ -125,7 +125,7 @@ Il grafico mostra dinamicamente il numero di articoli per le 10 aree mediche pi�
 L’esplosione di pubblicazioni riguardo ‘Immunology’ e 'Infectious disease’  si vede ancora meglio nel seguente line-plot. Il grafico riporta la differenza, rispetto all’anno precedente (e per categoria medica), nel numero di pubblicazioni.
 
 
-<div style="width: 1000px; height: 500px; margin: 10px auto; overflow: hidden;">
+<div style="width: 1000px; height: 450px; margin: 10px auto; overflow: hidden;">
   <vegachart 
     schema-url="/g2-2025-website/assets/charts/increment_chart.json"
     style="width: 100%; height: 100%; display: block;">
@@ -163,29 +163,34 @@ Ma come si distribuiscono le 121 aziende identificate rispetto a questi articoli
 
 Nel grafico sottostante si vede come poche aziende siano presenti nella maggior parte degli articoli, accanto a molte altre che appaiono ognuna in pochi articoli. Le prime cinque aziende, in particolare, si distaccano dalle altre per il gran numero di articoli in cui sono presenti, mentre per le successive la frequenza cala rapidamente, con la maggior parte delle aziende presente in meno di 5.000 articoli ciascuna, grosso modo un decimo delle top 5.
 
-<div style="height: 400px; width: 100%;">
-  <iframe 
-    src="/g2-2025-website/assets/charts/company_freq_distrib_scatter.html"
-    width="100%"
-    height="100%"
-    frameborder="0"
-    style="border: none;"
-    title="Aziende cit line">
-  </iframe>
+<div style="width: 100%; text-align: center;">
+  <div style="display: inline-block; height: 400px; width: 100%; max-width: [your-desired-width]px;">
+    <iframe 
+      src="/g2-2025-website/assets/charts/company_freq_distrib_scatter.html"
+      width="100%"
+      height="100%"
+      frameborder="0"
+      style="border: none;"
+      title="Aziende cit line">
+    </iframe>
+  </div>
 </div>
 
 Nel grafico sottostante vediamo le top aziende per frequenza. Si noti che le prime 5 aziende compaiono ciascuna in quasi il 25% degli articoli del dataset (la prima addirittura nel 28%).  Nel grafico sottostante vediamo infatti come più del 50% degli articoli contengono almeno una di queste top 5.
 
-<div style="height: 600px; width: 100%;">
-  <iframe 
-    src="/g2-2025-website/assets/charts/most_frequent_companies_bar.html"
-    width="100%"
-    height="100%"
-    frameborder="0"
-    style="border: none;"
-    title="Aziende cit line">
-  </iframe>
+<div style="width: 100%; text-align: center;">
+  <div style="display: inline-block; height: 400px; width: 100%; max-width: [your-desired-width]px;">
+    <iframe 
+      src="/g2-2025-website/assets/charts/most_frequent_companies_bar.html"
+      width="100%"
+      height="100%"
+      frameborder="0"
+      style="border: none;"
+      title="Aziende cit line">
+    </iframe>
+  </div>
 </div>
+
 
 <div style="height: 400px; width: 100%;">
   <iframe 
