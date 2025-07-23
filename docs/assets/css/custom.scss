@@ -16,7 +16,13 @@ h1, h2, h3, h4, h5, h6,
 body {
     font-family: 'EB Garamond', serif !important;
     text-align: justify;
-    background-color: #e8c28aff !important;
+    background-color: #f8f4e6 !important; /* Soft yellowish-beige */
+    color: #3a3a3a !important; /* Darker text for contrast */
+}
+
+body {
+    background-image: url('https://www.transparenttextures.com/patterns/cream-paper.png') !important;
+    background-attachment: fixed !important;
 }
 
 strong {
