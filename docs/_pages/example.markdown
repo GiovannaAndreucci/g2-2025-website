@@ -245,6 +245,39 @@ Anche in questo caso, come già fatto per le aree mediche, abbiamo deciso di stu
 Anche qui compaiono le ubique Novartis e Astrazeneca, lasciando spazio tuttavia ad aziende relativamente più piccole come l’italiana Chiesi Pharmaceuticals che, com’è possibile apprezzare nel grafico, supporta un numero considerevole di articoli ‘influenti’ all’interno della comunità 17.
 E tuttavia, come nel caso del Sankey precedente (che metteva in rapporto aziende ed aree mediche), notiamo come l’apporto delle aziende all’interno delle comunità sia piuttosto equilibrato, al netto delle pur interessanti differenze. 
 
+È lecito supporre che le aziende non prediligano un’area medica piuttosto che un’altra, ma si distribuiscano equamente sull’intera ‘superficie’ di ricerca. Come intendere dunque in maniera non banale il rapporto finora analizzato?
+Lo spunto decisivo proviene direttamente dalla definizione delle comunità. Queste ultime non rappresentano semplicemente una modellazione ulteriore (più ‘granulare’ e ‘concreta’) della tassonomia medica stabilita precedentemente. Aggregando le informazioni presenti nei titoli dei lavori delle comunità più supportate attraverso l’impiego di wordcloud opportunamente limate è possibile osservare qualcosa di molto interessante.
+
+In conclusione sembrerebbe che le comunità di ricerca non si vengano a determinare sulla base della semplice contiguità tra aree mediche, ma si inseriscano piuttosto nella tradizione di ricerca riguardante un particolare gruppo di patologie o disturbi. E allo stesso modo è da intendersi l’interesse delle aziende nei confronti delle comunità: vengono privilegiate in questo senso le malattie croniche che richiedono una cura costante.
+
+<ul>
+  <li>Comunità 8: Insufficienza cardiaca/diabete</li>
+  <li>Comunità 17: Fibrosi cistica/malattia polmonare ostruttiva</li>
+  <li>Comunità 19: Steatosi epatica/epatite/epatocarcinoma</li>
+  <li>Comunità 22: Artite reumatoide, dermatite atipica, spondiloartrite</li>
+  <li>Comunità 32: Apnea del sonno / emicrania / botulino / bruxismo</li>
+  <li>Comunità 33 : Malattie genetiche rare (Fabry, Von Willebrand)</li>
+</ul>
+
+
+Abbiamo discusso questi risultati con la Dr.ssa Carmen Barbato (Neurologia ospedale Santa Maria Annunziata, Firenze), il Dr. Alessandro Sodero (Neurologo ricercatore presso l’IRCCS di FIrenze) ed il Prof. Enrico Granieri.
+
+Analizzando con loro la composizione delle malattie all’interno delle varie comunità, è emerso che almeno per alcune di esse è possibile ritrovare una ragione fisiopatologica che le spiega.
+La comunità 32 in particolare accomuna articoli che trattano categorie mediche apparentemente molto distanti tra loro (Neurology, Odontoiatria, Malattia coronarica). Un possibile trait d'union tra queste patologie è invece la Obstructive Sleep Apnoea Syndrome (OSAS), una malattia che determinando russamento ed apnee notturne può provocare bruxismo (semplicisticamente ‘digrignare i denti’, un problema odontoiatrico che si può curare con iniezioni di botulino), ipertensione  e problemi coronarici, e soprattutto emicrania e cefalea. 
+
+Crediamo che la scoperta di tali comunità così ben definite e distinte tra loro sia meritevole di ulteriori approfondimenti e spunti anche da parte degli esperti di ciascun dominio. Ciò che appare certo è che queste comunità si vengono a creare attorno a gruppi di malattie che hanno in primis la caratteristica della multi-complessità, e della necessità di far dialogare tra loro gruppi di ricerca di diversi settori medici. 
+
+---
+
+Questo studio ha dimostrato che l’adozione del COI statement è un fenomeno in crescita sempre maggiore. Abbiamo scoperto un trend in costante aumento ed, in un prossimo futuro, è ragionevole pensare che la sua adozione divenga ubiquitaria. 
+Abbiamo analizzato la frequenza di comparsa delle principali aziende coinvolte nei COI e ci siamo accorti che, soprattutto le aziende più grandi tendono a distribuirsi in maniera omogenea tra le varie discipline mediche. Sembra inoltre che la percentuale di articoli con un supporto privato non sia incrementato negli anni.
+
+Dopo aver analizzato la variazione in determinate categorie mediche, possiamo dire che stimoli esogeni (come ad esempio il COVID) influenzano pesantemente il tasso della produzione scientifica. In questo contesto, abbiamo notato che il numero delle pubblicazioni scientifiche, adottato come ‘indice’ della qualità della produzione scientifica potrebbe essere fuorviante, soprattutto considerando il sempre maggior numero di articoli.
+
+Questo studio mette in luce che, all’interno della rete Pubmed, esistono comunità di articoli (e dunque enti di ricerca, ricercatori e ricercatrici) altamente connessi tra loro attorno a patologie caratterizzate da multi-complessità o multi-morbidità la cui natura è da caratterizzare ulteriormente. 
+
+
+
 
 
 
