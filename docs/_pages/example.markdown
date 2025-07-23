@@ -14,15 +14,14 @@ plotly: true
     <img src="{{ site.baseurl }}/assets/images/header copy.svg" alt="sbd-pattern" class="full-width-image">
 </div>
 
-La ricerca scientifica è cambiata enormemente negli ultimi anni. Il numero di pubblicazioni è aumentato esponenzialmente, determinando una nuova e complessa stratificazione della produzione scientifica. 
-In quest’ottica riteniamo che l’avvento delle più recenti tecniche di Big Data Analysis e i modelli di Artificial Intelligence possano essere in grado di aiutare a gettare nuova luce su questo settore, fornendo strumenti che orientino la ricerca e la arricchiscano di nuovi significati.
+In un mondo che cresce di continuo e in maniera esponenziale come quello della ricerca medica, avere un quadro di insieme su alcuni aspetti può essere un’impresa ardua o addirittura impossibile. Fra questi, il fenomeno del coinvolgimento delle aziende nella ricerca, che si cela dietro alla dichiarazione del Conflict of Interest (COI) associata ad una pubblicazione.
+Abbiamo analizzato oltre un milione e mezzo di articoli scientifici, per scoprire che quelli con COI statement dichiarato sono passati dal 20% ad oltre il 70% tra il 2017 e il 2024, dimostrando come il suo uso stia diventando sempre più diffuso ed (apparentemente) trasparente.
 
-Il nostro lavoro si propone di investigare il settore dell’healthcare, uno degli ambiti più complessi, da un lato per via del gran numero di investimenti, dall’altro per la granularità delle diverse specializzazioni. In particolare, cercheremo di ricostruire il rapporto fra enti pubblici e privati da un lato e ricerca dall’altro, tramite l’analisi delle dichiarazioni di conflitto d’interesse (d’ora in poi abbreviato in COI statements), associate agli articoli e pubblicamente consultabili.
+<strong>Alla crescita del numero di articoli corrisponde una crescita nell’interesse delle aziende?</strong>
 
-Abbiamo deciso di concentrarci sulla produzione dei ricercatori europei dal 2017 al 2024, arrivando a considerare oltre tre milioni di articoli. La nostra principale fonte di dati è l’archivio ad accesso libero online PubMed. Da qui, attraverso tecniche di web scraping è stato possibile recuperare le informazioni necessarie relative a ogni articolo di nostro interesse, come titolo, paese di provenienza dell’articolo, numero di volte che l’articolo è stato citato e, ovviamente, il COI statement. 
+Dai dati raccolti, sembrerebbe di no. Ma se le aziende sono così “selettive”, in quali ambiti sono più coinvolte? 
 
-Una volta ottenuti questi dati, abbiamo utilizzato il modello MedGemma 4B, specializzato nell’analisi di testi medici, per categorizzare ogni articolo secondo la sua principale area medica di appartenenza. Inoltre, tramite  una versione del modello DistilBERT specializzato in Named-Entity-Recognition, siamo stati in grado di individuare le aziende citate all’interno del COI statement di ciascun articolo. Abbiamo poi impiegato quanto così ricavato per analizzare il rapporto tra articoli e aziende associate a ciascuno di essi, distinguendoli per aree mediche.
-Infine, collegando ogni articolo a quelli che lo citano e tenendo conto del numero di citazioni, abbiamo costruito un grafo, in modo da poter osservare relazioni e comunità tra gli articoli del nostro dataset.
+In questo articolo cercheremo di ricostruire il rapporto fra enti pubblici e privati da un lato e ricerca dall’altro, tramite l’analisi delle dichiarazioni pubbliche di conflitto d’interesse associate agli articoli (d’ora in poi abbreviato in <em>COI statements</em>).
 
 ---
 
