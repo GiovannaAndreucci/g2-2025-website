@@ -207,7 +207,7 @@ Una volta individuate le top aziende presenti nei COI statements processati, abb
 <div style="width: 600px; height: 600px; margin: 10px auto; overflow: hidden;">
   <vegachart 
     schema-url="/g2-2025-website/assets/charts/scatter_tags_vs_revenues.json"
-    style="width: 75%; height: 75%; display: block;">
+    style="width: 100%; height: 100%; display: block;">
   </vegachart>
 </div>
 
@@ -223,14 +223,30 @@ In questo grafico è possibile osservare un equilibrio pressoché perfetto nell�
 
 <h1 class="text-center">And now… COInnect the nodes!</h1>
 
-# Sankey diagram
+Per cercare di catturare in maniera più significativa il rapporto che intercorre fra aziende e gruppi di ricerca, abbiamo deciso di considerare anche la rete di citazioni sottostante alla vasta selva di articoli che avevamo a disposizione. Abbiamo quindi costruito un grafo capace di descrivere, per quanto possibile, le relazioni fra articoli. All’analisi della struttura del grafo si è accompagnata piuttosto naturalmente l’individuazione delle comunità di ricerca più interessanti. Ogni comunità è stata etichettata con un vettore di cinque discipline mediche.
 
-{% include plotly-graph.html id="grafico1" file="grafico1.html" height="600px" %}
+Un esempio su tutti la comunità Sars-Cov, rappresentata dal vettore ['Infectious Disease', 'Immunology', 'Pulmonology', 'Epidemiology', 'Virology'], con oltre 71 mila articoli (con COI dichiarato) e un picco di oltre 17 mila articoli per il solo 2021 (scesi a 8600 circa nel 2024).
+
+Per testare l’interesse delle aziende in aree mediche più specifiche, abbiamo deciso di considerare la percentuale di occorrenza di una o più aziende all’interno dei COI statement associati a ciascuna comunità.
+
+<div style="width: 1000px; height: 600px; margin: 10px auto; overflow: hidden;">
+  <vegachart 
+    schema-url="/g2-2025-website/assets/charts/perc_articoli_finan_comm.json"
+    style="width: 75%; height: 75%; display: block;">
+  </vegachart>
+</div>
+
+Come è possibile osservare dal grafico, sono sei le comunità che superano la soglia del 20% di articoli che citano almeno un’azienda all’interno della propria dichiarazione.  
+
+Anche in questo caso, come già fatto per le aree mediche, abbiamo deciso di studiare l’influenza delle aziende più interessate alle comunità in oggetto.
+
+{% include plotly-graph.html id="grafico2" file="sankey_comm_az.html" height="600px" %}
+
+Anche qui compaiono le ubique Novartis e Astrazeneca, lasciando spazio tuttavia ad aziende relativamente più piccole come l’italiana Chiesi Pharmaceuticals che, com’è possibile apprezzare nel grafico, supporta un numero considerevole di articoli ‘influenti’ all’interno della comunità 17.
+E tuttavia, come nel caso del Sankey precedente (che metteva in rapporto aziende ed aree mediche), notiamo come l’apporto delle aziende all’interno delle comunità sia piuttosto equilibrato, al netto delle pur interessanti differenze. 
 
 
-e il secondo grafico sankey con i colori giusti
 
-{% include plotly-graph.html id="grafico2" file="sankey_azi_aree.html" height="600px" %}
 
 
 
