@@ -198,6 +198,7 @@ Nel grafico sottostante vediamo le top aziende per frequenza. Si noti che le pri
   </iframe>
 </div>
 
+---
 
 <h1 class="text-center">That COI really tied the room together...</h1>
 
@@ -205,11 +206,20 @@ Una volta individuate le top aziende presenti nei COI statements processati, abb
 
 <div style="width: 600px; height: 600px; margin: 10px auto; overflow: hidden;">
   <vegachart 
-    schema-url="/g2-2025-website/assets/charts/scatter_tas_vs_revenues.json"
+    schema-url="/g2-2025-website/assets/charts/scatter_tags_vs_revenues.json"
     style="width: 75%; height: 75%; display: block;">
   </vegachart>
 </div>
 
+Osservando i dati per 51 delle aziende considerate, si può vedere che i due aspetti rappresentati sembrano andare relativamente di pari passo: maggiore disponibilità economica sembra correlare positivamente con un maggiore coinvolgimento nella ricerca.
+
+E come si distribuisce l’influenza delle aziende sul complesso delle aree mediche?
+
+{% include plotly-graph.html id="grafico2" file="sankey_azi_aree.html" height="600px" %}
+
+In questo grafico è possibile osservare un equilibrio pressoché perfetto nell’interesse per l’oncologia, mentre neurologia vede una netta preminenza di Roche e Novartis.
+
+---
 
 <h1 class="text-center">And now… COInnect the nodes!</h1>
 
