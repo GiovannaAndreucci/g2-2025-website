@@ -99,8 +99,12 @@ inserire mappa
 
 La Romania da questo punto di vista detiene il record di articoli con COI dichiarato rispetto all’intera produzione scientifica pubblicata su PubMed, con oltre il 65% di articoli con un conflitto di interesse disponibile pubblicamente.
 
-<div style="height: 400px">
-  <vegachart schema-url="/g2-2025-website/assets/charts/top_countries_chart.json" style="width: 100%; height: 100%"></vegachart>
+
+<div style="width: 900px; height: 600px; margin: 10px auto; overflow: hidden;">
+  <vegachart 
+    schema-url="/g2-2025-website/assets/charts/top_countries_chart.json.json"
+    style="width: 100%; height: 100%; display: block;">
+  </vegachart>
 </div>
 
 
