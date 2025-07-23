@@ -15,6 +15,7 @@ h1, h2, h3, h4, h5, h6,
 
 body {
     font-family: 'EB Garamond', serif !important;
+    text-align: justify;
 }
 
 strong {
@@ -108,7 +109,8 @@ iframe {
   color:pink;
 }
 
-.mw-body-content {
-    text-align: justify !important;
-    hyphens: auto; /* Optional: Enable hyphenation for better spacing */
+.justified-text {
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
 }
