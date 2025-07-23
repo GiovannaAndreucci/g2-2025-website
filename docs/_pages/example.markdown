@@ -75,7 +75,7 @@ Chiaramente, lo scopo del nostro progetto non è denunciare un conflitto di inte
 <p style="clear: both; margin-top: 20px;">Notiamo come il 65% circa degli articoli presentino un'elevata omogeneità a livello di affiliazioni (queste ultime sono tutte riferibili a un unico stato europeo). Un altro 20% consta di affiliazioni ambigue su scala nazionale (ma comunque da considerarsi tutte europee). Più del 10% riflettono un'ambiguità che esula dai confini europei, mentre meno del 5% presenta almeno un autore europeo, risultando però fortemente sbilanciato verso affiliazioni non europee. Abbiamo quindi deciso di valutare l'effettiva compilazione del campo COI; su questo frangente i risultati sembrano essere in linea con quanto ci si aspetterebbe.</p>
 
 
-<div style="width: 950px; height: 600px; margin: 10px auto; overflow: hidden;">
+<div style="width: 1000px; height: 600px; margin: 10px auto; overflow: hidden;">
   <vegachart 
     schema-url="/g2-2025-website/assets/charts/COI_year.json"
     style="width: 100%; height: 100%; display: block;">
@@ -86,7 +86,7 @@ Al generale incremento della produzione scientifica è associato un deciso aumen
 
 È inoltre possibile apprezzare un trend simile negli articoli per nazione, considerando solo i dieci paesi più produttivi.
 
-<div style="width: 900px; height: 600px; margin: 10px auto; overflow: hidden;">
+<div style="width: 1000px; height: 600px; margin: 10px auto; overflow: hidden;">
   <vegachart 
     schema-url="/g2-2025-website/assets/charts/trend_disclosure_eu_chart.json"
     style="width: 100%; height: 100%; display: block;">
@@ -102,7 +102,7 @@ La Romania da questo punto di vista detiene il record di articoli con COI dichia
 
 <div style="width: 900px; height: 600px; margin: 10px auto; overflow: hidden;">
   <vegachart 
-    schema-url="/g2-2025-website/assets/charts/top_countries_chart.json.json"
+    schema-url="/g2-2025-website/assets/charts/top_countries_chart.json"
     style="width: 100%; height: 100%; display: block;">
   </vegachart>
 </div>
@@ -121,18 +121,18 @@ Qui i nostri primi risultati.
 
 <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/24243729"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/24243729/thumbnail" width="100%" alt="bar-chart-race visualization" /></noscript></div>
  
+Il grafico mostra dinamicamente il numero di articoli per le 10 aree mediche più frequenti. In questa ‘corsa di pubblicazioni’ è possibile vedere la rapida salita della categoria ‘Infectious Disease’, di pari passo con ‘Immunology’, in concomitanza del 2020-2021. Rimane comunque preponderante la ricerca scientifica su un tema di grande interesse da sempre: l’oncologia. 
+L’esplosione di pubblicazioni riguardo ‘Immunology’ e 'Infectious disease’  si vede ancora meglio nel seguente line-plot. Il grafico riporta la differenza, rispetto all’anno precedente (e per categoria medica), nel numero di pubblicazioni.
 
-<div style="height: 400px">
-  <vegachart schema-url="/g2-2025-website/assets/charts/percentage_barchart.json" style="width: 100%; height: 100%"></vegachart>
+
+<div style="width: 1000px; height: 600px; margin: 10px auto; overflow: hidden;">
+  <vegachart 
+    schema-url="/g2-2025-website/assets/charts/increment_chart.json"
+    style="width: 100%; height: 100%; display: block;">
+  </vegachart>
 </div>
 
-
-<div style="height: 400px">
-  <vegachart schema-url="{{site.baseurl}}/assets/charts/increment_chart.json" style="width: 100%; height: 100%"></vegachart>
-</div>
-
-
-
+ Nel 2020 il numero di pubblicazioni riguardanti malattie infettive è aumentato di quasi il 98%, ed è interessante notare come in quell’anno siano praticamente raddoppiati anche gli articoli di ambito psichiatrico (+ 84%). Anche questo dato è da intendersi come un possibile effetto del COVID-19 e le successive restrizioni.
 
 
 <h1 class="text-center">You don't know where your interest lies, COI...</h1>
