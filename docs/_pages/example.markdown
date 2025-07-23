@@ -176,7 +176,7 @@ Nel grafico sottostante si vede come poche aziende siano presenti nella maggior 
 
 Nel grafico sottostante vediamo le top aziende per frequenza. Si noti che le prime 5 aziende compaiono ciascuna in quasi il 25% degli articoli del dataset (la prima addirittura nel 28%).  Nel grafico sottostante vediamo infatti come più del 50% degli articoli contengono almeno una di queste top 5.
 
-<div style="height: 400px; width: 100%;">
+<div style="height: 600px; width: 100%;">
   <iframe 
     src="/g2-2025-website/assets/charts/most_frequent_companies_bar.html"
     width="100%"
