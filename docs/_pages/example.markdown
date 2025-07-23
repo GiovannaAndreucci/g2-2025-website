@@ -11,7 +11,7 @@ plotly: true
 ---
 
 <div class="full-width-wrapper">
-    <img src="{{ site.baseurl }}/assets/images/header.svg" alt="sbd-pattern" class="full-width-image">
+    <img src="{{ site.baseurl }}/assets/images/header copy.svg" alt="sbd-pattern" class="full-width-image">
 </div>
 
 La ricerca scientifica è cambiata enormemente negli ultimi anni. Il numero di pubblicazioni è aumentato esponenzialmente, determinando una nuova e complessa stratificazione della produzione scientifica. 
