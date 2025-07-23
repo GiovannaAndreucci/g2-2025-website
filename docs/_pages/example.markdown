@@ -201,6 +201,15 @@ Nel grafico sottostante vediamo le top aziende per frequenza. Si noti che le pri
 
 <h1 class="text-center">That COI really tied the room together...</h1>
 
+Una volta individuate le top aziende presenti nei COI statements processati, abbiamo condotto una prima analisi confrontando la loro frequenza con il fatturato degli ultimi 12 mesi.
+
+<div style="width: 600px; height: 600px; margin: 10px auto; overflow: hidden;">
+  <vegachart 
+    schema-url="/g2-2025-website/assets/charts/scatter_tas_vs_revenues.json"
+    style="width: 75%; height: 75%; display: block;">
+  </vegachart>
+</div>
+
 
 <h1 class="text-center">And now… COInnect the nodes!</h1>
 
