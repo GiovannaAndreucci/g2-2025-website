@@ -229,10 +229,10 @@ Un esempio su tutti la comunità Sars-Cov, rappresentata dal vettore ['Infectiou
 
 Per testare l’interesse delle aziende in aree mediche più specifiche, abbiamo deciso di considerare la percentuale di occorrenza di una o più aziende all’interno dei COI statement associati a ciascuna comunità.
 
-<div style="width: 1000px; height: 600px; margin: 10px auto; overflow: hidden;">
+<div style="width: 1200px; height: 800px; margin: 10px auto; overflow: hidden;">
   <vegachart 
     schema-url="/g2-2025-website/assets/charts/perc_articoli_finan_comm.json"
-    style="width: 75%; height: 75%; display: block;">
+    style="width: 100%; height: 100%; display: block;">
   </vegachart>
 </div>
 
