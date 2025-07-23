@@ -3,7 +3,7 @@ layout: default
 title:  "Folium Map"
 subtitle: "How to incorporate a map created with Folium"
 header_type: hero #base, post, hero,image, splash
-header_img: assets/images/folium_map.webp
+header_img: assets/images/body_graph.jpg
 header_title: "Folium maps"
 vega: false
 ---
