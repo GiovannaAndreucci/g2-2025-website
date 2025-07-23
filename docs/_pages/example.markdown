@@ -38,6 +38,8 @@ Il nostro obiettivo è proprio studiare questo nuovo elemento dell’archivio Pu
 
 Chiaramente, lo scopo del nostro progetto non è denunciare un conflitto di interessi che, come detto sopra, è pubblicamente accessibile a chiunque acceda al sito di PubMed. Il nostro scopo è quello di presentare una prospettiva inedita sulla vasta produzione scientifica recente, che possa stimolare lo sviluppo di nuove traiettorie di ricerca e aiutare gli utenti a orientarsi nel mare magnum delle pubblicazioni.
 
+---
+
 <h1 class="text-center">Oh COI, where art thou?</h1>
 
 Attraverso l’API di Entrez (il motore di ricerca adottato dalle più importanti banche dati di letteratura biomedica) è stato possibile interrogare il database di PubMed per recuperare tutti gli articoli rilevanti per la nostra indagine. Il primo ostacolo ha riguardato l’effettiva possibilità di isolare gli articoli con provenienza UE, con l’aggiunta di Regno Unito e Svizzera: in quale prospettiva è possibile infatti considerare un articolo europeo a partire dalle sole affiliazioni degli autori? D’altra parte, specie se si considera la letteratura biomedica (che conta un gran numero di studi multicentrici), si potrebbe pensare che i gruppi di ricerca presentino una moderata (se non addirittura elevata) eterogeneità geografica. In una situazione di questo tipo, sarebbe stato quantomai azzardato tentare di costituire un labelling geografico. In realtà, a partire da una semplice query capace di considerare tutti gli articoli con almeno un autore con affiliazione europea, i dati risultano piuttosto eloquenti.
