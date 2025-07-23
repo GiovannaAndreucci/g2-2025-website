@@ -128,7 +128,7 @@ L’esplosione di pubblicazioni riguardo ‘Immunology’ e 'Infectious disease�
 <div style="width: 1000px; height: 600px; margin: 10px auto; overflow: hidden;">
   <vegachart 
     schema-url="/g2-2025-website/assets/charts/increment_chart.json"
-    style="width: 100%; height: 100%; display: block;">
+    style="width: 75%; height: 75%; display: block;">
   </vegachart>
 </div>
 
