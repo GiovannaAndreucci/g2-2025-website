@@ -1,6 +1,6 @@
 {
   "config": {
-    "background": "#fbf3d3",
+    "background": "#e8ddb2",
     "view": {"stroke": "transparent", "width": 350, "height": 250},
     "axis": {
       "domainColor": "#5a3921",
