@@ -15,15 +15,20 @@ Funzionalità: classificazione di discipline, estrazione di concetti medici, que
 Efficienza: la versione 4B consente inferenza rapida anche su GPU con memoria limitata, grazie alla quantizzazione a 4-bit.
 
 # Step operativi della pipeline
-Pre-processing
+
+<strong> Pre-processing </strong>:
 Per ciascun articolo, sono stati aggregati titolo, abstract, keywords e journal in un unico testo, seguendo una priorità predefinita.
-Batch inference 
+
+<strong> Batch inference </strong>:
 Gli articoli sono stati processati in batch ottimizzati per la memoria GPU, sfruttando la quantizzazione per ridurre l’utilizzo di risorse.
-Prompting
+
+<strong> Prompting </strong>:
 Il modello riceve, per ciascun testo, un prompt specifico che lo istruisce a rispondere esclusivamente con il nome della disciplina medica principale.
-Gestione checkpoint
+
+<strong> Gestione checkpoint </strong>:
 È stato implementato un sistema di checkpoint automatici per gestire dataset di grandi dimensioni e consentire la ripresa dell’elaborazione in caso di interruzioni.
-Salvataggio e validazione
+
+<strong> Salvataggio validazione </strong>:
 I risultati vengono salvati progressivamente in file temporanei e, al termine, nel file finale che associa a ciascun articolo la disciplina estratta. 
 
 Questo approccio ha permesso di estrarre in modo efficiente e scalabile la disciplina medica caratterizzante di ciascun articolo, abilitando analisi aggregate sulle aree di ricerca prevalenti e sulle correlazioni con altre variabili del dataset.
