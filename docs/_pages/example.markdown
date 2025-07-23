@@ -26,7 +26,7 @@ Infine, collegando ogni articolo a quelli che lo citano e tenendo conto del nume
 
 ---
 
-# What's up, COI?
+<h1 class="text-center">What's up, COI?</h1>
 
 Come illustrato da Enrico Granieri, professore ordinario di Neurologia presso l’Università di Ferrara, dalla fine degli anni Ottanta nella ricerca medica si pone una crescente attenzione alla necessità di esplicitare i conflitti d’interesse nella pubblicazione di lavori scientifici, sotto la supervisione in primis dalle stesse case editrici, ma anche dei comitati etici, centrali per la gestione di questioni legate alla pratica medica e alla ricerca. Come si è adeguato il più grande archivio bibliografico online ad accesso libero al mondo, ossia PubMed, a queste nuove necessità?
 
