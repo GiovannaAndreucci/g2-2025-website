@@ -215,7 +215,7 @@ Osservando i dati per 51 delle aziende considerate, si può vedere che i due asp
 
 E come si distribuisce l’influenza delle aziende sul complesso delle aree mediche?
 
-{% include plotly-graph.html id="grafico2" file="grafico_1.html" height="600px" %}
+{% include plotly-graph.html id="grafico2" file="sankey_azi_aree" height="600px" %}
 
 In questo grafico è possibile osservare un equilibrio pressoché perfetto nell’interesse per l’oncologia, mentre neurologia vede una netta preminenza di Roche e Novartis.
 
@@ -240,7 +240,7 @@ Come è possibile osservare dal grafico, sono sei le comunità che superano la s
 
 Anche in questo caso, come già fatto per le aree mediche, abbiamo deciso di studiare l’influenza delle aziende più interessate alle comunità in oggetto.
 
-{% include plotly-graph.html id="grafico2" file="sankey_azi_aree.html" height="600px" %}
+{% include plotly-graph.html id="grafico3" file="sankey_comm_az.html" height="600px" %}
 
 Anche qui compaiono le ubique Novartis e Astrazeneca, lasciando spazio tuttavia ad aziende relativamente più piccole come l’italiana Chiesi Pharmaceuticals che, com’è possibile apprezzare nel grafico, supporta un numero considerevole di articoli ‘influenti’ all’interno della comunità 17.
 E tuttavia, come nel caso del Sankey precedente (che metteva in rapporto aziende ed aree mediche), notiamo come l’apporto delle aziende all’interno delle comunità sia piuttosto equilibrato, al netto delle pur interessanti differenze. 
