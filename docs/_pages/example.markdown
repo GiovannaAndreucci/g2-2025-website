@@ -125,10 +125,10 @@ Il grafico mostra dinamicamente il numero di articoli per le 10 aree mediche pi�
 L’esplosione di pubblicazioni riguardo ‘Immunology’ e 'Infectious disease’  si vede ancora meglio nel seguente line-plot. Il grafico riporta la differenza, rispetto all’anno precedente (e per categoria medica), nel numero di pubblicazioni.
 
 
-<div style="width: 1000px; height: 600px; margin: 10px auto; overflow: hidden;">
+<div style="width: 1000px; height: 500px; margin: 10px auto; overflow: hidden;">
   <vegachart 
     schema-url="/g2-2025-website/assets/charts/increment_chart.json"
-    style="width: 75%; height: 75%; display: block;">
+    style="width: 100%; height: 100%; display: block;">
   </vegachart>
 </div>
 
