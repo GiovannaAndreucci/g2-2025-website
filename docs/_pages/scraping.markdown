@@ -28,8 +28,11 @@ E’ stato utilizzato un approccio ibrido per l’inferenza del paese con una pr
 Questo ha portato ad una prima classificazione in 4 categorie: 
 
 <strong>Eu</strong>: articoli  a singola nazione europea
+
 <strong>Non Eu</strong>: articoli  a singola nazione non europea
+
 <strong>Ambigous</strong>: articoli con più di una nazione
+
 <strong>Unknown</strong>: articoli non coperti dalla classificazione
 
 Per i casi ambiguous sono si è effettuata un’ulteriore divisione in europei, non europei e nazionalità miste, parallelamente per i casi non classificati è stato applicato un modello Spacy per estrarre unità geografiche, GPE, ed aggiornare i dizionari per l’assegnazione.
