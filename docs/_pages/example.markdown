@@ -65,7 +65,7 @@ Chiaramente, lo scopo del nostro progetto non è denunciare un conflitto di inte
 <p>In una fase iniziale abbiamo interrogato il database di PubMed per recuperare tutti gli articoli rilevanti per la nostra indagine. Il primo ostacolo ha riguardato l’effettiva possibilità di isolare gli articoli con provenienza UE, con l’aggiunta di Regno Unito e Svizzera. D’altra parte, specie se si considera la letteratura biomedica (che conta un gran numero di studi multicentrici), si potrebbe pensare che i gruppi di ricerca presentino una moderata (se non addirittura elevata) eterogeneità geografica. In realtà, come mostrato dal grafico, la situazione parrebbe diversa.</p>
 
 <!-- Chart container with proper spacing -->
-<div style="width: 250px; height: 150px; margin: 20px auto; overflow: hidden;">
+<div style="width: 600px; height: 400px; margin: 20px auto; overflow: hidden;">
   <vegachart 
     schema-url="/g2-2025-website/assets/charts/geo_distribution_chart.json"
     style="width: 100%; height: 100%; display: block;">
@@ -79,7 +79,8 @@ Chiaramente, lo scopo del nostro progetto non è denunciare un conflitto di inte
   <vegachart schema-url="/g2-2025-website/assets/charts/COI_year.json" style="width: 20%; height: 20%"></vegachart>
 </div>
 
-Al generale incremento della produzione scientifica è associato un deciso aumento di articoli con COI statement dichiarato e una speculare diminuzione del volume di articoli con il campo COI non compilato. 
+Al generale incremento della produzione scientifica è associato un deciso aumento di articoli con COI statement dichiarato e una speculare diminuzione del volume di articoli con il campo COI non compilato.
+
 È inoltre possibile apprezzare un trend simile negli articoli per nazione, considerando solo i dieci paesi più produttivi.
 
 <div style="height: 400px">
