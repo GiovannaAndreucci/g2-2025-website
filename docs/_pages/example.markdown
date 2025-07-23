@@ -19,6 +19,14 @@ Abbiamo analizzato oltre un milione e mezzo di articoli scientifici, per scoprir
 
 <strong>Alla crescita del numero di articoli corrisponde una crescita nell’interesse delle aziende?</strong>
 
+<div style="height: 400px">
+  <vegachart schema-url="/g2-2025-website/assets/charts/perc_empty_tagged.json" style="width: 100%; height: 100%"></vegachart>
+</div>
+
+<div style="height: 400px">
+  <vegachart schema-url="/g2-2025-website/assets/charts/areas_empty_vs_tagged.json" style="width: 100%; height: 100%"></vegachart>
+</div>
+
 Dai dati raccolti, sembrerebbe di no. Ma se le aziende sono così “selettive”, in quali ambiti sono più coinvolte? 
 
 In questo articolo cercheremo di ricostruire il rapporto fra enti pubblici e privati da un lato e ricerca dall’altro, tramite l’analisi delle dichiarazioni pubbliche di conflitto d’interesse associate agli articoli (d’ora in poi abbreviato in <em>COI statements</em>).
