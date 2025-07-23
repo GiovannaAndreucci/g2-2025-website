@@ -78,16 +78,19 @@ transform: rotate(180deg);
   font-style: normal;
 }
 
-.chulapa-navbar {
+/* Main navbar font */
+.navbar-chulapa,
+.navbar-chulapa-fab,
+.navbar-nav,
+.navbar-brand,
+.nav-link,
+.dropdown-menu,
+.dropdown-item {
+    font-family: 'EB Garamond', serif !important;
     background: #f8e7a9 url('https://www.transparenttextures.com/patterns/cream-paper.png') fixed !important;
-    font-family: "EB Garamond", serif !important;
 }
 
-/* Footer */
-.chulapa-footer {
-    background: #f8e7a9 url('https://www.transparenttextures.com/patterns/cream-paper.png') fixed !important;
-    font-family: "EB Garamond", serif !important;
-}
+
 
 
 // iframe :
