@@ -29,6 +29,8 @@ strong {
   font-weight: 600;
 }
 
+
+
 // pattern full width
 .full-width-wrapper {
             width: 100vw;
@@ -75,6 +77,24 @@ transform: rotate(180deg);
   font-weight: 700;
   font-style: normal;
 }
+
+.chulapa-navbar {
+    background-image: url('https://www.transparenttextures.com/patterns/cream-paper.png') !important;
+    background-attachment: fixed !important;
+    background-color: #f8e7a9 !important;
+}
+
+/* Footer */
+.chulapa-footer {
+    background-image: url('https://www.transparenttextures.com/patterns/cream-paper.png') !important;
+    background-attachment: fixed !important;
+    background-color: #f8e7a9 !important;
+}
+
+.chulapa-navbar, .chulapa-footer {
+    font-family: "EB Garamond", serif !important;
+}
+
 
 // iframe :
 iframe {
