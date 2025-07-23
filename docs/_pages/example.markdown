@@ -32,7 +32,7 @@ Abbiamo analizzato oltre un milione e mezzo di articoli scientifici, per scoprir
 
 <div style="height: 400px; width: 100%;">
   <iframe 
-    src="/g2-2025-website/assets/charts/areas_empty_tagged.html"
+    src="/g2-2025-website/assets/charts/areas_empty_vs_tagged.html"
     width="100%"
     height="100%"
     frameborder="0"
@@ -50,21 +50,19 @@ In questo articolo cercheremo di ricostruire il rapporto fra enti pubblici e pri
 
 <h1 class="text-center">What's up, COI?</h1>
 
-Come illustrato da Enrico Granieri, professore ordinario di Neurologia presso l’Università di Ferrara, dalla fine degli anni Ottanta nella ricerca medica si pone una crescente attenzione alla necessità di esplicitare i conflitti d’interesse nella pubblicazione di lavori scientifici, sotto la supervisione in primis delle stesse case editrici, ma anche dei comitati etici, centrali per la gestione di questioni legate alla pratica medica e alla ricerca. Come si è adeguato il più grande archivio bibliografico online ad accesso libero al mondo, ossia PubMed, a queste nuove necessità?
+Come illustrato da Enrico Granieri, professore emerito di Neurologia presso l’Università di Ferrara, dalla fine degli anni Ottanta nella ricerca medica si pone una crescente attenzione alla necessità di esplicitare i conflitti d’interesse nella pubblicazione di lavori scientifici, sotto la supervisione in primis dalle stesse case editrici, ma anche dei comitati etici, centrali per la gestione di questioni legate alla pratica medica e alla ricerca.
+Come si è adeguato uno dei più grandi archivi bibliografici online ad accesso libero al mondo, ossia PubMed, a queste nuove necessità?
 
-Nato nel 1949 come archivio cartaceo presso la National Library of Medicine (NLM) a Bethesda, Maryland (USA), la prima versione online di PubMed risale a gennaio 1996. Meno di quindici anni dopo, nel 2010, erano oltre 17 milioni gli articoli reperibili tramite abstract, mentre gli articoli disponibili in formato integrale erano oltre 3,1 milioni. Ad oggi si stima che il numero degli articoli provenienti dalla sola letteratura biomedica (Medline) sia di circa 38 milioni. Questo archivio è inoltre dotato di un motore di ricerca che permette di filtrare gli articoli per autore, rivista, o testo libero.
+Dal 2017 la piattaforma consente ai ricercatori di inserire un COI statement direttamente sulla pagina dell’articolo. Tale inclusione è stata un passo importante nella direzione citata dal prof. Granieri, dal momento che costituisce un nuovo strumento fondamentale per la valutazione preliminare di uno studio in sede di ricerca o di decisioni cliniche, sebbene non sia incluso in tutti gli articoli.
+Vogliamo scoprire in che misura questo dato pubblico permetta di ricostruire i rapporti tra aziende e sedi della ricerca, rapporti per loro natura facili oggetto di strumentalizzazioni politiche.
 
-Nel 2016 un gruppo di senatori del Congresso USA, su richiesta di diversi scienziati e organizzazioni statunitensi, ha chiesto alla NLM di aggiungere il COI statement degli autori alle informazioni indicizzate per gli articoli sul loro motore di ricerca. Tale inclusione, implementata a partire dall’8 marzo 2017, è stata un passo importante nella direzione citata dal prof. Granieri, dal momento che costituisce un nuovo strumento fondamentale per la valutazione preliminare di uno studio in sede di ricerca o di decisioni cliniche, sebbene non sia incluso in tutti gli articoli.
-
-Il nostro obiettivo è proprio studiare questo nuovo elemento dell’archivio PubMed negli articoli europei dal suo inserimento nel 2017 fino al 2024, analizzandone la distribuzione rispetto alle discipline mediche. Inoltre vogliamo scoprire in che misura questo dato pubblico permetta di ricostruire i rapporti tra aziende e sedi della ricerca, rapporti per loro natura facile oggetto di strumentalizzazioni politiche. Queste operazioni sono rese possibili da tecniche di Big Data Analysis, che automatizzano il reperimento e l’analisi dell'enorme mole di dati necessari.
-
-Chiaramente, lo scopo del nostro progetto non è denunciare un conflitto di interessi che, come detto sopra, è pubblicamente accessibile a chiunque acceda al sito di PubMed. Il nostro scopo è quello di presentare una prospettiva inedita sulla vasta produzione scientifica recente, che possa stimolare lo sviluppo di nuove traiettorie di ricerca e aiutare gli utenti a orientarsi nel mare magnum delle pubblicazioni.
+Chiaramente, lo scopo del nostro progetto non è denunciare un conflitto di interessi che, come detto sopra, è pubblicamente accessibile a chiunque acceda al sito di PubMed. Il nostro scopo è quello di presentare una prospettiva sulla vasta produzione scientifica recente, che possa stimolare lo sviluppo di nuove traiettorie di ricerca e aiutare gli utenti a orientarsi nel mare magnum delle pubblicazioni.
 
 ---
 
 <h1 class="text-center">Oh COI, where art thou?</h1>
 
-Attraverso l’API di Entrez (il motore di ricerca adottato dalle più importanti banche dati di letteratura biomedica) è stato possibile interrogare il database di PubMed per recuperare tutti gli articoli rilevanti per la nostra indagine. Il primo ostacolo ha riguardato l’effettiva possibilità di isolare gli articoli con provenienza UE, con l’aggiunta di Regno Unito e Svizzera: in quale prospettiva è possibile infatti considerare un articolo europeo a partire dalle sole affiliazioni degli autori? D’altra parte, specie se si considera la letteratura biomedica (che conta un gran numero di studi multicentrici), si potrebbe pensare che i gruppi di ricerca presentino una moderata (se non addirittura elevata) eterogeneità geografica. In una situazione di questo tipo, sarebbe stato quantomai azzardato tentare di costituire un labelling geografico. In realtà, a partire da una semplice query capace di considerare tutti gli articoli con almeno un autore con affiliazione europea, i dati risultano piuttosto eloquenti.
+In una fase iniziale abbiamo interrogato il database di PubMed per recuperare tutti gli articoli rilevanti per la nostra indagine. Il primo ostacolo ha riguardato l’effettiva possibilità di isolare gli articoli con provenienza UE, con l’aggiunta di Regno Unito e Svizzera. D’altra parte, specie se si considera la letteratura biomedica (che conta un gran numero di studi multicentrici), si potrebbe pensare che i gruppi di ricerca presentino una moderata (se non addirittura elevata) eterogeneità geografica. In realtà, come mostrato dal grafico, la situazione parrebbe diversa.
 
 <div style="height: 400px">
   <vegachart schema-url="/g2-2025-website/assets/charts/geo_distribution_chart.json" style="width: 50%; height: 50%"></vegachart>
