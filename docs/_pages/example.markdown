@@ -106,6 +106,15 @@ La Romania da questo punto di vista detiene il record di articoli con COI dichia
 
 <h1 class="text-center">What did you major in, COI?</h1>
 
+Una volta ottenuto il nostro dataset, il problema è stato quello di classificare gli articoli per disciplina medica.
+In un arco temporale di non più di dieci anni sono centinaia le nuove malattie (si pensi banalmente al COVID) che richiedono approcci terapeutici innovativi che sfuggono alle classificazioni precedenti. Un altro problema da non sottovalutare è la mancanza di standardizzazione tra terminologia medica.
+
+Il nostro problema tuttavia non era semplicemente quello di arrivare alle ‘foglie dell’albero’, quanto piuttosto di ricercare i ‘rami principali’. 
+
+In un contesto in cui la ridondanza di termini specifici può fuorviare, è necessario un sistema in grado di  compiere un’ astrazione di alto livello. Per questo scopo abbiamo sfruttato le potenzialità di MedGemma, un LLM sviluppato da Google e specializzato sui testi medici.
+
+Qui i nostri primi risultati.
+
 <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/24243729"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/24243729/thumbnail" width="100%" alt="bar-chart-race visualization" /></noscript></div>
  
 
