@@ -1,9 +1,53 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "config": {
+    "area": {
+      "color": "#6b4a32",
+      "opacity": 0.8
+    },
+    "axis": {
+      "domainColor": "#5a3921",
+      "gridColor": "#5a3921",
+      "gridOpacity": 0.2,
+      "labelColor": "black",
+      "labelFontWeight": "bold",
+      "tickColor": "#5a3921",
+      "titleColor": "black",
+      "titleFont": "EB Garamond"
+    },
+    "background": "#fbf3d3",
+    "bar": {
+      "color": "#6b4a32",
+      "opacity": 0.8
+    },
+    "legend": {
+      "labelColor": "black",
+      "labelFont": "EB Garamond",
+      "labelFontWeight": "bold",
+      "titleColor": "black",
+      "titleFont": "EB Garamond",
+      "titleFontWeight": "bold"
+    },
+    "line": {
+      "color": "#6b4a32",
+      "opacity": 0.8
+    },
+    "mark": {
+      "color": "#6b4a32",
+      "opacity": 0.8
+    },
+    "point": {
+      "color": "#6b4a32",
+      "opacity": 0.8
+    },
+    "title": {
+      "color": "black",
+      "font": "EB Garamond"
+    },
     "view": {
-      "continuousHeight": 300,
-      "continuousWidth": 300
+      "height": 250,
+      "stroke": null,
+      "width": 350
     }
   },
   "data": {
@@ -496,41 +540,65 @@
   "encoding": {
     "color": {
       "field": "normalized_countries",
+      "sort": [
+        "poland",
+        "italy",
+        "netherlands",
+        "sweden",
+        "united kingdom",
+        "germany",
+        "spain",
+        "switzerland",
+        "belgium",
+        "france"
+      ],
       "title": "Paese",
       "type": "nominal"
     },
     "tooltip": [
       {
         "field": "normalized_countries",
+        "title": "Paese",
         "type": "nominal"
       },
       {
         "field": "Year",
+        "title": "Anno",
         "type": "quantitative"
       },
       {
         "field": "disclosure_percent",
+        "format": ".1f",
+        "title": "% disclosure",
         "type": "quantitative"
       },
       {
         "field": "n_articles",
+        "title": "N. articoli",
         "type": "quantitative"
       }
     ],
     "x": {
+      "axis": {
+        "format": "d",
+        "labelAngle": -30,
+        "labelFontWeight": "bold"
+      },
       "field": "Year",
       "title": "Anno",
-      "type": "ordinal"
+      "type": "quantitative"
     },
     "y": {
       "field": "disclosure_percent",
-      "title": "% articoli con disclosure",
+      "title": "Articoli con disclosure",
       "type": "quantitative"
     }
   },
   "height": 400,
   "mark": {
+    "interpolate": "monotone",
     "point": true,
+    "size": 3,
     "type": "line"
   },
   "title": "Trend della Disclosure nei Paesi europei (Top 10)",

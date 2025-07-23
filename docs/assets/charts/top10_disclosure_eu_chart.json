@@ -1,0 +1,144 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "config": {
+    "area": {
+      "color": "#6b4a32",
+      "opacity": 0.8
+    },
+    "axis": {
+      "domainColor": "#5a3921",
+      "gridColor": "#5a3921",
+      "gridOpacity": 0.2,
+      "labelColor": "black",
+      "labelFontWeight": "bold",
+      "tickColor": "#5a3921",
+      "titleColor": "black",
+      "titleFont": "EB Garamond"
+    },
+    "background": "#fbf3d3",
+    "bar": {
+      "color": "#6b4a32",
+      "opacity": 0.8
+    },
+    "legend": {
+      "labelColor": "black",
+      "labelFont": "EB Garamond",
+      "titleColor": "black",
+      "titleFont": "EB Garamond"
+    },
+    "line": {
+      "color": "#6b4a32",
+      "opacity": 0.8
+    },
+    "mark": {
+      "color": "#6b4a32",
+      "opacity": 0.8
+    },
+    "point": {
+      "color": "#6b4a32",
+      "opacity": 0.8
+    },
+    "title": {
+      "color": "black",
+      "font": "EB Garamond"
+    },
+    "view": {
+      "height": 250,
+      "stroke": null,
+      "width": 350
+    }
+  },
+  "data": {
+    "name": "data-ef656ff67ddb15f66cd0fbdac69f121a"
+  },
+  "datasets": {
+    "data-ef656ff67ddb15f66cd0fbdac69f121a": [
+      {
+        "disclosure_percent": 66.71,
+        "normalized_countries": "romania",
+        "total_articles": 34956
+      },
+      {
+        "disclosure_percent": 60.04,
+        "normalized_countries": "latvia",
+        "total_articles": 4484
+      },
+      {
+        "disclosure_percent": 59.36,
+        "normalized_countries": "poland",
+        "total_articles": 145779
+      },
+      {
+        "disclosure_percent": 59.22,
+        "normalized_countries": "lithuania",
+        "total_articles": 10845
+      },
+      {
+        "disclosure_percent": 58.84,
+        "normalized_countries": "slovakia",
+        "total_articles": 11519
+      },
+      {
+        "disclosure_percent": 57.97,
+        "normalized_countries": "norway",
+        "total_articles": 2101
+      },
+      {
+        "disclosure_percent": 54.69,
+        "normalized_countries": "slovenia",
+        "total_articles": 17841
+      },
+      {
+        "disclosure_percent": 54.59,
+        "normalized_countries": "hungary",
+        "total_articles": 34243
+      },
+      {
+        "disclosure_percent": 51.7,
+        "normalized_countries": "austria",
+        "total_articles": 86746
+      },
+      {
+        "disclosure_percent": 51.35,
+        "normalized_countries": "luxembourg",
+        "total_articles": 5731
+      }
+    ]
+  },
+  "encoding": {
+    "tooltip": [
+      {
+        "field": "normalized_countries",
+        "title": "Paese",
+        "type": "nominal"
+      },
+      {
+        "field": "disclosure_percent",
+        "title": "% disclosure",
+        "type": "quantitative"
+      },
+      {
+        "field": "total_articles",
+        "title": "N. articoli",
+        "type": "quantitative"
+      }
+    ],
+    "x": {
+      "field": "disclosure_percent",
+      "title": "",
+      "type": "quantitative"
+    },
+    "y": {
+      "field": "normalized_countries",
+      "sort": "-x",
+      "title": "",
+      "type": "nominal"
+    }
+  },
+  "height": 400,
+  "mark": {
+    "type": "bar"
+  },
+  "title": "Top 10 Paesi Europei per Percentuale di Articoli con Disclosure (2017\u20132024)",
+  "width": 600
+}

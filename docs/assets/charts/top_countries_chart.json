@@ -1,95 +1,157 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "config": {
+    "area": {
+      "color": "#6b4a32",
+      "opacity": 0.8
+    },
+    "axis": {
+      "domainColor": "#5a3921",
+      "gridColor": "#5a3921",
+      "gridOpacity": 0.2,
+      "labelColor": "black",
+      "labelFontWeight": "bold",
+      "tickColor": "#5a3921",
+      "titleColor": "black",
+      "titleFont": "EB Garamond"
+    },
+    "background": "#fbf3d3",
+    "bar": {
+      "color": "#6b4a32",
+      "opacity": 0.8
+    },
+    "legend": {
+      "labelColor": "black",
+      "labelFont": "EB Garamond",
+      "titleColor": "black",
+      "titleFont": "EB Garamond"
+    },
+    "line": {
+      "color": "#6b4a32",
+      "opacity": 0.8
+    },
+    "mark": {
+      "color": "#6b4a32",
+      "opacity": 0.8
+    },
+    "point": {
+      "color": "#6b4a32",
+      "opacity": 0.8
+    },
+    "title": {
+      "color": "black",
+      "font": "EB Garamond"
+    },
     "view": {
-      "continuousHeight": 300,
-      "continuousWidth": 300
+      "height": 250,
+      "stroke": null,
+      "width": 350
     }
   },
   "data": {
-    "name": "data-cf57a65b23b2537f57a247aa8a4be15a"
+    "name": "data-a6a9137772edff013acf765dc50e8293"
   },
   "datasets": {
-    "data-cf57a65b23b2537f57a247aa8a4be15a": [
+    "data-a6a9137772edff013acf765dc50e8293": [
       {
         "count": 529904,
-        "country": "united kingdom"
+        "country": "united kingdom",
+        "percent": 14.96
       },
       {
         "count": 492103,
-        "country": "germany"
+        "country": "germany",
+        "percent": 13.89
       },
       {
         "count": 475212,
-        "country": "italy"
+        "country": "italy",
+        "percent": 13.41
       },
       {
         "count": 336918,
-        "country": "france"
+        "country": "france",
+        "percent": 9.51
       },
       {
         "count": 310379,
-        "country": "spain"
+        "country": "spain",
+        "percent": 8.76
       },
       {
         "count": 232294,
-        "country": "netherlands"
+        "country": "netherlands",
+        "percent": 6.56
       },
       {
         "count": 162632,
-        "country": "switzerland"
+        "country": "switzerland",
+        "percent": 4.59
       },
       {
         "count": 145779,
-        "country": "poland"
+        "country": "poland",
+        "percent": 4.11
       },
       {
         "count": 136447,
-        "country": "sweden"
+        "country": "sweden",
+        "percent": 3.85
       },
       {
         "count": 118155,
-        "country": "belgium"
+        "country": "belgium",
+        "percent": 3.34
       },
       {
         "count": 105454,
-        "country": "denmark"
+        "country": "denmark",
+        "percent": 2.98
       },
       {
         "count": 86882,
-        "country": "portugal"
+        "country": "portugal",
+        "percent": 2.45
       },
       {
         "count": 86746,
-        "country": "austria"
+        "country": "austria",
+        "percent": 2.45
       },
       {
         "count": 69100,
-        "country": "greece"
+        "country": "greece",
+        "percent": 1.95
       },
       {
         "count": 62047,
-        "country": "ireland"
+        "country": "ireland",
+        "percent": 1.75
       },
       {
         "count": 57555,
-        "country": "finland"
+        "country": "finland",
+        "percent": 1.62
       },
       {
         "count": 46429,
-        "country": "czech republic"
+        "country": "czech republic",
+        "percent": 1.31
       },
       {
         "count": 34956,
-        "country": "romania"
+        "country": "romania",
+        "percent": 0.99
       },
       {
         "count": 34243,
-        "country": "hungary"
+        "country": "hungary",
+        "percent": 0.97
       },
       {
         "count": 19424,
-        "country": "croatia"
+        "country": "croatia",
+        "percent": 0.55
       }
     ]
   },
@@ -97,22 +159,38 @@
     "tooltip": [
       {
         "field": "country",
+        "title": "Paese",
         "type": "nominal"
       },
       {
         "field": "count",
+        "title": "Articoli",
+        "type": "quantitative"
+      },
+      {
+        "field": "percent",
+        "title": "% sul totale",
         "type": "quantitative"
       }
     ],
     "x": {
+      "axis": {
+        "format": ",d"
+      },
       "field": "count",
-      "title": "Numero di articoli",
+      "scale": {
+        "domain": [
+          0,
+          556399.2000000001
+        ]
+      },
+      "title": "",
       "type": "quantitative"
     },
     "y": {
       "field": "country",
       "sort": "-x",
-      "title": "Paese",
+      "title": "",
       "type": "nominal"
     }
   },
@@ -120,6 +198,6 @@
   "mark": {
     "type": "bar"
   },
-  "title": "Top 20 Paesi europei per Numero di Articoli",
+  "title": "Top 20 Paesi Europei per Numero di Articoli",
   "width": 600
 }

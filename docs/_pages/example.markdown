@@ -102,7 +102,7 @@ La Romania da questo punto di vista detiene il record di articoli con COI dichia
 
 <div style="width: 900px; height: 600px; margin: 10px auto; overflow: hidden;">
   <vegachart 
-    schema-url="/g2-2025-website/assets/charts/top_countries_chart.json"
+    schema-url="/g2-2025-website/assets/charts/top10_disclosure_eu_chart.json"
     style="width: 100%; height: 100%; display: block;">
   </vegachart>
 </div>
