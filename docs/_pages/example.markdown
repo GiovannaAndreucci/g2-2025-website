@@ -106,7 +106,7 @@ La Romania da questo punto di vista detiene il record di articoli con COI dichia
 
 e il secondo grafico sankey con i colori giusti
 
-{% include plotly-graph.html id="grafico2" file="sankey_azar.html" height="600px" %}
+{% include plotly-graph.html id="grafico2" file="sankey_azi_aree.html" height="600px" %}
 
 
 
