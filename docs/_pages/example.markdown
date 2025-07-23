@@ -86,8 +86,11 @@ Al generale incremento della produzione scientifica è associato un deciso aumen
 
 È inoltre possibile apprezzare un trend simile negli articoli per nazione, considerando solo i dieci paesi più produttivi.
 
-<div style="height: 400px">
-  <vegachart schema-url="/g2-2025-website/assets/charts/trend_disclosure_eu_chart.json" style="width: 100%; height: 100%"></vegachart>
+<div style="width: 600px; height: 600px; margin: 20px auto; overflow: hidden;">
+  <vegachart 
+    schema-url="/g2-2025-website/assets/charts/trend_disclosure_eu_chart.json"
+    style="width: 100%; height: 100%; display: block;">
+  </vegachart>
 </div>
 
 La produzione scientifica polacca in questo senso mostra un incremento percentuale decisamente superiore alla media. A tal proposito è possibile riscontrare un elevato numero di COI dichiarato in buona parte dei paesi dell’Est Europa (oltre alla Norvegia), come osservabile nella mappa sottostante.
