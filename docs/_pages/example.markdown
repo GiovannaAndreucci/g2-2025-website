@@ -157,9 +157,22 @@ Come mostrato dal grafico qui sotto, gli articoli del secondo tipo, che citano q
 </div>
 
 
-Abbiamo sottoposto questa lista preliminare ad un post-processing semi-automatico, con due obiettivi principali. Il primo, quello di uniformare i nomi delle aziende, soggetti a comuni errori e variazioni di grafia, riportandoli ad una sola forma standard. Per farlo, abbiamo creato dei pattern ad hoc per le aziende farmaceutiche, a partire dalle top 40 di un dataset contenente i nomi delle più grandi, e aggiungendo successivamente quelle che emergevano da una verifica manuale, fino ad arrivare ad un totale di 121 pattern. 
+Questa tendenza sembra essere proporzionale all’aumento generale delle pubblicazioni in cui la dichiarazione COI è presente, a loro volta aumentate molto rapidamente durante il periodo di nostro interesse, mostrando di nuovo una progressiva adeguazione a questa integrazione del sito. Si mantiene, però, pressoché costante negli anni l’incidenza dei due tipi di articoli sul totale: approssimativamente, durante gli anni che abbiamo osservato, una dichiarazione su dieci cita effettivamente delle aziende, mentre le restanti nove non hanno niente da dichiarare. 
 
-Il secondo obiettivo è stato quello di eliminare ciò che, per sua natura, sapevamo potesse verosimilmente costituire un errore nell’estrazione: ad esempio, parole con pochi caratteri (fino a due), o termini poco frequenti nel nostro corpus. Anche termini molto frequenti come “University” o “Pharma”, ma isolati erroneamente da espressioni più complesse, sono stati rimossi manualmente.  
+Ma come si distribuiscono le 121 aziende identificate rispetto a questi articoli?
+
+Nel grafico sottostante si vede come poche aziende siano presenti nella maggior parte degli articoli, accanto a molte altre che appaiono ognuna in pochi articoli. Le prime cinque aziende, in particolare, si distaccano dalle altre per il gran numero di articoli in cui sono presenti, mentre per le successive la frequenza cala rapidamente, con la maggior parte delle aziende presente in meno di 5.000 articoli ciascuna, grosso modo un decimo delle top 5.
+
+<div style="height: 400px; width: 100%;">
+  <iframe 
+    src="/g2-2025-website/assets/charts/company_freq_distrib_scatter.html"
+    width="100%"
+    height="100%"
+    frameborder="0"
+    style="border: none;"
+    title="Aziende cit line">
+  </iframe>
+</div>
 
 Giunti a questo punto, gli articoli erano divisi in due categorie: da un lato, quelli senza alcun tag associato, ossia senza alcun conflitto di interessi risultante dalla nostra analisi; dall’altro, quelli con associati tag di aziende e/o enti pubblici, con cui uno o più autori hanno dichiarato di avere rapporti che possono costituire in qualche modo un conflitto d’interesse.
 
