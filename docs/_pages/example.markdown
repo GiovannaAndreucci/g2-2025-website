@@ -75,7 +75,7 @@ Chiaramente, lo scopo del nostro progetto non è denunciare un conflitto di inte
 <p style="clear: both; margin-top: 20px;">Notiamo come il 65% circa degli articoli presentino un'elevata omogeneità a livello di affiliazioni (queste ultime sono tutte riferibili a un unico stato europeo). Un altro 20% consta di affiliazioni ambigue su scala nazionale (ma comunque da considerarsi tutte europee). Più del 10% riflettono un'ambiguità che esula dai confini europei, mentre meno del 5% presenta almeno un autore europeo, risultando però fortemente sbilanciato verso affiliazioni non europee. Abbiamo quindi deciso di valutare l'effettiva compilazione del campo COI; su questo frangente i risultati sembrano essere in linea con quanto ci si aspetterebbe.</p>
 
 
-<div style="width: 950px; height: 600px; margin: 20px auto; overflow: hidden;">
+<div style="width: 950px; height: 600px; margin: 10px auto; overflow: hidden;">
   <vegachart 
     schema-url="/g2-2025-website/assets/charts/COI_year.json"
     style="width: 100%; height: 100%; display: block;">
@@ -86,7 +86,7 @@ Al generale incremento della produzione scientifica è associato un deciso aumen
 
 È inoltre possibile apprezzare un trend simile negli articoli per nazione, considerando solo i dieci paesi più produttivi.
 
-<div style="width: 900px; height: 600px; margin: 20px auto; overflow: hidden;">
+<div style="width: 900px; height: 600px; margin: 10px auto; overflow: hidden;">
   <vegachart 
     schema-url="/g2-2025-website/assets/charts/trend_disclosure_eu_chart.json"
     style="width: 100%; height: 100%; display: block;">
