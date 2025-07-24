@@ -181,7 +181,7 @@ In the chart below, we show the top companies by frequency. Notably, the top fiv
 </div>
 
 
-<div style="width: 1000px; height: 350px; margin: 20px -100px 5px 100px ; overflow: hidden;">
+<div style="width: 1000px; height: 600px; margin: 20px -100px 5px 100px ; overflow: hidden;">
   <vegachart 
     schema-url="/g2-2025-website/assets/charts/donut_top5_coverage.json"
     style="width: 100%; height: 100%;">
