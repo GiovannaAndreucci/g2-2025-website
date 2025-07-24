@@ -148,7 +148,7 @@ We were able to distinguish two classes of articles: on one side, those whose CO
 
 As shown in the chart below, the number of the latter—articles that explicitly mention a company in their COI—has grown steadily over the observed period, <strong>rising from about 10,000 in 2017 to nearly 35,000 in 2024</strong>. This increase may reflect the gradual adoption of this new PubMed feature.
 
-<div style="width: 650px; height: 600px; margin: 20px -80px 5px 100px; overflow: hidden;">
+<div style="width: 650px; height: 600px; margin: 20px auto; overflow: hidden;">
   <vegachart 
     schema-url="/g2-2025-website/assets/charts/nb_tagged_articles_year.json"
     style="width: 100%; height: 100%; display: block;">
@@ -164,7 +164,7 @@ However, the proportion between the two types of articles has remained relativel
 As shown in the chart below, a small number of companies appear in the majority of articles, while many others are mentioned only occasionally.
 In particular, the top five companies stand out for the sheer volume of articles they are cited in, whereas the frequency drops off quickly for the others: <strong>most companies appear in fewer than 5,000 articles, roughly one-tenth the number of the top five (5)</strong>.
 
-<div style="width: 1000px; height: 600px; margin: 20px 100px 20px -100px ; overflow: hidden;">
+<div style="width: 1000px; height: 600px; margin: 20px auto ; overflow: hidden;">
   <vegachart 
     schema-url="/g2-2025-website/assets/charts/company_freq_distrib_scatter.json"
     style="width: 100%; height: 100%;">
@@ -173,7 +173,7 @@ In particular, the top five companies stand out for the sheer volume of articles
 
 In the chart below, we show the top companies by frequency. Notably, the top five companies each appear in nearly 25% of the articles in the dataset (with the leading company reaching 28% on its own). In fact, as the chart illustrates, <strong>more than 50% of the articles mention at least one of these top five companies</strong>.
 
-<div style="width: 1000px; height: 600px; margin: 20px 100px 20px -100px ; overflow: hidden;">
+<div style="width: 1000px; height: 600px; margin: 20px auto ; overflow: hidden;">
   <vegachart 
     schema-url="/g2-2025-website/assets/charts/most_frequent_companies_bar.json"
     style="width: 100%; height: 100%;">
@@ -181,7 +181,7 @@ In the chart below, we show the top companies by frequency. Notably, the top fiv
 </div>
 
 
-<div style="width: 1000px; height: 600px; margin: 20px -100px 5px 100px ; overflow: hidden;">
+<div style="width: 1000px; height: 600px; margin: 20px auto ; overflow: hidden;">
   <vegachart 
     schema-url="/g2-2025-website/assets/charts/donut_top5_coverage.json"
     style="width: 100%; height: 100%;">
