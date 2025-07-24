@@ -6,29 +6,29 @@ header_type: hero #base, post, hero,image, splash
 header_img: assets/images/dict.png
 ---
 
-Per attribuire una disciplina medica a ciascun articolo del dataset, abbiamo sfruttato le potenzialità di un sistema AI generativo specializzato in testo medico, pubblicato da Google a maggio 2025, MedGemma 4B (<a href="https://medgemma.org/" style="color:#222; text-decoration:underline;">https://medgemma.org/</a>). MedGemma 4B è un modello di linguaggio di grandi dimensioni (LLM, 4 miliardi di parametri) ottimizzato per il dominio biomedico e scientifico, capace di astrazione semantica e classificazione contestuale. La sua forza principale consiste nel non limitarsi all’analisi di singole parole chiave, ma di cogliere il contesto dell’intero abstract, restituendo una classificazione coerente con il contenuto reale del testo.
+To assign a medical discipline to each article in the dataset, we leveraged the capabilities of a generative AI system specialized in medical text, published by Google in May 2025, MedGemma 4B (<a href="https://medgemma.org/" style="color:#222; text-decoration:underline;">https://medgemma.org/</a>). MedGemma 4B is a large language model (LLM, 4 billion parameters) optimized for biomedical and scientific domains, capable of semantic abstraction and contextual classification. Its main strength lies in going beyond the analysis of individual keywords, capturing the context of the entire abstract and providing a classification consistent with the actual content of the text.
 
-# Dettagli sul modello
-Dimensione: 4 miliardi di parametri, addestrati su un ampio corpus di testi biomedici e scientifici.
-Architettura: transformer, con supporto nativo per prompt “chat” e comprensione contestuale avanzata.
-Funzionalità: classificazione di discipline, estrazione di concetti medici, question answering, robustezza su testi misti.
-Efficienza: la versione 4B consente inferenza rapida anche su GPU con memoria limitata, grazie alla quantizzazione a 4-bit.
+# Model details
+Size: 4 billion parameters, trained on a large corpus of biomedical and scientific texts.
+Architecture: transformer, with native support for “chat” prompts and advanced contextual understanding.
+Features: discipline classification, extraction of medical concepts, question answering, robustness on mixed texts.
+Efficiency: the 4B version allows fast inference even on GPUs with limited memory, thanks to 4-bit quantization.
 
-# Step operativi della pipeline
+# Operational steps of the pipeline
 
-<strong> Pre-processing </strong>:
-Per ciascun articolo, sono stati aggregati titolo, abstract, keywords e journal in un unico testo, seguendo una priorità predefinita.
+<strong>Pre-processing</strong>:  
+For each article, title, abstract, keywords, and journal were aggregated into a single text, following a predefined priority.
 
-<strong> Batch inference </strong>:
-Gli articoli sono stati processati in batch ottimizzati per la memoria GPU, sfruttando la quantizzazione per ridurre l’utilizzo di risorse.
+<strong>Batch inference</strong>:  
+Articles were processed in batches optimized for GPU memory, leveraging quantization to reduce resource usage.
 
-<strong> Prompting </strong>:
-Il modello riceve, per ciascun testo, un prompt specifico che lo istruisce a rispondere esclusivamente con il nome della disciplina medica principale.
+<strong>Prompting</strong>:  
+For each text, the model receives a specific prompt instructing it to reply exclusively with the name of the main medical discipline.
 
-<strong> Gestione checkpoint </strong>:
-È stato implementato un sistema di checkpoint automatici per gestire dataset di grandi dimensioni e consentire la ripresa dell’elaborazione in caso di interruzioni.
+<strong>Checkpoint management</strong>:  
+An automatic checkpoint system was implemented to handle large datasets and enable resumption in case of interruptions.
 
-<strong> Salvataggio validazione </strong>:
-I risultati vengono salvati progressivamente in file temporanei e, al termine, nel file finale che associa a ciascun articolo la disciplina estratta. 
+<strong>Validation saving</strong>:  
+Results are progressively saved in temporary files and, at the end, in the final file that associates each article with the extracted discipline.
 
-Questo approccio ha permesso di estrarre in modo efficiente e scalabile la disciplina medica caratterizzante di ciascun articolo, abilitando analisi aggregate sulle aree di ricerca prevalenti e sulle correlazioni con altre variabili del dataset.
+This approach enabled efficient and scalable extraction of the main medical discipline characterizing each article, allowing for aggregate analyses of predominant research areas and correlations with other dataset variables.
