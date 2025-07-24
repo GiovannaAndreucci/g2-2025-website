@@ -18,3 +18,5 @@ Even though it is commonly considered something vicious, a conflict of interest 
 By looking at it closely, we can understand which fields of study have been under the spotlight in recent years and better grasp the direction the world is heading.
  
 That’s why you don’t need to be coy, COI!
+
+![](assets/images/proj.jpg)
