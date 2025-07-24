@@ -19,26 +19,22 @@ We analyzed over one and a half million scientific articles and found that the s
 
 <strong>Does the rise in the number of articles correspond to an increased interest from companies?</strong>
 
-<div style="height: 400px; width: 100%;">
-  <iframe 
-    src="/g2-2025-website/assets/charts/perc_empty_tagged.html"
-    width="100%"
-    height="100%"
-    frameborder="0"
-    style="border: none;"
-    title="Percentuale_COI">
-  </iframe>
+perc_empty_tagged.html
+
+areas_empty_vs_tagged.html
+
+<div style="width: 600px; height: 500px; margin: 20px auto; overflow: hidden;">
+  <vegachart 
+    schema-url="/g2-2025-website/assets/charts/perc_empty_tagged.json"
+    style="width: 100%; height: 100%; display: block;">
+  </vegachart>
 </div>
 
-<div style="height: 400px; width: 600px;">
-  <iframe 
-    src="/g2-2025-website/assets/charts/areas_empty_vs_tagged.html"
-    width="100%"
-    height="100%"
-    frameborder="0"
-    style="border: none;"
-    title="Aree COI vuoto/non vuoto">
-  </iframe>
+<div style="width: 600px; height: 500px; margin: 20px auto; overflow: hidden;">
+  <vegachart 
+    schema-url="/g2-2025-website/assets/charts/areas_empty_vs_tagged.json"
+    style="width: 100%; height: 100%; display: block;">
+  </vegachart>
 </div>
 
 
