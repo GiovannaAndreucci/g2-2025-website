@@ -14,10 +14,10 @@ plotly: true
     <img src="{{ site.baseurl }}/assets/images/header copy.svg" alt="sbd-pattern" class="full-width-image">
 </div>
 
-In un mondo che cresce di continuo e in maniera esponenziale come quello della ricerca medica, avere un quadro di insieme su alcuni aspetti può essere un’impresa ardua o addirittura impossibile. Fra questi, il fenomeno del coinvolgimento delle aziende nella ricerca, che si cela dietro alla dichiarazione del Conflict of Interest (COI) associata ad una pubblicazione.
-Abbiamo analizzato oltre un milione e mezzo di articoli scientifici, per scoprire che quelli con COI statement dichiarato sono passati dal 20% ad oltre il 70% tra il 2017 e il 2024, dimostrando come il suo uso stia diventando sempre più diffuso ed (apparentemente) trasparente.
+In a world that is growing continuously and exponentially—such as that of medical research—gaining an overarching view of certain aspects can be a daunting, if not impossible, task. Among these is the phenomenon of corporate involvement in research, which often hides behind the declaration of a Conflict of Interest (COI) associated with a publication.
+We analyzed over one and a half million scientific articles and found that the share of publications with a declared COI statement rose from 20% to over 70% between 2017 and 2024, showing how its use is becoming increasingly common and (seemingly) transparent.
 
-<strong>Alla crescita del numero di articoli corrisponde una crescita nell’interesse delle aziende?</strong>
+<strong>Does the rise in the number of articles correspond to an increased interest from companies?</strong>
 
 <div style="height: 400px; width: 100%;">
   <iframe 
@@ -42,27 +42,26 @@ Abbiamo analizzato oltre un milione e mezzo di articoli scientifici, per scoprir
 </div>
 
 
-Dai dati raccolti, sembrerebbe di no. Ma se le aziende sono così “selettive”, in quali ambiti sono più coinvolte? 
-
-In questo articolo cercheremo di ricostruire il rapporto fra enti pubblici e privati da un lato e ricerca dall’altro, tramite l’analisi delle dichiarazioni pubbliche di conflitto d’interesse associate agli articoli (d’ora in poi abbreviato in <em>COI statements</em>).
+Based on the data collected, the answer appears to be no. But if companies are so “selective,” in which fields are they more actively involved?
+In this article, we aim to reconstruct the relationship between public and private entities on one side, and research on the other, through the analysis of public conflict of interest declarations associated with scientific articles (hereafter referred to as <em>COI statements</em>).
 
 ---
 
 <h1 class="text-center">What's up, COI?</h1>
 
-Come illustrato da Enrico Granieri, professore emerito di Neurologia presso l’Università di Ferrara, dalla fine degli anni Ottanta nella ricerca medica si pone una crescente attenzione alla necessità di esplicitare i conflitti d’interesse nella pubblicazione di lavori scientifici, sotto la supervisione in primis dalle stesse case editrici, ma anche dei comitati etici, centrali per la gestione di questioni legate alla pratica medica e alla ricerca.
-Come si è adeguato uno dei più grandi archivi bibliografici online ad accesso libero al mondo, ossia PubMed, a queste nuove necessità?
+As illustrated by Enrico Granieri, Professor Emeritus of Neurology at the University of Ferrara, since the late 1980s medical research has paid increasing attention to the need for disclosing conflicts of interest when publishing scientific work. This requirement is driven primarily by publishers themselves, but also by ethics committees, which play a central role in overseeing matters related to medical practice and research.
+How has one of the world’s largest open-access bibliographic databases—PubMed—adapted to these evolving needs?
 
-Dal 2017 la piattaforma consente ai ricercatori di inserire un COI statement direttamente sulla pagina dell’articolo. Tale inclusione è stata un passo importante nella direzione citata dal prof. Granieri, dal momento che costituisce un nuovo strumento fondamentale per la valutazione preliminare di uno studio in sede di ricerca o di decisioni cliniche, sebbene non sia incluso in tutti gli articoli.
-Vogliamo scoprire in che misura questo dato pubblico permetta di ricostruire i rapporti tra aziende e sedi della ricerca, rapporti per loro natura facili oggetto di strumentalizzazioni politiche.
+Since 2017, the platform has allowed researchers to include a COI statement directly on the article’s page. This inclusion marks an important step in the direction highlighted by Prof. Granieri, as it provides a key new tool for the preliminary evaluation of a study—whether in research settings or clinical decision-making. However, it is not yet included in all articles. Our goal is to explore to what extent this publicly available data can help reconstruct the relationships between companies and research institutions—relationships that, by their nature, are often subject to political manipulation.
 
-Chiaramente, lo scopo del nostro progetto non è denunciare un conflitto di interessi che, come detto sopra, è pubblicamente accessibile a chiunque acceda al sito di PubMed. Il nostro scopo è quello di presentare una prospettiva sulla vasta produzione scientifica recente, che possa stimolare lo sviluppo di nuove traiettorie di ricerca e aiutare gli utenti a orientarsi nel mare magnum delle pubblicazioni.
+Clearly, the aim of our project is not to denounce a conflict of interest which, as mentioned above, is openly accessible to anyone visiting the PubMed website. Rather, our goal is to offer a perspective on the vast body of recent scientific literature—one that may inspire new research trajectories and help users navigate the overwhelming sea of publications.
 
 ---
 
 <h1 class="text-center">Oh COI, where art thou?</h1>
 
-<p>In una fase iniziale abbiamo interrogato il database di PubMed per recuperare tutti gli articoli rilevanti per la nostra indagine. Il primo ostacolo ha riguardato l’effettiva possibilità di isolare gli articoli con provenienza UE, con l’aggiunta di Regno Unito e Svizzera. D’altra parte, specie se si considera la letteratura biomedica (che conta un gran numero di studi multicentrici), si potrebbe pensare che i gruppi di ricerca presentino una moderata (se non addirittura elevata) eterogeneità geografica. In realtà, come mostrato dal grafico, la situazione parrebbe diversa.</p>
+<p> In an initial phase, we queried the PubMed database to retrieve all articles relevant to our investigation. The first obstacle we encountered was the actual possibility of isolating articles originating from the EU, including the United Kingdom and Switzerland.
+On the other hand—especially when considering biomedical literature, which includes a large number of multicenter studies—one might expect research groups to exhibit moderate (if not high) geographical heterogeneity. In reality, as the chart shows, the situation appears to be quite different.</p>
 
 <!-- Chart container with proper spacing -->
 <div style="width: 600px; height: 500px; margin: 20px auto; overflow: hidden;">
@@ -72,7 +71,9 @@ Chiaramente, lo scopo del nostro progetto non è denunciare un conflitto di inte
   </vegachart>
 </div>
 
-<p style="clear: both; margin-top: 20px;">Notiamo come il 65% circa degli articoli presentino un'elevata omogeneità a livello di affiliazioni (queste ultime sono tutte riferibili a un unico stato europeo). Un altro 20% consta di affiliazioni ambigue su scala nazionale (ma comunque da considerarsi tutte europee). Più del 10% riflettono un'ambiguità che esula dai confini europei, mentre meno del 5% presenta almeno un autore europeo, risultando però fortemente sbilanciato verso affiliazioni non europee. Abbiamo quindi deciso di valutare l'effettiva compilazione del campo COI; su questo frangente i risultati sembrano essere in linea con quanto ci si aspetterebbe.</p>
+<p style="clear: both; margin-top: 20px;">We observed that around 65% of the articles show a high level of affiliation homogeneity, with all affiliations linked to a single European country. Another 20% include affiliations that are ambiguous at the national level—but can still be considered entirely European. Over 10% reflect ambiguity that goes beyond European borders, while less than 5% include at least one European author but are heavily skewed toward non-European affiliations. 
+
+We therefore decided to assess the actual completion of the COI field; in this respect, the results appear to align with what one might expect.</p>
 
 
 <div style="width: 1000px; height: 500px; margin: 10px auto; overflow: hidden;">
@@ -82,9 +83,10 @@ Chiaramente, lo scopo del nostro progetto non è denunciare un conflitto di inte
   </vegachart>
 </div>
 
-Al generale incremento della produzione scientifica è associato un deciso aumento di articoli con COI statement dichiarato e una speculare diminuzione del volume di articoli con il campo COI non compilato.
+The overall increase in scientific output is accompanied by a marked rise in the number of articles with a declared COI statement, and a corresponding decline in the volume of articles where the COI field is left blank.
 
-È inoltre possibile apprezzare un trend simile negli articoli per nazione, considerando solo i dieci paesi più produttivi.
+A similar trend can also be observed when looking at articles by country, considering only the ten most productive nations.
+
 
 <div style="width: 1000px; height: 500px; margin: 10px auto; overflow: hidden;">
   <vegachart 
@@ -93,11 +95,11 @@ Al generale incremento della produzione scientifica è associato un deciso aumen
   </vegachart>
 </div>
 
-La produzione scientifica polacca in questo senso mostra un incremento percentuale decisamente superiore alla media. A tal proposito è possibile riscontrare un elevato numero di COI dichiarato in buona parte dei paesi dell’Est Europa (oltre alla Norvegia), come osservabile nella mappa sottostante.
+Poland’s scientific output, in this regard, shows a percentage increase significantly above average. Notably, a high number of declared COIs can be observed across much of Eastern Europe (as well as Norway), as illustrated in the map below.
 
 inserire mappa
 
-La Romania da questo punto di vista detiene il record di articoli con COI dichiarato rispetto all’intera produzione scientifica pubblicata su PubMed, con oltre il 65% di articoli con un conflitto di interesse disponibile pubblicamente.
+From this perspective, Romania holds the record for the highest proportion of articles with a declared COI relative to its total scientific output published on PubMed—with over 65% of articles featuring a publicly available conflict of interest statement.
 
 <div style="width: 900px; height: 500px; margin: 10px auto; overflow: hidden;">
   <vegachart 
@@ -138,13 +140,13 @@ In 2020, the number of publications concerning infectious diseases increased by 
 
 <h1 class="text-center">You don't know where your interest lies, COI...</h1>
 
-Ma come collegare aziende e articolo a partire dal COI statement? Applicando un modello di elaborazione del testo, abbiamo identificato 121 tra aziende e enti con una presenza rilevante nelle pubblicazioni considerate.
+But how can companies be linked to specific articles based on the COI statement? By applying a text processing model, we identified 121 companies and organizations with a significant presence in the publications under analysis.
 
 immg
 
-Abbiamo potuto distinguere due classi di articoli: da un lato, quelli nella cui dichiarazione di COI non era citata alcuna azienda; dall’altro, quelli in cui sono state citate una o più aziende.
+We were able to distinguish two classes of articles: on one side, those whose COI statement did not mention any company; on the other, those that did include one or more companies.
 
-Come mostrato dal grafico qui sotto, gli articoli del secondo tipo, che citano qualche azienda nel COI, sono cresciuti costantemente nel periodo osservato, passando da circa 10.000 nel 2017 a quasi 35.000 nel 2024. Questo aumento potrebbe riflettere il progressivo adeguamento a questa nuova funzione di PubMed.
+As shown in the chart below, the number of the latter—articles that explicitly mention a company in their COI—has grown steadily over the observed period, rising from about 10,000 in 2017 to nearly 35,000 in 2024. This increase may reflect the gradual adoption of this new PubMed feature.
 
 <div style="height: 400px; width: 100%;">
   <iframe 
@@ -158,11 +160,13 @@ Come mostrato dal grafico qui sotto, gli articoli del secondo tipo, che citano q
 </div>
 
 
-Questa tendenza sembra essere proporzionale all’aumento generale delle pubblicazioni in cui la dichiarazione COI è presente, a loro volta aumentate molto rapidamente durante il periodo di nostro interesse, mostrando di nuovo una progressiva adeguazione a questa integrazione del sito. Si mantiene, però, pressoché costante negli anni l’incidenza dei due tipi di articoli sul totale: approssimativamente, durante gli anni che abbiamo osservato, una dichiarazione su dieci cita effettivamente delle aziende, mentre le restanti nove non hanno niente da dichiarare. 
+This trend appears to be proportional to the overall rise in publications containing a COI statement, which themselves increased rapidly over the period we analyzed—again pointing to the progressive integration of this feature into the PubMed platform.
+However, the proportion between the two types of articles has remained relatively stable over the years: on average, only one out of ten COI statements actually mentions a company, while the remaining nine have “nothing to declare.”
 
-Ma come si distribuiscono le 121 aziende identificate rispetto a questi articoli?
+But how are the 121 identified companies distributed across these articles?
 
-Nel grafico sottostante si vede come poche aziende siano presenti nella maggior parte degli articoli, accanto a molte altre che appaiono ognuna in pochi articoli. Le prime cinque aziende, in particolare, si distaccano dalle altre per il gran numero di articoli in cui sono presenti, mentre per le successive la frequenza cala rapidamente, con la maggior parte delle aziende presente in meno di 5.000 articoli ciascuna, grosso modo un decimo delle top 5.
+As shown in the chart below, a small number of companies appear in the majority of articles, while many others are mentioned only occasionally.
+In particular, the top five companies stand out for the sheer volume of articles they are cited in, whereas the frequency drops off quickly for the others: most companies appear in fewer than 5,000 articles, roughly one-tenth the number of the top five (5).
 
 <div style="width: 100%; text-align: center;">
   <div style="display: inline-block; height: 400px; width: 100%; max-width: [your-desired-width]px;">
@@ -177,7 +181,7 @@ Nel grafico sottostante si vede come poche aziende siano presenti nella maggior 
   </div>
 </div>
 
-Nel grafico sottostante vediamo le top aziende per frequenza. Si noti che le prime 5 aziende compaiono ciascuna in quasi il 25% degli articoli del dataset (la prima addirittura nel 28%).  Nel grafico sottostante vediamo infatti come più del 50% degli articoli contengono almeno una di queste top 5.
+In the chart below, we show the top companies by frequency. Notably, the top five companies each appear in nearly 25% of the articles in the dataset (with the leading company reaching 28% on its own). In fact, as the chart illustrates, more than 50% of the articles mention at least one of these top five companies.
 
 <div style="width: 1000px; height: 600px; margin: 20px 100px 20px -100px ; overflow: hidden;">
   <vegachart 
@@ -198,7 +202,7 @@ Nel grafico sottostante vediamo le top aziende per frequenza. Si noti che le pri
 
 <h1 class="text-center">That COI really tied the room together...</h1>
 
-Una volta individuate le top aziende presenti nei COI statements processati, abbiamo condotto una prima analisi confrontando la loro frequenza con il fatturato degli ultimi 12 mesi.
+Once we identified the top companies mentioned in the processed COI statements, we conducted an initial analysis comparing their frequency with their revenue over the past 12 months.
 
 <div style="width: 600px; height: 350px; margin: 10px auto; overflow: hidden;">
   <vegachart 
@@ -207,23 +211,29 @@ Una volta individuate le top aziende presenti nei COI statements processati, abb
   </vegachart>
 </div>
 
-Osservando i dati per 51 delle aziende considerate, si può vedere che i due aspetti rappresentati sembrano andare relativamente di pari passo: maggiore disponibilità economica sembra correlare positivamente con un maggiore coinvolgimento nella ricerca.
+Looking at the data for 51 of the companies considered, we can observe that the two variables appear to go relatively hand in hand: greater financial resources seem to correlate positively with greater involvement in research.
 
-E come si distribuisce l’influenza delle aziende sul complesso delle aree mediche?
+But how is corporate influence distributed across different medical fields as a whole?
 
 {% include plotly-graph.html id="grafico2" file="sankey_azi_aree" height="600px" %}
 
-In questo grafico è possibile osservare un equilibrio pressoché perfetto nell’interesse per l’oncologia, mentre neurologia vede una netta preminenza di Roche e Novartis.
+In this chart, we can observe an almost perfect balance of interest in oncology, while neurology shows a clear dominance by Roche and Novartis.
 
 ---
 
 <h1 class="text-center">And now… COInnect the nodes!</h1>
 
-Per cercare di catturare in maniera più significativa il rapporto che intercorre fra aziende e gruppi di ricerca, abbiamo deciso di considerare anche la rete di citazioni sottostante alla vasta selva di articoli che avevamo a disposizione. Abbiamo quindi costruito un grafo capace di descrivere, per quanto possibile, le relazioni fra articoli. All’analisi della struttura del grafo si è accompagnata piuttosto naturalmente l’individuazione delle comunità di ricerca più interessanti. Ogni comunità è stata etichettata con un vettore di cinque discipline mediche.
 
-Un esempio su tutti la comunità Sars-Cov, rappresentata dal vettore ['Infectious Disease', 'Immunology', 'Pulmonology', 'Epidemiology', 'Virology'], con oltre 71 mila articoli (con COI dichiarato) e un picco di oltre 17 mila articoli per il solo 2021 (scesi a 8600 circa nel 2024).
+To more meaningfully capture the relationship between companies and research groups, we decided to also consider the citation network underlying the vast collection of articles at our disposal.
 
-Per testare l’interesse delle aziende in aree mediche più specifiche, abbiamo deciso di considerare la percentuale di occorrenza di una o più aziende all’interno dei COI statement associati a ciascuna comunità.
+We built a graph designed to describe, as accurately as possible, the relationships between articles. Analyzing the structure of this graph naturally led to the identification of the most relevant research communities. Each community was labeled using a vector of five medical disciplines.
+
+A clear example is the SARS-CoV community, represented by the vector
+[‘Infectious Disease’, ‘Immunology’, ‘Pulmonology’, ‘Epidemiology’, ‘Virology’],
+with over 71,000 articles (with declared COI), and a peak of more than 17,000 articles in 2021 (dropping to around 8,600 in 2024).
+
+To assess corporate interest in more specific medical areas, we analyzed the percentage of occurrence of one or more companies within the COI statements associated with each community.
+
 
 <div style="width: 1200px; height: 350px; margin: 10px auto; overflow: hidden;">
   <vegachart 
@@ -232,45 +242,59 @@ Per testare l’interesse delle aziende in aree mediche più specifiche, abbiamo
   </vegachart>
 </div>
 
-Come è possibile osservare dal grafico, sono sei le comunità che superano la soglia del 20% di articoli che citano almeno un’azienda all’interno della propria dichiarazione.  
+As shown in the chart, six communities exceed the threshold of 20% of articles that mention at least one company in their COI statement.
 
-Anche in questo caso, come già fatto per le aree mediche, abbiamo deciso di studiare l’influenza delle aziende più interessate alle comunità in oggetto.
+Here too, as we did for the medical fields, we decided to examine the influence of the companies most actively involved in these specific communities.
+
 
 {% include plotly-graph.html id="grafico3" file="sankey_comm_az.html" height="600px" %}
 
-Anche qui compaiono le ubique Novartis e Astrazeneca, lasciando spazio tuttavia ad aziende relativamente più piccole come l’italiana Chiesi Pharmaceuticals che, com’è possibile apprezzare nel grafico, supporta un numero considerevole di articoli ‘influenti’ all’interno della comunità 17.
-E tuttavia, come nel caso del Sankey precedente (che metteva in rapporto aziende ed aree mediche), notiamo come l’apporto delle aziende all’interno delle comunità sia piuttosto equilibrato, al netto delle pur interessanti differenze. 
+Here again, the ubiquitous Novartis and AstraZeneca make an appearance, but there is also room for relatively smaller companies such as the Italian Chiesi Pharmaceuticals, which—as shown in the chart—supports a considerable number of influential articles within Community 17.
 
-È lecito supporre che le aziende non prediligano un’area medica piuttosto che un’altra, ma si distribuiscano equamente sull’intera ‘superficie’ di ricerca. Come intendere dunque in maniera non banale il rapporto finora analizzato?
-Lo spunto decisivo proviene direttamente dalla definizione delle comunità. Queste ultime non rappresentano semplicemente una modellazione ulteriore (più ‘granulare’ e ‘concreta’) della tassonomia medica stabilita precedentemente. Aggregando le informazioni presenti nei titoli dei lavori delle comunità più supportate attraverso l’impiego di wordcloud opportunamente limate è possibile osservare qualcosa di molto interessante.
+However, as we observed in the previous Sankey diagram (which mapped companies to medical fields), the contribution of companies within research communities appears fairly balanced, despite some notable and interesting differences. 
 
-In conclusione sembrerebbe che le comunità di ricerca non si vengano a determinare sulla base della semplice contiguità tra aree mediche, ma si inseriscano piuttosto nella tradizione di ricerca riguardante un particolare gruppo di patologie o disturbi. E allo stesso modo è da intendersi l’interesse delle aziende nei confronti delle comunità: vengono privilegiate in questo senso le malattie croniche che richiedono una cura costante.
+It seems reasonable to assume that companies do not favor one medical area over another, but rather distribute their involvement quite evenly across the entire research landscape.
+So how can we interpret the relationship we’ve analyzed so far in a more meaningful way?
+The key insight comes directly from the definition of the communities themselves. These communities do not simply represent a more granular and concrete modeling of the medical taxonomy introduced earlier.
+By aggregating the information contained in the titles of the most heavily supported communities, and visualizing it through carefully refined word clouds, something very interesting begins to emerge.
+
+In conclusion, it appears that research communities do not emerge simply from the proximity between medical fields, but rather align with established research traditions focused on specific groups of diseases or disorders.
+Likewise, corporate interest in these communities should be understood in this light: there is a clear preference for chronic conditions that require ongoing treatment and care.
 
 <ul>
-  <li>Comunità 8: Insufficienza cardiaca/diabete</li>
-  <li>Comunità 17: Fibrosi cistica/malattia polmonare ostruttiva</li>
-  <li>Comunità 19: Steatosi epatica/epatite/epatocarcinoma</li>
-  <li>Comunità 22: Artite reumatoide, dermatite atipica, spondiloartrite</li>
-  <li>Comunità 32: Apnea del sonno / emicrania / botulino / bruxismo</li>
-  <li>Comunità 33 : Malattie genetiche rare (Fabry, Von Willebrand)</li>
+  <li>Community 8: Heart failure / Diabetes</li>
+  <li>Community 17: Cystic fibrosis / Chronic obstructive pulmonary disease</li>
+  <li>Community 19: Fatty liver disease / Hepatitis / Hepatocellular carcinoma</li>
+  <li>Community 22: Rheumatoid arthritis / Atopic dermatitis / Spondyloarthritis</li>
+  <li>Community 32: Sleep apnea / Migraine / Botulinum toxin / Bruxism</li>
+  <li>Community 33 : Rare genetic diseases (Fabry, Von Willebrand)</li>
 </ul>
 
 
-Abbiamo discusso questi risultati con la Dr.ssa Carmen Barbato (Neurologia ospedale Santa Maria Annunziata, Firenze), il Dr. Alessandro Sodero (Neurologo ricercatore presso l’IRCCS di FIrenze) ed il Prof. Enrico Granieri.
+We discussed these findings with Dr. Carmen Barbato (Neurology, Santa Maria Annunziata Hospital, Florence), Dr. Alessandro Sodero (Neurologist and researcher at the IRCCS in Florence), and Prof. Enrico Granieri.
 
-Analizzando con loro la composizione delle malattie all’interno delle varie comunità, è emerso che almeno per alcune di esse è possibile ritrovare una ragione fisiopatologica che le spiega.
-La comunità 32 in particolare accomuna articoli che trattano categorie mediche apparentemente molto distanti tra loro (Neurology, Odontoiatria, Malattia coronarica). Un possibile trait d'union tra queste patologie è invece la Obstructive Sleep Apnoea Syndrome (OSAS), una malattia che determinando russamento ed apnee notturne può provocare bruxismo (semplicisticamente ‘digrignare i denti’, un problema odontoiatrico che si può curare con iniezioni di botulino), ipertensione  e problemi coronarici, e soprattutto emicrania e cefalea. 
+In discussing the composition of diseases within the various communities, it emerged that—for at least some of them—a physiopathological rationale can be identified.
 
-Crediamo che la scoperta di tali comunità così ben definite e distinte tra loro sia meritevole di ulteriori approfondimenti e spunti anche da parte degli esperti di ciascun dominio. Ciò che appare certo è che queste comunità si vengono a creare attorno a gruppi di malattie che hanno in primis la caratteristica della multi-complessità, e della necessità di far dialogare tra loro gruppi di ricerca di diversi settori medici. 
+Community 32, in particular, brings together articles that cover medical categories which, at first glance, may seem quite distant from one another (Neurology, Dentistry, Coronary Disease).
+However, a possible common thread among these conditions is Obstructive Sleep Apnea Syndrome (OSAS)—a disorder characterized by snoring and nighttime apneas, which can lead to bruxism (the involuntary grinding of teeth, a dental issue sometimes treated with botulinum toxin injections), as well as hypertension, coronary problems, and most notably, migraine and headache.
+
+We believe that the discovery of such clearly defined and distinct communities deserves further exploration and input from experts within each respective domain.
+
+What seems evident is that these communities tend to form around groups of diseases characterized primarily by multi-dimensional complexity, and by the need for collaboration between research teams across different medical fields. 
 
 ---
 
-Questo studio ha dimostrato che l’adozione del COI statement è un fenomeno in crescita sempre maggiore. Abbiamo scoperto un trend in costante aumento ed, in un prossimo futuro, è ragionevole pensare che la sua adozione divenga ubiquitaria. 
-Abbiamo analizzato la frequenza di comparsa delle principali aziende coinvolte nei COI e ci siamo accorti che, soprattutto le aziende più grandi tendono a distribuirsi in maniera omogenea tra le varie discipline mediche. Sembra inoltre che la percentuale di articoli con un supporto privato non sia incrementato negli anni.
+This study has shown that the adoption of COI statements is a steadily growing phenomenon.
+We identified a consistent upward trend, and it is reasonable to expect that in the near future, their use will become ubiquitous.
 
-Dopo aver analizzato la variazione in determinate categorie mediche, possiamo dire che stimoli esogeni (come ad esempio il COVID) influenzano pesantemente il tasso della produzione scientifica. In questo contesto, abbiamo notato che il numero delle pubblicazioni scientifiche, adottato come ‘indice’ della qualità della produzione scientifica potrebbe essere fuorviante, soprattutto considerando il sempre maggior numero di articoli.
+We analyzed the frequency with which the main companies appear in COI declarations and found that, especially for the largest corporations, their presence tends to be evenly distributed across different medical disciplines.
 
-Questo studio mette in luce che, all’interno della rete Pubmed, esistono comunità di articoli (e dunque enti di ricerca, ricercatori e ricercatrici) altamente connessi tra loro attorno a patologie caratterizzate da multi-complessità o multi-morbidità la cui natura è da caratterizzare ulteriormente. 
+Moreover, it appears that the percentage of articles with private sector support has not increased over the years.
+
+After analyzing variations within specific medical categories, we can say that exogenous shocks—such as COVID—have a significant impact on the rate of scientific production.
+In this context, we observed that using the number of scientific publications as a proxy for research quality can be misleading, especially given the ever-growing volume of articles.
+
+This study highlights that, within the PubMed network, there exist communities of articles—and therefore of research institutions, scientists, and scholars—that are highly interconnected around pathologies characterized by multi-dimensional complexity or multimorbidity, whose nature still requires further characterization.
 
 
 
