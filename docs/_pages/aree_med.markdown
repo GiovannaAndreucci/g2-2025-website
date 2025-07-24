@@ -6,7 +6,7 @@ header_type: hero #base, post, hero,image, splash
 header_img: assets/images/dict.png
 ---
 
-To assign a medical discipline to each article in the dataset, we leveraged the capabilities of a generative AI system specialized in medical text, published by Google in May 2025, MedGemma 4B (<a href="https://medgemma.org/" style="color:#222; text-decoration:underline;">https://medgemma.org/</a>). MedGemma 4B is a large language model (LLM, 4 billion parameters) optimized for biomedical and scientific domains, capable of semantic abstraction and contextual classification. Its main strength lies in going beyond the analysis of individual keywords, capturing the context of the entire abstract and providing a classification consistent with the actual content of the text.
+To assign a medical discipline to each article in the dataset, we leveraged the capabilities of a generative AI system specialized in medical text, published by Google in May 2025, MedGemma 4B (<a href="https://deepmind.google/models/gemma/medgemma/" style="color:#222; text-decoration:underline;">https://deepmind.google/models/gemma/medgemma/</a>). MedGemma 4B is a large language model (LLM, 4 billion parameters) optimized for biomedical and scientific domains, capable of semantic abstraction and contextual classification. Its main strength lies in going beyond the analysis of individual keywords, capturing the context of the entire abstract and providing a classification consistent with the actual content of the text.
 
 # Model details
 * **Size**: 4 billion parameters, trained on a large corpus of biomedical and scientific texts.
