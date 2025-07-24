@@ -148,7 +148,7 @@ We were able to distinguish two classes of articles: on one side, those whose CO
 
 As shown in the chart below, the number of the latter—articles that explicitly mention a company in their COI—has grown steadily over the observed period, <strong>rising from about 10,000 in 2017 to nearly 35,000 in 2024</strong>. This increase may reflect the gradual adoption of this new PubMed feature.
 
-<div style="width: 650px; height: 400px; margin: 20px -80px 5px 100px; overflow: hidden;">
+<div style="width: 650px; height: 600px; margin: 20px -80px 5px 100px; overflow: hidden;">
   <vegachart 
     schema-url="/g2-2025-website/assets/charts/nb_tagged_articles_year.json"
     style="width: 100%; height: 100%; display: block;">
@@ -181,7 +181,7 @@ In the chart below, we show the top companies by frequency. Notably, the top fiv
 
 <div style="width: 1000px; height: 600px; margin: 20px 100px 20px -100px ; overflow: hidden;">
   <vegachart 
-    schema-url="/g2-2025-website/assets/charts/visualization.vl.json"
+    schema-url="/g2-2025-website/assets/charts/most_frequent_companies_bar.json"
     style="width: 100%; height: 100%;">
   </vegachart>
 </div>
@@ -189,7 +189,7 @@ In the chart below, we show the top companies by frequency. Notably, the top fiv
 
 <div style="width: 1000px; height: 350px; margin: 20px -100px 5px 100px ; overflow: hidden;">
   <vegachart 
-    schema-url="/g2-2025-website/assets/charts/donut.json"
+    schema-url="/g2-2025-website/assets/charts/donut_top5_coverage.json"
     style="width: 100%; height: 100%;">
   </vegachart>
 </div>
