@@ -7,29 +7,33 @@ header_img: assets/images/body_graph.jpg
 header_title: "Grafo e Community"
 vega: false
 ---
+Regarding the graph, we used the PubMed API to download all articles citing a publication from our dataset. We then filtered these to retain only those already present in the European dataset.
 
-Per quanto riguarda il grafo, abbiamo scaricato tramite l’API di PubMed tutti gli articoli che citavano una pubblicazione del nostro dataset e li  abbiamo filtrati per ottenere solo quelli già presenti nel dataset europeo.
+Using the NetworkX library, we built a directed graph where nodes represent articles and edges represent citations. More specifically, we oriented edges from the cited document to the citing one, so that an edge represents the flow of information. With this convention, *the out-degree of a node corresponds to the number of citations received by an article.*
 
-Tramite la libreria Networkx abbiamo costruito il grafo diretto ponendo come nodi gli articoli e come archi le citazioni. Più precisamente abbiamo orientato gli archi dal documento citato verso quello citante, così che un arco rappresenti la trasmissione dell’informazione. Con questa convenzione, l’out-degree rappresenta il numero di citazioni ricevute da un articolo.
 
-Successivamente ci siamo limitati a studiare la componente gigante del grafo che comprende circa il 98% dei nodi.
-Statistiche sulla GC: 
+We then focused on the giant component (GC) of the graph, which comprises about 98% of the nodes. 
 
 <ul>
-  <li>Sulla componente gigante abbiamo calcolato l’assortativity nella versione ‘out’ ‘out’ 
-per capire se articoli con degree alto (quindi molto citati) tendono ad essere citati da altri articoli anch’essi molto citati. Come forse era prevedibile l’assortativity è risultata essere dello 0.0063 circa, cioè articoli molto citati non si citano tra loro in modo sistematico, ma nemmeno sono citati solo da articoli poco citati (misto di citazioni incrociate tra articoli molto e poco citati).</li>
-  <li>calcolato l’assortativity nella versione ‘in’-’in’ per capire se articoli che citano molto tendono a citare altri articoli che a loro volta citano molto, questa assortativity è risultata essere dello 0.18 , cioè è presente una tendenza omofila, quindi articoli che citano molto tendono a citare altri articoli che a loro volta citano molto. In altre parole, i paper “ricchi di riferimenti” tendono a citare altri paper altrettanto ricchi di riferimenti.</li>
-  <li>Abbiamo anche calcolato i coefficienti di clustering locale e globale che sono risultati essere dello 0.054 e 0.0068 rispettivamente che implica che le citazioni non si concentrano in gruppi chiusi, ma si distribuiscono in maniera più radiale o aciclica.</li>
+  <li> On the GC we calculated the out–out assortativity to assess whether highly cited articles tend to be cited by other highly cited ones. As might be expected, the result was approximately 0.0063, suggesting that highly cited articles do not systematically cite each other, but neither are they cited exclusively by low-citation articles — there is a mix of cross-citation between highly and lowly cited papers.
+</li>
+  <li>We also calculated the in–in assortativity to see whether articles that cite many others tend to cite other articles that themselves cite a lot. This value turned out to be 0.18, indicating a homophilic tendency — in other words, papers that cite many references tend to cite others that are similarly rich in references.
+</li>
+  <li>We computed both the local and global clustering coefficients, which were 0.054 and 0.0068 respectively. These low values suggest that citations do not concentrate in closed, tightly-knit groups but rather are spread in a more radial or acyclic manner.
+</li>
 </ul>
 
-Lo studio del grafo è stato sfruttato per estrarre dai dati delle comunità corrispondenti ad articoli su un argomento specifico. Inizialmente abbiamo provato ad applicare l’algoritmo di Girvan Neuman, ma tale approccio è risultato infattibile a causa della grande dimensione del grafo. Abbiamo quindi scelto l’algoritmo di Leiden in quanto massimizza la modularità per trovare insiemi densamente connessi internamente, che corrispondono bene a gruppi di articoli affini. Inoltre Leiden è più veloce e accurato del suo predecessore Louvain su grafi grandi e sparsi. 
+We then used the graph structure to extract communities, corresponding to clusters of articles on specific topics. Initially, we attempted to apply the Girvan–Newman algorithm, but this approach was infeasible due to the graph’s large size. We therefore chose the *Leiden algorithm*, which maximizes modularity to find densely connected clusters, typically corresponding well to groups of related articles. Additionally, Leiden is both faster and more accurate than its predecessor, Louvain, especially on large, sparse graphs.
+ 
+<strong>Limitations of Leiden:</strong>
+ Leiden relies on modularity, and thus may overlook small communities if they do not significantly improve the modularity score (resolution limit), potentially merging distinct communities into one larger group. Moreover, Leiden includes randomization, meaning slightly different results may occur with each run unless a random seed is fixed.
+After running Leiden, we obtained 135 communities, and focused on the most populated ones (with >100 articles). For each, we calculated the percentage of funded articles, and selected for further analysis the communities where at least 20% of articles received funding.
+For these 6 communities, we extracted the specific medical domains or diseases via word clouds, and identified the most frequent companies, in order to analyze how companies and their areas of influence are distributed across communities. The results of this analysis are shown in the Sankey diagrams.
 
-<strong>Problemi di Leiden</strong>: Leiden utilizza la modularità e dunque può ignorare piccole comunità se queste non migliorano abbastanza la metrica (Risoluzione limitata) e dunque rischia di fondere comunità diverse in una più grande. Inoltre Leiden include elementi di randomizzazione: è possibile ottenere risultati leggermente diversi a ogni esecuzione, a meno di fissare un seed.
+<strong>Further analysis:<strong>
+From the graph, we observed that funded articles receive, on average, 2 more citations than those without funding:
+<ul> <li> Average citations per article (unfunded): 3.65</li>
+<li>Average citations per article (funded): 5.77</li>
 
-Una volta ottenute così 135 comunità ci siamo soffermati sulle più popolate (>100 articoli) e abbiamo calcolato per ciascuna la percentuale di articoli finanziati, decidendo poi di analizzare le comunità in cui almeno un quinto degli articoli è stato finanziato. 
 
-Per queste 6 comunità abbiamo ‘estratto’ gli specifici ambiti medici/ malattie tramite dei wordcloud e le aziende più frequenti per analizzare come le aziende e le rispettive aree di influenza si distribuiscono tra le comunità. I risultati di questa analisi sono visibili nei grafici sankey.
 
-Dal grafo abbiamo visto che gli articoli con finanziamenti hanno in media 2 citazioni in più rispetto a quelli senza
-media cit. per art senza=3.649699434891231
-media cit. per art con= 5.7747452520396765
