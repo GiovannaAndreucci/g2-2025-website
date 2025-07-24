@@ -187,15 +187,11 @@ Nel grafico sottostante vediamo le top aziende per frequenza. Si noti che le pri
 </div>
 
 
-<div style="height: 400px; width: 100%;">
-  <iframe 
-    src="/g2-2025-website/assets/charts/donut_top5_coverage.html"
-    width="100%"
-    height="100%"
-    frameborder="0"
-    style="border: none;"
-    title="Aziende cit line">
-  </iframe>
+<div style="width: 1000px; height: 600px; margin: 20px -100px 20px 100px ; overflow: hidden;">
+  <vegachart 
+    schema-url="/g2-2025-website/assets/charts/donut.json"
+    style="width: 100%; height: 100%;">
+  </vegachart>
 </div>
 
 ---
