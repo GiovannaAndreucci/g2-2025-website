@@ -95,11 +95,11 @@ A similar trend can also be observed when looking at articles by country, consid
   </vegachart>
 </div>
 
-Poland’s scientific output, in this regard, shows a percentage increase significantly above average. Notably, a high number of declared COIs can be observed across much of Eastern Europe (as well as Norway), as illustrated in the map below.
+<strong>Poland’s scientific output, in this regard, shows a percentage increase significantly above average.</strong> Notably, a high number of declared COIs can be observed across much of Eastern Europe (as well as Norway), as illustrated in the map below.
 
 inserire mappa
 
-From this perspective, Romania holds the record for the highest proportion of articles with a declared COI relative to its total scientific output published on PubMed—with over 65% of articles featuring a publicly available conflict of interest statement.
+From this perspective, <strong>Romania holds the record for the highest proportion of articles with a declared COI relative to its total scientific output published on PubMed</strong> — with over 65% of articles featuring a publicly available conflict of interest statement.
 
 <div style="width: 900px; height: 500px; margin: 10px auto; overflow: hidden;">
   <vegachart 
@@ -115,15 +115,15 @@ From this perspective, Romania holds the record for the highest proportion of ar
 Once we obtained our dataset, the challenge was to classify the articles by medical discipline.
 Within a timeframe of no more than ten years, hundreds of new diseases (think, for example, of COVID) have emerged, requiring innovative therapeutic approaches that do not fit into previous classifications. Another issue that cannot be overlooked is the lack of standardization in medical terminology.
 
-However, our goal was not simply to reach the ‘leaves of the tree’, but rather to identify the ‘main branches’.
+<strong>However, our goal was not simply to reach the ‘leaves of the tree’, but rather to identify the ‘main branches’</strong>.
 
-In a context where the redundancy of specific terms can be misleading, it is necessary to have a system capable of performing high-level abstraction. For this purpose, we leveraged the capabilities of MedGemma, an LLM developed by Google and specialized in medical texts.
+In a context where the redundancy of specific terms can be misleading, it is necessary to have a system capable of performing high-level abstraction. For this purpose, we leveraged the capabilities of <strong>MedGemma</strong>, an LLM developed by Google and specialized in medical texts.
 
 Here are our initial results.
 
 <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/24243729"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/24243729/thumbnail" width="100%" alt="bar-chart-race visualization" /></noscript></div>
  
-The chart dynamically displays the number of articles for the 10 most frequent medical areas. In this 'publication race', the rapid rise of the 'Infectious Disease' category can be observed, alongside 'Immunology', coinciding with 2020-2021. Nevertheless, scientific research on a topic of enduring interest remains predominant: oncology.
+The chart dynamically displays the number of articles for the 10 most frequent medical areas. In this 'publication race', the rapid rise of the 'Infectious Disease' category can be observed, alongside 'Immunology', coinciding with 2020-2021. Nevertheless, scientific research on a topic of enduring interest remains predominant: <strong>oncology</strong>.
 The surge in publications related to 'Immunology' and 'Infectious Disease' is even more evident in the following line plot. The chart shows, for each medical category, the year-over-year difference in the number of publications.
 
 
@@ -134,7 +134,7 @@ The surge in publications related to 'Immunology' and 'Infectious Disease' is ev
   </vegachart>
 </div>
 
-In 2020, the number of publications concerning infectious diseases increased by almost 98%, and it is interesting to note that in the same year, the number of articles in the psychiatric field also nearly doubled (+84%). This data should also be interpreted as a possible effect of COVID-19 and the subsequent restrictions.
+<strong>In 2020, the number of publications concerning infectious diseases increased by almost 98%, and it is interesting to note that in the same year, the number of articles in the psychiatric field also nearly doubled (+84%)</strong>. This data should also be interpreted as a possible effect of COVID-19 and the subsequent restrictions.
 
 ---
 
