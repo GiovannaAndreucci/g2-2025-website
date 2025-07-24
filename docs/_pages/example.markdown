@@ -125,7 +125,7 @@ The chart dynamically displays the number of articles for the 10 most frequent m
 The surge in publications related to 'Immunology' and 'Infectious Disease' is even more evident in the following line plot. The chart shows, for each medical category, the year-over-year difference in the number of publications.
 
 
-<div style="width: 1000px; height: 500px; margin: 10px auto; overflow: hidden;">
+<div style="width: 1000px; height: 600px; margin: 10px auto; overflow: hidden;">
   <vegachart 
     schema-url="/g2-2025-website/assets/charts/increment_chart.json"
     style="width: 100%; height: 100%; display: block;">

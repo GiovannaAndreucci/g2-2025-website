@@ -11,4 +11,6 @@ vega: true
     <img src="{{ site.baseurl }}/assets/images/header copy.svg" alt="sbd-pattern" class="full-width-image">
 </div>
 
+
+
 In un mondo che cresce di continuo e in maniera esponenziale come quello della ricerca medica, avere un quadro di insieme su alcuni aspetti può essere un’impresa ardua o addirittura impossibile. Fra questi, il fenomeno del coinvolgimento delle aziende nella ricerca, che si cela dietro alla dichiarazione del Conflict of Interest (COI) associata ad una pubblicazione.
