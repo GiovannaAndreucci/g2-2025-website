@@ -52,11 +52,11 @@ navbar:
   nav:
     #- title: Guide
     #  url: /guide.html
-    - title: Articolo
+    - title: Article
       url: /example.html
     #- title: Another ex page
     #  url: /new_page.html
-    - title: Report tecnico
+    - title: Technical Report
       child:
         - title: Scraping and Geolocation
           url: /scraping.html
