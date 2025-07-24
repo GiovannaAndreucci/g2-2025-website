@@ -88,12 +88,8 @@ A similar trend can also be observed when looking at articles by country, consid
 
 <strong>Poland’s scientific output, in this regard, shows a percentage increase significantly above average.</strong> Notably, a high number of declared COIs can be observed across much of Eastern Europe (as well as Norway), as illustrated in the map below.
 
-<div style="width: 1000px; height: 600px; margin: 20px auto ; overflow: hidden;">
-  <vegachart 
-    schema-url="/g2-2025-website/assets/charts/coi_map_europe_custom.json"
-    style="width: 100%; height: 100%;">
-  </vegachart>
-</div>
+{% include plotly-graph.html id="grafico4" file="coi_map_europe_custom" height="600px" %}
+
 
 From this perspective, <strong>Romania holds the record for the highest proportion of articles with a declared COI relative to its total scientific output published on PubMed</strong> — with over 65% of articles featuring a publicly available conflict of interest statement.
 
