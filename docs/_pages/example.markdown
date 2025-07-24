@@ -30,7 +30,7 @@ Abbiamo analizzato oltre un milione e mezzo di articoli scientifici, per scoprir
   </iframe>
 </div>
 
-<div style="height: 400px; width: 100%;">
+<div style="height: 400px; width: 600px;">
   <iframe 
     src="/g2-2025-website/assets/charts/areas_empty_vs_tagged.html"
     width="100%"
