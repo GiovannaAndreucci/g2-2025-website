@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"background": "#fbf3d3", "view": {"stroke": null, "width": 350, "height": 250}, "axis": {"domainColor": "#5a3921", "gridColor": "#5a3921", "gridOpacity": 0.2, "tickColor": "#5a3921", "labelColor": "black", "titleColor": "black", "titleFont": "EB Garamond", "labelFontWeight": "bold"}, "legend": {"labelColor": "black", "titleColor": "black", "labelFont": "EB Garamond", "titleFont": "EB Garamond"}, "title": {"color": "black", "font": "EB Garamond"}, "mark": {"color": "#6b4a32", "opacity": 0.8}, "bar": {"color": "#6b4a32", "opacity": 0.8}, "line": {"color": "#6b4a32", "opacity": 0.8}, "area": {"color": "#6b4a32", "opacity": 0.8}, "point": {"color": "#6b4a32", "opacity": 0.8}}, "data": {"name": "data-e66d0e9fa9ae8be0626c2f612440d2d9"}, "mark": {"type": "bar"}, "encoding": {"tooltip": [{"field": "normalized_countries", "title": "Country", "type": "nominal"}, {"field": "disclosure_percent", "title": "% disclosure", "type": "quantitative"}, {"field": "total_articles", "title": "N. of articles", "type": "quantitative"}], "x": {"field": "disclosure_percent", "title": "", "type": "quantitative"}, "y": {"field": "normalized_countries", "sort": "-x", "title": "", "type": "nominal"}}, "height": 400, "title": "Top 10 European Countries by Percentage of Articles with Disclosure (2017\u20132024)", "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-e66d0e9fa9ae8be0626c2f612440d2d9": [{"normalized_countries": "Romania", "disclosure_percent": 66.71, "total_articles": 34956}, {"normalized_countries": "Latvia", "disclosure_percent": 60.04, "total_articles": 4484}, {"normalized_countries": "Poland", "disclosure_percent": 59.36, "total_articles": 145779}, {"normalized_countries": "Lithuania", "disclosure_percent": 59.22, "total_articles": 10845}, {"normalized_countries": "Slovakia", "disclosure_percent": 58.84, "total_articles": 11519}, {"normalized_countries": "Norway", "disclosure_percent": 57.97, "total_articles": 2101}, {"normalized_countries": "Slovenia", "disclosure_percent": 54.69, "total_articles": 17841}, {"normalized_countries": "Hungary", "disclosure_percent": 54.59, "total_articles": 34243}, {"normalized_countries": "Austria", "disclosure_percent": 51.7, "total_articles": 86746}, {"normalized_countries": "Luxembourg", "disclosure_percent": 51.35, "total_articles": 5731}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

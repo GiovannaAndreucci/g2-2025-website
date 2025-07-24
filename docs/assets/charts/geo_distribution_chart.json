@@ -15,7 +15,7 @@
       "titleColor": "black",
       "titleFont": "EB Garamond"
     },
-    "background": "#e8ddb2",
+    "background": "#fbf3d3",
     "bar": {
       "color": "#6b4a32",
       "opacity": 0.8
@@ -50,38 +50,38 @@
     }
   },
   "data": {
-    "name": "data-d282eb09820deb7e60a9a4d4b1f8eafa"
+    "name": "data-4d60c5692d56b56997c26737b6bc6609"
   },
   "datasets": {
-    "data-d282eb09820deb7e60a9a4d4b1f8eafa": [
+    "data-4d60c5692d56b56997c26737b6bc6609": [
       {
-        "Classe geografica": "Europa (nazione singola)",
         "Count": 1931346,
         "Final Class": "eu",
+        "Geographical Class": "Europe (single nation)",
         "Percentage": 65.52
       },
       {
-        "Classe geografica": "Europa (nazioni multiple)",
         "Count": 602674,
         "Final Class": "ambiguous_all_eu",
+        "Geographical Class": "Europe (multiple nations)",
         "Percentage": 20.44
       },
       {
-        "Classe geografica": "Europa + Non-EU",
         "Count": 341608,
         "Final Class": "ambiguous_mixed",
+        "Geographical Class": "Europe + Non-EU",
         "Percentage": 11.59
       },
       {
-        "Classe geografica": "Non-EU",
         "Count": 50262,
         "Final Class": "non-eu",
+        "Geographical Class": "Non-EU",
         "Percentage": 1.7
       },
       {
-        "Classe geografica": "Non-EU (multiple)",
         "Count": 1977,
         "Final Class": "ambiguous_all_non_eu",
+        "Geographical Class": "Non-EU (multiple)",
         "Percentage": 0.07
       }
     ]
@@ -92,13 +92,13 @@
       "encoding": {
         "tooltip": [
           {
-            "field": "Classe geografica",
-            "title": "Classe",
+            "field": "Geographical Class",
+            "title": "Class",
             "type": "nominal"
           },
           {
             "field": "Count",
-            "title": "N. affiliazioni",
+            "title": "N. affiliations",
             "type": "quantitative"
           },
           {
@@ -112,7 +112,7 @@
             "labelAngle": -30,
             "labelFontWeight": "bold"
           },
-          "field": "Classe geografica",
+          "field": "Geographical Class",
           "sort": "-y",
           "title": "",
           "type": "nominal"
@@ -126,7 +126,7 @@
       "mark": {
         "type": "bar"
       },
-      "title": "Distribuzione percentuale delle classi geografiche"
+      "title": "Percentage distribution of geographical classes"
     },
     {
       "encoding": {
@@ -136,7 +136,7 @@
           "type": "quantitative"
         },
         "x": {
-          "field": "Classe geografica",
+          "field": "Geographical Class",
           "sort": "-y",
           "type": "nominal"
         },

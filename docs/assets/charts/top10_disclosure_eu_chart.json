@@ -15,7 +15,7 @@
       "titleColor": "black",
       "titleFont": "EB Garamond"
     },
-    "background": "#e8ddb2",
+    "background": "#fbf3d3",
     "bar": {
       "color": "#6b4a32",
       "opacity": 0.8
@@ -49,58 +49,58 @@
     }
   },
   "data": {
-    "name": "data-ef656ff67ddb15f66cd0fbdac69f121a"
+    "name": "data-e66d0e9fa9ae8be0626c2f612440d2d9"
   },
   "datasets": {
-    "data-ef656ff67ddb15f66cd0fbdac69f121a": [
+    "data-e66d0e9fa9ae8be0626c2f612440d2d9": [
       {
         "disclosure_percent": 66.71,
-        "normalized_countries": "romania",
+        "normalized_countries": "Romania",
         "total_articles": 34956
       },
       {
         "disclosure_percent": 60.04,
-        "normalized_countries": "latvia",
+        "normalized_countries": "Latvia",
         "total_articles": 4484
       },
       {
         "disclosure_percent": 59.36,
-        "normalized_countries": "poland",
+        "normalized_countries": "Poland",
         "total_articles": 145779
       },
       {
         "disclosure_percent": 59.22,
-        "normalized_countries": "lithuania",
+        "normalized_countries": "Lithuania",
         "total_articles": 10845
       },
       {
         "disclosure_percent": 58.84,
-        "normalized_countries": "slovakia",
+        "normalized_countries": "Slovakia",
         "total_articles": 11519
       },
       {
         "disclosure_percent": 57.97,
-        "normalized_countries": "norway",
+        "normalized_countries": "Norway",
         "total_articles": 2101
       },
       {
         "disclosure_percent": 54.69,
-        "normalized_countries": "slovenia",
+        "normalized_countries": "Slovenia",
         "total_articles": 17841
       },
       {
         "disclosure_percent": 54.59,
-        "normalized_countries": "hungary",
+        "normalized_countries": "Hungary",
         "total_articles": 34243
       },
       {
         "disclosure_percent": 51.7,
-        "normalized_countries": "austria",
+        "normalized_countries": "Austria",
         "total_articles": 86746
       },
       {
         "disclosure_percent": 51.35,
-        "normalized_countries": "luxembourg",
+        "normalized_countries": "Luxembourg",
         "total_articles": 5731
       }
     ]
@@ -109,7 +109,7 @@
     "tooltip": [
       {
         "field": "normalized_countries",
-        "title": "Paese",
+        "title": "Country",
         "type": "nominal"
       },
       {
@@ -119,7 +119,7 @@
       },
       {
         "field": "total_articles",
-        "title": "N. articoli",
+        "title": "N. of articles",
         "type": "quantitative"
       }
     ],
@@ -139,6 +139,6 @@
   "mark": {
     "type": "bar"
   },
-  "title": "Top 10 Paesi Europei per Percentuale di Articoli con Disclosure (2017\u20132024)",
+  "title": "Top 10 European Countries by Percentage of Articles with Disclosure (2017\u20132024)",
   "width": 600
 }
