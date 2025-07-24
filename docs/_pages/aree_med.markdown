@@ -6,7 +6,7 @@ header_type: hero #base, post, hero,image, splash
 header_img: assets/images/dict.png
 ---
 
-Per attribuire una disciplina medica a ciascun articolo del dataset, abbiamo sfruttato le potenzialità di un sistema AI generativo specializzato in testo medico, pubblicato da Google a maggio 2025, MedGemma 4B ([https://medgemma.org/](https://medgemma.org/)). MedGemma 4B è un modello di linguaggio di grandi dimensioni (LLM, 4 miliardi di parametri) ottimizzato per il dominio biomedico e scientifico, capace di astrazione semantica e classificazione contestuale. La sua forza principale consiste nel non limitarsi all’analisi di singole parole chiave, ma di cogliere il contesto dell’intero abstract, restituendo una classificazione coerente con il contenuto reale del testo.
+Per attribuire una disciplina medica a ciascun articolo del dataset, abbiamo sfruttato le potenzialità di un sistema AI generativo specializzato in testo medico, pubblicato da Google a maggio 2025, MedGemma 4B (<a href="https://medgemma.org/" style="color:#222; text-decoration:underline;">https://medgemma.org/</a>). MedGemma 4B è un modello di linguaggio di grandi dimensioni (LLM, 4 miliardi di parametri) ottimizzato per il dominio biomedico e scientifico, capace di astrazione semantica e classificazione contestuale. La sua forza principale consiste nel non limitarsi all’analisi di singole parole chiave, ma di cogliere il contesto dell’intero abstract, restituendo una classificazione coerente con il contenuto reale del testo.
 
 # Dettagli sul modello
 Dimensione: 4 miliardi di parametri, addestrati su un ampio corpus di testi biomedici e scientifici.
