@@ -13,4 +13,4 @@ vega: true
 
 
 
-In un mondo che cresce di continuo e in maniera esponenziale come quello della ricerca medica, avere un quadro di insieme su alcuni aspetti può essere un’impresa ardua o addirittura impossibile. Fra questi, il fenomeno del coinvolgimento delle aziende nella ricerca, che si cela dietro alla dichiarazione del Conflict of Interest (COI) associata ad una pubblicazione.
+Even though it is commonly considered something vicious, a conflict of interest (COI) in its genuine form is reduced to some kind of collaboration between researchers and public or private companies. By looking at it closely, we could understand what are the fields of study that have been under the spotlight in the last years and better comprehend the direction the world is taking. That's why you don't need to be coy, COI!
