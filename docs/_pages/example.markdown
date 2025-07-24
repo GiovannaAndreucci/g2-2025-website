@@ -19,10 +19,6 @@ We analyzed over one and a half million scientific articles and found that the s
 
 <strong>Does the rise in the number of articles correspond to an increased interest from companies?</strong>
 
-perc_empty_tagged.html
-
-areas_empty_vs_tagged.html
-
 <div style="width: 600px; height: 500px; margin: 20px auto; overflow: hidden;">
   <vegachart 
     schema-url="/g2-2025-website/assets/charts/perc_empty_tagged.json"
@@ -36,7 +32,6 @@ areas_empty_vs_tagged.html
     style="width: 100%; height: 100%; display: block;">
   </vegachart>
 </div>
-
 
 Based on the data collected, the answer appears to be no. But if companies are so “selective,” in which fields are they more actively involved?
 In this article, we aim to reconstruct the relationship between public and private entities on one side, and research on the other, through the analysis of public conflict of interest declarations associated with scientific articles (hereafter referred to as <em>COI statements</em>).
@@ -138,7 +133,7 @@ The surge in publications related to 'Immunology' and 'Infectious Disease' is ev
 
 But <strong>how can companies be linked to specific articles based on the COI statement?</strong> By applying a text processing model, we identified 121 companies and organizations with a significant presence in the publications under analysis.
 
-immg
+![](assets/images/esempio_NER.png)
 
 We were able to distinguish two classes of articles: on one side, those whose COI statement did not mention any company; on the other, those that did include one or more companies.
 
