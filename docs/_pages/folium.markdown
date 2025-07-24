@@ -1,10 +1,10 @@
 ---
 layout: default
-title:  "Grafo e Community"
+title:  "Graph e Community"
 subtitle: ""
 header_type: hero #base, post, hero,image, splash
 header_img: assets/images/body_graph.jpg
-header_title: "Grafo e Community"
+header_title: "Graph e Community"
 vega: false
 ---
 Regarding the graph, we used the PubMed API to download all articles citing a publication from our dataset. We then filtered these to retain only those already present in the European dataset.
@@ -30,7 +30,8 @@ We then used the graph structure to extract communities, corresponding to cluste
 After running Leiden, we obtained 135 communities, and focused on the most populated ones (with >100 articles). For each, we calculated the percentage of funded articles, and selected for further analysis the communities where at least 20% of articles received funding.
 For these 6 communities, we extracted the specific medical domains or diseases via word clouds, and identified the most frequent companies, in order to analyze how companies and their areas of influence are distributed across communities. The results of this analysis are shown in the Sankey diagrams.
 
-<strong>Further analysis:<strong>
+<strong>Further analysis: </strong>
+
 From the graph, we observed that funded articles receive, on average, 2 more citations than those without funding:
 <ul> <li> Average citations per article (unfunded): 3.65</li>
 <li>Average citations per article (funded): 5.77</li>
