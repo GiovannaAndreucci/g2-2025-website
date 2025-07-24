@@ -110,19 +110,19 @@ La Romania da questo punto di vista detiene il record di articoli con COI dichia
 
 <h1 class="text-center">What did you major in, COI?</h1>
 
-Una volta ottenuto il nostro dataset, il problema è stato quello di classificare gli articoli per disciplina medica.
-In un arco temporale di non più di dieci anni sono centinaia le nuove malattie (si pensi banalmente al COVID) che richiedono approcci terapeutici innovativi che sfuggono alle classificazioni precedenti. Un altro problema da non sottovalutare è la mancanza di standardizzazione tra terminologia medica.
+Once we obtained our dataset, the challenge was to classify the articles by medical discipline.
+Within a timeframe of no more than ten years, hundreds of new diseases (think, for example, of COVID) have emerged, requiring innovative therapeutic approaches that do not fit into previous classifications. Another issue that cannot be overlooked is the lack of standardization in medical terminology.
 
-Il nostro problema tuttavia non era semplicemente quello di arrivare alle ‘foglie dell’albero’, quanto piuttosto di ricercare i ‘rami principali’. 
+However, our goal was not simply to reach the ‘leaves of the tree’, but rather to identify the ‘main branches’.
 
-In un contesto in cui la ridondanza di termini specifici può fuorviare, è necessario un sistema in grado di  compiere un’ astrazione di alto livello. Per questo scopo abbiamo sfruttato le potenzialità di MedGemma, un LLM sviluppato da Google e specializzato sui testi medici.
+In a context where the redundancy of specific terms can be misleading, it is necessary to have a system capable of performing high-level abstraction. For this purpose, we leveraged the capabilities of MedGemma, an LLM developed by Google and specialized in medical texts.
 
-Qui i nostri primi risultati.
+Here are our initial results.
 
 <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/24243729"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/24243729/thumbnail" width="100%" alt="bar-chart-race visualization" /></noscript></div>
  
-Il grafico mostra dinamicamente il numero di articoli per le 10 aree mediche più frequenti. In questa ‘corsa di pubblicazioni’ è possibile vedere la rapida salita della categoria ‘Infectious Disease’, di pari passo con ‘Immunology’, in concomitanza del 2020-2021. Rimane comunque preponderante la ricerca scientifica su un tema di grande interesse da sempre: l’oncologia. 
-L’esplosione di pubblicazioni riguardo ‘Immunology’ e 'Infectious disease’  si vede ancora meglio nel seguente line-plot. Il grafico riporta la differenza, rispetto all’anno precedente (e per categoria medica), nel numero di pubblicazioni.
+The chart dynamically displays the number of articles for the 10 most frequent medical areas. In this 'publication race', the rapid rise of the 'Infectious Disease' category can be observed, alongside 'Immunology', coinciding with 2020-2021. Nevertheless, scientific research on a topic of enduring interest remains predominant: oncology.
+The surge in publications related to 'Immunology' and 'Infectious Disease' is even more evident in the following line plot. The chart shows, for each medical category, the year-over-year difference in the number of publications.
 
 
 <div style="width: 1000px; height: 500px; margin: 10px auto; overflow: hidden;">
@@ -132,7 +132,7 @@ L’esplosione di pubblicazioni riguardo ‘Immunology’ e 'Infectious disease�
   </vegachart>
 </div>
 
- Nel 2020 il numero di pubblicazioni riguardanti malattie infettive è aumentato di quasi il 98%, ed è interessante notare come in quell’anno siano praticamente raddoppiati anche gli articoli di ambito psichiatrico (+ 84%). Anche questo dato è da intendersi come un possibile effetto del COVID-19 e le successive restrizioni.
+In 2020, the number of publications concerning infectious diseases increased by almost 98%, and it is interesting to note that in the same year, the number of articles in the psychiatric field also nearly doubled (+84%). This data should also be interpreted as a possible effect of COVID-19 and the subsequent restrictions.
 
 
 <h1 class="text-center">You don't know where your interest lies, COI...</h1>
