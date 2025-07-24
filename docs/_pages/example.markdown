@@ -14,8 +14,8 @@ plotly: true
     <img src="{{ site.baseurl }}/assets/images/header copy.svg" alt="sbd-pattern" class="full-width-image">
 </div>
 
-In a world that is growing continuously and exponentially—such as that of medical research—gaining an overarching view of certain aspects can be a daunting, if not impossible, task. Among these is the phenomenon of corporate involvement in research, which often hides behind the declaration of a Conflict of Interest (COI) associated with a publication.
-We analyzed over one and a half million scientific articles and found that the share of publications with a declared COI statement rose from 20% to over 70% between 2017 and 2024, showing how its use is becoming increasingly common and (seemingly) transparent.
+In a world that is growing continuously and exponentially—such as that of medical research—gaining an overarching view of certain aspects can be a daunting, if not impossible, task. Among these is the phenomenon of corporate involvement in research, which often hides behind the declaration of a <strong>Conflict of Interest (COI)</strong> associated with a publication.
+We analyzed over one and a half million scientific articles and found that the share of publications with a declared COI statement rose <strong>from 20% to over 70% between 2017 and 2024</strong>, showing how its use is becoming increasingly common and (seemingly) transparent.
 
 <strong>Does the rise in the number of articles correspond to an increased interest from companies?</strong>
 
@@ -50,9 +50,9 @@ In this article, we aim to reconstruct the relationship between public and priva
 <h1 class="text-center">What's up, COI?</h1>
 
 As illustrated by Enrico Granieri, Professor Emeritus of Neurology at the University of Ferrara, since the late 1980s medical research has paid increasing attention to the need for disclosing conflicts of interest when publishing scientific work. This requirement is driven primarily by publishers themselves, but also by ethics committees, which play a central role in overseeing matters related to medical practice and research.
-How has one of the world’s largest open-access bibliographic databases—PubMed—adapted to these evolving needs?
+<strong>How has one of the world’s largest open-access bibliographic databases—PubMed—adapted to these evolving needs?</strong>
 
-Since 2017, the platform has allowed researchers to include a COI statement directly on the article’s page. This inclusion marks an important step in the direction highlighted by Prof. Granieri, as it provides a key new tool for the preliminary evaluation of a study—whether in research settings or clinical decision-making. However, it is not yet included in all articles. Our goal is to explore to what extent this publicly available data can help reconstruct the relationships between companies and research institutions—relationships that, by their nature, are often subject to political manipulation.
+Since 2017, the platform has allowed researchers to include a COI statement directly on the article’s page. This inclusion marks an important step in the direction highlighted by Prof. Granieri, as it provides a key new tool for the preliminary evaluation of a study—whether in research settings or clinical decision-making. However, it is not yet included in all articles. Our goal is to <strong>explore to what extent this publicly available data can help reconstruct the relationships between companies and research institutions—relationships</strong> that, by their nature, are often subject to political manipulation.
 
 Clearly, the aim of our project is not to denounce a conflict of interest which, as mentioned above, is openly accessible to anyone visiting the PubMed website. Rather, our goal is to offer a perspective on the vast body of recent scientific literature—one that may inspire new research trajectories and help users navigate the overwhelming sea of publications.
 
