@@ -13,4 +13,8 @@ vega: true
 
 
 
-Even though it is commonly considered something vicious, a conflict of interest (COI) in its genuine form is reduced to some kind of collaboration between researchers and public or private companies. By looking at it closely, we could understand what are the fields of study that have been under the spotlight in the last years and better comprehend the direction the world is taking. That's why you don't need to be coy, COI!
+Even though it is commonly considered something vicious, a conflict of interest (COI) in its genuine form can be seen as a type of collaboration between researchers and public or private companies.
+ 
+By looking at it closely, we can understand which fields of study have been under the spotlight in recent years and better grasp the direction the world is heading.
+ 
+That’s why you don’t need to be coy, COI!
