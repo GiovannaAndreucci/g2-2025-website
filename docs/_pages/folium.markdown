@@ -1,10 +1,10 @@
 ---
 layout: default
-title:  "Graph e Community"
+title:  "Graph and Community"
 subtitle: ""
 header_type: hero #base, post, hero,image, splash
 header_img: assets/images/body_graph.jpg
-header_title: "Graph e Community"
+header_title: "Graph and Community"
 vega: false
 ---
 Regarding the graph, we used the PubMed API to download all articles citing a publication from our dataset. We then filtered these to retain only those already present in the European dataset.
