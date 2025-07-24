@@ -184,7 +184,7 @@ In the chart below, we show the top companies by frequency. Notably, the top fiv
 
 Once we identified the top companies mentioned in the processed COI statements, we conducted an initial analysis comparing their frequency with their revenue over the past 12 months.
 
-<div style="width: 600px; height: 350px; margin: 10px auto; overflow: hidden;">
+<div style="width: 600px; height: 500px; margin: 10px auto; overflow: hidden;">
   <vegachart 
     schema-url="/g2-2025-website/assets/charts/scatter_tags_vs_revenues.json"
     style="width: 100%; height: 100%; display: block;">
