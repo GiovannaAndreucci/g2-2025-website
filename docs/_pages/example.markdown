@@ -179,7 +179,7 @@ Nel grafico sottostante si vede come poche aziende siano presenti nella maggior 
 
 Nel grafico sottostante vediamo le top aziende per frequenza. Si noti che le prime 5 aziende compaiono ciascuna in quasi il 25% degli articoli del dataset (la prima addirittura nel 28%).  Nel grafico sottostante vediamo infatti come più del 50% degli articoli contengono almeno una di queste top 5.
 
-<div style="width: 1000px; height: 600px; margin: 10px auto; overflow: hidden;">
+<div style="width: 1000px; height: 600px; margin: 20px 0 20px 100px ; overflow: hidden;">
   <vegachart 
     schema-url="/g2-2025-website/assets/charts/visualization.vl.json"
     style="width: 100%; height: 100%;">
