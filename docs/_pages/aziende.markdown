@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Estrazione aziende
-header_title: "Estrazione aziende"
+title: Company Extraction
+header_title: "Company Extraction"
 header_type: hero #base, post, hero,image, splash
 header_img: assets/images/hippocut2.png
 ---

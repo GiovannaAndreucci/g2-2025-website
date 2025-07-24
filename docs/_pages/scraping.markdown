@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Scraping e Geolocalization
-header_title: "Scraping e Geolocalization"
+header_title: "Scraping e Geolocation"
 header_type: hero #base, post, hero,image, splash
 header_img: assets/images/geocut.png
 ---
