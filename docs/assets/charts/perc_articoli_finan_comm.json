@@ -28,10 +28,10 @@
     {
       "mark": {"type": "bar"},
       "encoding": {
-        "x": {"field": "Leiden_Comm", "title": "Comunità", "type": "nominal"},
+        "x": {"field": "Leiden_Comm", "title": "Community", "type": "nominal"},
         "y": {
           "field": "percentuale_finanziati",
-          "title": "Percentuale",
+          "title": "Percentage",
           "type": "quantitative"
         }
       }
@@ -39,10 +39,10 @@
     {
       "mark": {"type": "bar", "color": "red"},
       "encoding": {
-        "x": {"field": "Leiden_Comm", "title": "Comunità", "type": "nominal"},
+        "x": {"field": "Leiden_Comm", "title": "Community", "type": "nominal"},
         "y": {
           "field": "percentuale_finanziati",
-          "title": "Percentuale",
+          "title": "Percentage",
           "type": "quantitative"
         },
         "y2": {"datum": 0.2}
@@ -52,7 +52,7 @@
     {"mark": {"type": "rule"}, "encoding": {"y": {"datum": 0.2}}}
   ],
   "data": {"name": "data-157a4a27182a769fd7e73e52e0500aff"},
-  "title": "Percentuale di articoli supportati da aziende per community",
+  "title": "Percentage of articles supported by companies for each community",
   "width": 600,
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
