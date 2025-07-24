@@ -140,13 +140,13 @@ The surge in publications related to 'Immunology' and 'Infectious Disease' is ev
 
 <h1 class="text-center">You don't know where your interest lies, COI...</h1>
 
-But how can companies be linked to specific articles based on the COI statement? By applying a text processing model, we identified 121 companies and organizations with a significant presence in the publications under analysis.
+But <strong>how can companies be linked to specific articles based on the COI statement?</strong> By applying a text processing model, we identified 121 companies and organizations with a significant presence in the publications under analysis.
 
 immg
 
 We were able to distinguish two classes of articles: on one side, those whose COI statement did not mention any company; on the other, those that did include one or more companies.
 
-As shown in the chart below, the number of the latter—articles that explicitly mention a company in their COI—has grown steadily over the observed period, rising from about 10,000 in 2017 to nearly 35,000 in 2024. This increase may reflect the gradual adoption of this new PubMed feature.
+As shown in the chart below, the number of the latter—articles that explicitly mention a company in their COI—has grown steadily over the observed period, <strong>rising from about 10,000 in 2017 to nearly 35,000 in 2024</strong>. This increase may reflect the gradual adoption of this new PubMed feature.
 
 <div style="height: 400px; width: 100%;">
   <iframe 
@@ -163,10 +163,10 @@ As shown in the chart below, the number of the latter—articles that explicitly
 This trend appears to be proportional to the overall rise in publications containing a COI statement, which themselves increased rapidly over the period we analyzed—again pointing to the progressive integration of this feature into the PubMed platform.
 However, the proportion between the two types of articles has remained relatively stable over the years: on average, only one out of ten COI statements actually mentions a company, while the remaining nine have “nothing to declare.”
 
-But how are the 121 identified companies distributed across these articles?
+<strong>But how are the 121 identified companies distributed across these articles?</strong>
 
 As shown in the chart below, a small number of companies appear in the majority of articles, while many others are mentioned only occasionally.
-In particular, the top five companies stand out for the sheer volume of articles they are cited in, whereas the frequency drops off quickly for the others: most companies appear in fewer than 5,000 articles, roughly one-tenth the number of the top five (5).
+In particular, the top five companies stand out for the sheer volume of articles they are cited in, whereas the frequency drops off quickly for the others: <strong>most companies appear in fewer than 5,000 articles, roughly one-tenth the number of the top five (5)</strong>.
 
 <div style="width: 100%; text-align: center;">
   <div style="display: inline-block; height: 400px; width: 100%; max-width: [your-desired-width]px;">
@@ -181,7 +181,7 @@ In particular, the top five companies stand out for the sheer volume of articles
   </div>
 </div>
 
-In the chart below, we show the top companies by frequency. Notably, the top five companies each appear in nearly 25% of the articles in the dataset (with the leading company reaching 28% on its own). In fact, as the chart illustrates, more than 50% of the articles mention at least one of these top five companies.
+In the chart below, we show the top companies by frequency. Notably, the top five companies each appear in nearly 25% of the articles in the dataset (with the leading company reaching 28% on its own). In fact, as the chart illustrates, <strong>more than 50% of the articles mention at least one of these top five companies</strong>.
 
 <div style="width: 1000px; height: 600px; margin: 20px 100px 20px -100px ; overflow: hidden;">
   <vegachart 
