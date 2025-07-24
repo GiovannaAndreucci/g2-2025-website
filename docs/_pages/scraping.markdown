@@ -8,6 +8,7 @@ header_img: assets/images/geocut.png
 
 # Scraping
 
+Attraverso l’API di Entrez (il motore di ricerca adottato dalle più importanti banche dati di letteratura biomedica) è stato possibile interrogare il database di PubMed per recuperare tutti gli articoli rilevanti per la nostra indagine (ovvero quelli con almeno un'affiliazione europea nella lista di affiliazioni). Il primo ostacolo ha riguardato l’effettiva possibilità di isolare gli articoli con provenienza UE, con l’aggiunta di Regno Unito e Svizzera: in quale prospettiva è possibile infatti considerare un articolo europeo a partire dalle sole affiliazioni degli autori?
 
 
 # Definizione geografica
