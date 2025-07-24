@@ -1,44 +1,43 @@
 ---
 layout: default
-title: Installation
-header_title: "Scraping e Geolocalizzazione"
+title: Scraping e Geolocalization
+header_title: "Scraping e Geolocalization"
 header_type: hero #base, post, hero,image, splash
 header_img: assets/images/geocut.png
 ---
 
 # Scraping
 
-Attraverso l’API di Entrez (il motore di ricerca adottato dalle più importanti banche dati di letteratura biomedica) è stato possibile interrogare il database di PubMed per recuperare tutti gli articoli rilevanti per la nostra indagine (ovvero quelli con almeno un'affiliazione europea nella lista di affiliazioni). Il primo ostacolo ha riguardato l’effettiva possibilità di isolare gli articoli con provenienza UE, con l’aggiunta di Regno Unito e Svizzera: in quale prospettiva è possibile infatti considerare un articolo europeo a partire dalle sole affiliazioni degli autori?
+Through the Entrez API (the search engine used by the most important biomedical literature databases), it was possible to query the PubMed database to retrieve all articles relevant to our investigation (namely, those with at least one European affiliation in the list of affiliations). The first challenge concerned the actual possibility of isolating articles originating from the EU, with the addition of the United Kingdom and Switzerland: from what perspective can an article be considered European based solely on the authors’ affiliations?
 
 
-# Definizione geografica
+# Geographical Definition
 
-All’interno del progetto questa sezione si inserisce come componente per analizzare gli articoli presi in esame su PubMed dal 2017 al 2024. Lo scopo è identificare pattern in relazioni a tre dimensioni prese in esame: affiliazione geografica, disclosure COI e presenza di aziende esplicitamente dichiarate. 
+Within the project, this section serves as a component for analyzing articles examined on PubMed from 2017 to 2024. The aim is to identify patterns in relation to three dimensions under consideration: geographical affiliation, COI disclosure, and the presence of explicitly declared companies.
 
-La prima parte della pipeline è dedicata alla creazione di un dataset geografico aggregando gli articoli scientifici e attribuendo le nazionalità partendo dalle informazioni contenute nelle affiliazioni. 
+The first part of the pipeline is dedicated to creating a geographical dataset by aggregating scientific articles and assigning nationalities based on information contained in the affiliations.
 
-E’ stato utilizzato un approccio ibrido per l’inferenza del paese con una prima parte riguardante:
+A hybrid approach was used for country inference, consisting of:
 
 <ul>
-  <li>Matching testuale diretto sul nome delle nazioni </li>
-  <li>Dizionari euristici per città ed istituzioni ricorrenti</li>
-  <li>Normalizzazione dei paesi</li>
+  <li>Direct textual matching on country names</li>
+  <li>Heuristic dictionaries for recurring cities and institutions</li>
+  <li>Country normalization</li>
 </ul>
 
+This led to an initial classification into 4 categories:
 
-Questo ha portato ad una prima classificazione in 4 categorie: 
+<strong>Eu</strong>: articles from a single European nation
 
-<strong>Eu</strong>: articoli  a singola nazione europea
+<strong>Non Eu</strong>: articles from a single non-European nation
 
-<strong>Non Eu</strong>: articoli  a singola nazione non europea
+<strong>Ambiguous</strong>: articles with more than one nation
 
-<strong>Ambigous</strong>: articoli con più di una nazione
+<strong>Unknown</strong>: articles not covered by the classification
 
-<strong>Unknown</strong>: articoli non coperti dalla classificazione
+For ambiguous cases, a further subdivision was made into European, non-European, and mixed nationalities; in parallel, for unclassified cases, a Spacy model was applied to extract geographical units (GPE) and update dictionaries for assignment.
 
-Per i casi ambiguous sono si è effettuata un’ulteriore divisione in europei, non europei e nazionalità miste, parallelamente per i casi non classificati è stato applicato un modello Spacy per estrarre unità geografiche, GPE, ed aggiornare i dizionari per l’assegnazione.
-
-Questo ha permesso la seguente classificazione
+This enabled the following classification:
 
 eu  2144703
 ambiguous_all_eu   672667
@@ -47,32 +46,26 @@ non-eu    54942
 unknown    21652
 ambiguous_all_non_eu     2117
 
-Successivamente si è proceduto ad un’analisi e pulizia ulteriore del dataset globale, dalla rimozione dei duplicati raggiungendo le seguenti percentuali nelle classi
+Subsequently, further analysis and cleaning of the global dataset were performed, from removing duplicates to filtering only European papers and their graphical representation. Starting from the creation of the geographic map using plotly, the percentage of articles with COI, the ranking of countries by number of scientific publications, the ranking of countries with the highest percentage of papers presented with COI, and the trend of disclosures of individual countries over the years.
 
-Si è effettuato un filtraggio dei solo papers europei ed alla loro rappresentazione creazioni grafica  partendo da una cartina geografica tramite ploty della percentuale di articoli con COI, la classifica dei paesi per numeri di pubblicazioni scientifiche, la classifica dei paesi con maggior numero di paper in percentuale presentati con COI ed il trend delle disclosure dei singoli paesi nei diversi anni. 
+The next step was to merge the geographical dataset thus created with the semantic dataset containing the semantic tags of companies and the extraction of various medical disciplines using MedGemma. The merge was performed using the unique PMID identifier of the article. This enabled concatenation of the last portion of the pipeline.
 
-Il passo successivo è stato unire il dataset geografico così creato con il dataset semantico contenente i tag semantici delle aziende e le estrazioni delle diverse discipline mediche tramite medGEMMA. Il merge è stato effettuato grazie al codice PMID unico identificativo dell’articolo. Questo ha permesso di concatenare l’ultima porzione della pipeline.
+<strong>Further Analysis</strong>
+In this final section, we aim to verify whether statistically significant geographical concentrations exist between specific companies and specific countries.
 
-In quest’ultima sezione si intende verificare se esistano concentrazioni geografiche statisticamente significative tra specifiche aziende e specifiche nazioni. 
+The procedure was carried out as follows:
 
-La procedure è avvenuta nel seguente modo:
+<strong>Selection of companies of interest</strong>:  
+The subset of companies that together constitute 95% of the overall corporate presence in the dataset was selected. This threshold serves to exclude low-frequency outliers and reduce statistical noise in the final matrix. The result led to analyzing a subset representing 10.24% of the total articles with COI.
 
-<strong>Selezione delle aziende di interesse</strong>:
-È stato selezionato il sottoinsieme di aziende che, sommate, costituiscono il 95% della presenza aziendale complessiva nel dataset. Questa soglia serve a escludere outlier a bassa frequenza e ridurre il rumore statistico nella matrice finale. Il risultato ha portato ad analizzare un subset che rappresenta il 10.24% rispetto al totale degli articoli con COI 
+<strong>Construction of the contingency table</strong>:  
+A company-by-country matrix was constructed, in which each cell represents the number of articles in which that specific company is associated with that specific nation.
 
+<strong>Independence test and residual analysis</strong>:  
+A chi-square test was applied to assess the null hypothesis of independence between company and country. Subsequently, standardized residuals for each cell were calculated to identify combinations with the greatest deviation from the expected frequency.
 
-<strong>Costruzione della tabella di contingenza</strong>
-Si è costruita una matrice azienda  per paese , in cui ogni cella rappresenta il numero di articoli in cui quella specifica azienda è associata a quella specifica nazione.
-
-
-<strong>Test di indipendenza e analisi dei residui</strong>
-È stato applicato un test del chi-quadro per valutare l’ipotesi nulla di indipendenza tra azienda e paese. Successivamente, sono stati calcolati i residui standardizzati per ogni cella, al fine di identificare le combinazioni con maggiore scostamento rispetto alla frequenza attesa.
-
-
-
-<strong>Ulteriori analisi</strong>
-Il test del chi-quadro ha confermato una forte dipendenza tra aziende e paesi (Chi2 = 12115.787, dof = 266, p-value < 1e-300).
-Successivamente, sono stati calcolati i residui standardizzati per ciascuna cella della matrice, Per valutare la significatività puntuale, è stato applicato un filtro basato sulla soglia |r| > 1.96, corrispondente a un livello di confidenza del 95% (p < 0.05) sotto l’assunzione di distribuzione normale standard. Questo permette di evidenziare quali combinazioni specifiche mostrano scostamenti significativamente superiori (o inferiori) alla frequenza attesa producendo la seguente tabella dei primi 10 risultati:
+The chi-square test confirmed a strong dependence between companies and countries (Chi2 = 12115.787, dof = 266, p-value < 1e-300).  
+Subsequently, standardized residuals were calculated for each cell in the matrix. To assess point significance, a filter based on the threshold |r| > 1.96 was applied, corresponding to a 95% confidence level (p < 0.05) under the assumption of a standard normal distribution. This highlights which specific combinations show deviations significantly above (or below) the expected frequency, producing the following table of the top 10 results:
 
 Novo Nordisk – Denmark → 65.17
 
@@ -103,4 +96,4 @@ Novo Nordisk – Sweden → 10.39
 
 Boehringer Ingelheim – Denmark → 9.45
 
-I valori elencati indicano una presenza molto più elevata rispetto a quanto atteso in base alla distribuzione marginale delle frequenze, confermando pattern di concentrazione editoriale coerenti con la sede geografica dell’azienda o la sua area strategica di influenza. Sebbene i residui standardizzati correggano per le dimensioni marginali (ossia tengano conto del volume totale di articoli per azienda e per paese), l’assunzione di indipendenza resta teoricamente forte, e potrebbe non cogliere appieno dinamiche sottostanti più complesse come accordi editoriali, strategie multinazionali o effetti storici e istituzionali.
+The listed values indicate a much higher presence than expected based on the marginal distribution of frequencies, confirming editorial concentration patterns consistent with the geographical location of the company or its strategic area of influence. Although the standardized residuals correct for marginal sizes (i.e., they account for the total volume of articles per company and per country), the assumption of independence remains theoretically strong and may not fully capture more complex underlying dynamics such as editorial agreements, multinational strategies, or historical and institutional effects.
