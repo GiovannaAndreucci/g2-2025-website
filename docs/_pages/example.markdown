@@ -164,17 +164,11 @@ However, the proportion between the two types of articles has remained relativel
 As shown in the chart below, a small number of companies appear in the majority of articles, while many others are mentioned only occasionally.
 In particular, the top five companies stand out for the sheer volume of articles they are cited in, whereas the frequency drops off quickly for the others: <strong>most companies appear in fewer than 5,000 articles, roughly one-tenth the number of the top five (5)</strong>.
 
-<div style="width: 100%; text-align: center;">
-  <div style="display: inline-block; height: 400px; width: 100%; max-width: [your-desired-width]px;">
-    <iframe 
-      src="/g2-2025-website/assets/charts/company_freq_distrib_scatter.html"
-      width="100%"
-      height="100%"
-      frameborder="0"
-      style="border: none;"
-      title="Aziende cit line">
-    </iframe>
-  </div>
+<div style="width: 1000px; height: 600px; margin: 20px 100px 20px -100px ; overflow: hidden;">
+  <vegachart 
+    schema-url="/g2-2025-website/assets/charts/company_freq_distrib_scatter.json"
+    style="width: 100%; height: 100%;">
+  </vegachart>
 </div>
 
 In the chart below, we show the top companies by frequency. Notably, the top five companies each appear in nearly 25% of the articles in the dataset (with the leading company reaching 28% on its own). In fact, as the chart illustrates, <strong>more than 50% of the articles mention at least one of these top five companies</strong>.
