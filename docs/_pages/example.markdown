@@ -211,13 +211,13 @@ Once we identified the top companies mentioned in the processed COI statements, 
   </vegachart>
 </div>
 
-Looking at the data for 51 of the companies considered, we can observe that the two variables appear to go relatively hand in hand: greater financial resources seem to correlate positively with greater involvement in research.
+Looking at the data for 51 of the companies considered, we can observe that the two variables appear to go relatively hand in hand: <strong>greater financial resources seem to correlate positively with greater involvement in research</strong>.
 
 But how is corporate influence distributed across different medical fields as a whole?
 
 {% include plotly-graph.html id="grafico2" file="sankey_azi_aree" height="600px" %}
 
-In this chart, we can observe an almost perfect balance of interest in oncology, while neurology shows a clear dominance by Roche and Novartis.
+In this chart, we can observe an almost perfect balance of interest in oncology, while neurology shows a clear dominance by <strong>Roche and </strong>Novartis.
 
 ---
 
@@ -228,9 +228,7 @@ To more meaningfully capture the relationship between companies and research gro
 
 We built a graph designed to describe, as accurately as possible, the relationships between articles. Analyzing the structure of this graph naturally led to the identification of the most relevant research communities. Each community was labeled using a vector of five medical disciplines.
 
-A clear example is the SARS-CoV community, represented by the vector
-[‘Infectious Disease’, ‘Immunology’, ‘Pulmonology’, ‘Epidemiology’, ‘Virology’],
-with over 71,000 articles (with declared COI), and a peak of more than 17,000 articles in 2021 (dropping to around 8,600 in 2024).
+A clear example is the <strong>SARS-CoV community</strong>, represented by the vector [‘Infectious Disease’, ‘Immunology’, ‘Pulmonology’, ‘Epidemiology’, ‘Virology’], with over <strong>71,000 articles</strong> (with declared COI), and a peak of more than 17,000 articles in 2021 (dropping to around 8,600 in 2024).
 
 To assess corporate interest in more specific medical areas, we analyzed the percentage of occurrence of one or more companies within the COI statements associated with each community.
 
@@ -242,24 +240,23 @@ To assess corporate interest in more specific medical areas, we analyzed the per
   </vegachart>
 </div>
 
-As shown in the chart, six communities exceed the threshold of 20% of articles that mention at least one company in their COI statement.
+As shown in the chart, <strong>six communities exceed the threshold of 20% of articles that mention at least one company in their COI statement</strong>.
 
 Here too, as we did for the medical fields, we decided to examine the influence of the companies most actively involved in these specific communities.
 
 
 {% include plotly-graph.html id="grafico3" file="sankey_comm_az.html" height="600px" %}
 
-Here again, the ubiquitous Novartis and AstraZeneca make an appearance, but there is also room for relatively smaller companies such as the Italian Chiesi Pharmaceuticals, which—as shown in the chart—supports a considerable number of influential articles within Community 17.
+Here again, the ubiquitous Novartis and AstraZeneca make an appearance, but there is also room for relatively smaller companies such as the Italian <strong>Chiesi Pharmaceuticals</strong>, which—as shown in the chart—supports a considerable number of influential articles within Community 17.
 
 However, as we observed in the previous Sankey diagram (which mapped companies to medical fields), the contribution of companies within research communities appears fairly balanced, despite some notable and interesting differences. 
 
-It seems reasonable to assume that companies do not favor one medical area over another, but rather distribute their involvement quite evenly across the entire research landscape.
-So how can we interpret the relationship we’ve analyzed so far in a more meaningful way?
-The key insight comes directly from the definition of the communities themselves. These communities do not simply represent a more granular and concrete modeling of the medical taxonomy introduced earlier.
+It seems reasonable to assume that companies do not favor one medical area over another, but rather distribute their involvement quite evenly across the entire research landscape. <strong>So how can we interpret the relationship we’ve analyzed so far in a more meaningful way?</strong> The key insight comes directly from the definition of the communities themselves. These communities do not simply represent a more granular and concrete modeling of the medical taxonomy introduced earlier.
 By aggregating the information contained in the titles of the most heavily supported communities, and visualizing it through carefully refined word clouds, something very interesting begins to emerge.
 
 In conclusion, it appears that research communities do not emerge simply from the proximity between medical fields, but rather align with established research traditions focused on specific groups of diseases or disorders.
-Likewise, corporate interest in these communities should be understood in this light: there is a clear preference for chronic conditions that require ongoing treatment and care.
+
+<strong>Likewise, corporate interest in these communities should be understood in this light: there is a clear preference for chronic conditions that require ongoing treatment and care</strong>.
 
 <ul>
   <li>Community 8: Heart failure / Diabetes</li>
@@ -273,12 +270,12 @@ Likewise, corporate interest in these communities should be understood in this l
 
 We discussed these findings with Dr. Carmen Barbato (Neurology, Santa Maria Annunziata Hospital, Florence), Dr. Alessandro Sodero (Neurologist and researcher at the IRCCS in Florence), and Prof. Enrico Granieri.
 
-In discussing the composition of diseases within the various communities, it emerged that—for at least some of them—a physiopathological rationale can be identified.
+In discussing the composition of diseases within the various communities, it emerged that — for at least some of them — a physiopathological rationale can be identified.
 
-Community 32, in particular, brings together articles that cover medical categories which, at first glance, may seem quite distant from one another (Neurology, Dentistry, Coronary Disease).
-However, a possible common thread among these conditions is Obstructive Sleep Apnea Syndrome (OSAS)—a disorder characterized by snoring and nighttime apneas, which can lead to bruxism (the involuntary grinding of teeth, a dental issue sometimes treated with botulinum toxin injections), as well as hypertension, coronary problems, and most notably, migraine and headache.
+<strong>Community 32, in particular, brings together articles that cover medical categories which, at first glance, may seem quite distant from one another (Neurology, Dentistry, Coronary Disease).</strong>
+However, a possible common thread among these conditions is Obstructive Sleep Apnea Syndrome (OSAS) — a disorder characterized by snoring and nighttime apneas, which can lead to bruxism (the involuntary grinding of teeth, a dental issue sometimes treated with botulinum toxin injections), as well as hypertension, coronary problems, and most notably, migraine and headache.
 
-We believe that the discovery of such clearly defined and distinct communities deserves further exploration and input from experts within each respective domain.
+<strong>We believe that the discovery of such clearly defined and distinct communities deserves further exploration and input from experts within each respective domain</strong>.
 
 What seems evident is that these communities tend to form around groups of diseases characterized primarily by multi-dimensional complexity, and by the need for collaboration between research teams across different medical fields. 
 
@@ -294,7 +291,7 @@ Moreover, it appears that the percentage of articles with private sector support
 After analyzing variations within specific medical categories, we can say that exogenous shocks—such as COVID—have a significant impact on the rate of scientific production.
 In this context, we observed that using the number of scientific publications as a proxy for research quality can be misleading, especially given the ever-growing volume of articles.
 
-This study highlights that, within the PubMed network, there exist communities of articles—and therefore of research institutions, scientists, and scholars—that are highly interconnected around pathologies characterized by multi-dimensional complexity or multimorbidity, whose nature still requires further characterization.
+This study highlights that, within the PubMed network, <strong>there exist communities of articles—and therefore of research institutions, scientists, and scholars—that are highly interconnected around pathologies characterized by multi-dimensional complexity or multimorbidity, whose nature still requires further characterization</strong>.
 
 
 
