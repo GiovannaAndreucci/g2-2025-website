@@ -134,6 +134,7 @@ The surge in publications related to 'Immunology' and 'Infectious Disease' is ev
 
 In 2020, the number of publications concerning infectious diseases increased by almost 98%, and it is interesting to note that in the same year, the number of articles in the psychiatric field also nearly doubled (+84%). This data should also be interpreted as a possible effect of COVID-19 and the subsequent restrictions.
 
+---
 
 <h1 class="text-center">You don't know where your interest lies, COI...</h1>
 
@@ -181,7 +182,7 @@ Nel grafico sottostante vediamo le top aziende per frequenza. Si noti che le pri
 <div style="width: 1000px; height: 600px; margin: 10px auto; overflow: hidden;">
   <vegachart 
     schema-url="/g2-2025-website/assets/charts/visualization.vl.json"
-    style="width: 100%; height: 100%; display: block;">
+    style="width: 100%; height: 100%;">
   </vegachart>
 </div>
 
