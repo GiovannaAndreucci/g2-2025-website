@@ -155,7 +155,6 @@ As shown in the chart below, the number of the latter—articles that explicitly
   </vegachart>
 </div>
 
-
 This trend appears to be proportional to the overall rise in publications containing a COI statement, which themselves increased rapidly over the period we analyzed—again pointing to the progressive integration of this feature into the PubMed platform.
 However, the proportion between the two types of articles has remained relatively stable over the years: on average, only one out of ten COI statements actually mentions a company, while the remaining nine have “nothing to declare.”
 
