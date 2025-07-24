@@ -49,23 +49,7 @@
       },
       "transform": [{"filter": "(datum.percentuale_finanziati > 0.2)"}]
     },
-    {
-      "mark": {"type": "rule", "color": "red"},
-      "encoding": {
-        "tooltip": [
-          {
-            "aggregate": "mean",
-            "field": "percentuale_finanziati",
-            "type": "quantitative"
-          }
-        ],
-        "y": {
-          "aggregate": "mean",
-          "field": "percentuale_finanziati",
-          "type": "quantitative"
-        }
-      }
-    },
+    
     {"mark": {"type": "rule"}, "encoding": {"y": {"datum": 0.2}}}
   ],
   "data": {"name": "data-157a4a27182a769fd7e73e52e0500aff"},
